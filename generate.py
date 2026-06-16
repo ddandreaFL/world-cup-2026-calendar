@@ -20,6 +20,7 @@ ROOT = Path(__file__).resolve().parent
 ICS_PATH = ROOT / "docs" / "world_cup_2026.ics"
 CACHE_DIR = ROOT / "cache"
 ASSIST_CACHE = CACHE_DIR / "assists.json"
+DAY_CACHE = CACHE_DIR / "scoreboard_days.json"
 
 TOURNAMENT_START = dt.date(2026, 6, 11)
 TOURNAMENT_END = dt.date(2026, 7, 19)
@@ -107,20 +108,55 @@ def parse_iso_utc(s: str) -> dt.datetime:
     return d.astimezone(dt.timezone.utc)
 
 
+def _day_all_completed(events: list[dict]) -> bool:
+    """True if a day's scoreboard exists and every match on it is final."""
+    if not events:
+        return False
+    for ev in events:
+        comp = (ev.get("competitions") or [{}])[0]
+        stype = (comp.get("status") or ev.get("status") or {}).get("type") or {}
+        if not stype.get("completed"):
+            return False
+    return True
+
+
 def collect_events() -> list[dict]:
+    """Assemble every match across the tournament window.
+
+    Past days whose matches are all final are served from cache/scoreboard_days.json
+    and never re-fetched -- so frequent runs only hit ESPN for today/upcoming days.
+    """
     events: list[dict] = []
     seen: set[str] = set()
+    day_cache = _read_json(DAY_CACHE)
+    today = dt.date.today()
     day = TOURNAMENT_START
     while day <= TOURNAMENT_END:
-        url = SCOREBOARD_URL.format(date=day.strftime("%Y%m%d"))
-        data = fetch_json(url)
-        if data and "events" in data:
-            for ev in data["events"]:
-                eid = str(ev.get("id", ""))
-                if eid and eid not in seen:
-                    seen.add(eid)
-                    events.append(ev)
+        key = day.strftime("%Y%m%d")
+        cached = day_cache.get(key)
+
+        if day < today and cached and cached.get("complete"):
+            day_events = cached.get("events") or []
+        else:
+            data = fetch_json(SCOREBOARD_URL.format(date=key))
+            if data and "events" in data:
+                day_events = data["events"]
+                # Freeze finished past days so we stop fetching them entirely.
+                if day < today and _day_all_completed(day_events):
+                    day_cache[key] = {"complete": True, "events": day_events}
+            elif cached:
+                day_events = cached.get("events") or []  # fall back to cache on fetch failure
+            else:
+                day_events = []
+
+        for ev in day_events:
+            eid = str(ev.get("id", ""))
+            if eid and eid not in seen:
+                seen.add(eid)
+                events.append(ev)
         day += dt.timedelta(days=1)
+
+    _write_json(DAY_CACHE, day_cache)
     return events
 
 
@@ -375,8 +411,8 @@ def build_calendar(matches: list[dict], details_by_id: dict[str, dict]) -> str:
         "METHOD:PUBLISH",
         "X-WR-CALNAME:FIFA World Cup 2026",
         "X-WR-CALDESC:Auto-updating scores, goals, assists, and cards for the 2026 FIFA World Cup.",
-        "REFRESH-INTERVAL;VALUE=DURATION:PT15M",
-        "X-PUBLISHED-TTL:PT15M",
+        "REFRESH-INTERVAL;VALUE=DURATION:PT5M",
+        "X-PUBLISHED-TTL:PT5M",
     ]
     body: list[str] = []
     for m in sorted(matches, key=lambda x: x["date"] or ""):
@@ -386,18 +422,26 @@ def build_calendar(matches: list[dict], details_by_id: dict[str, dict]) -> str:
     return fold_lines(head + body + tail)
 
 
-def load_cache() -> dict:
-    if ASSIST_CACHE.exists():
+def _read_json(path: Path) -> dict:
+    if path.exists():
         try:
-            return json.loads(ASSIST_CACHE.read_text())
+            return json.loads(path.read_text())
         except json.JSONDecodeError:
             return {}
     return {}
 
 
-def save_cache(cache: dict) -> None:
+def _write_json(path: Path, obj: dict) -> None:
     CACHE_DIR.mkdir(parents=True, exist_ok=True)
-    ASSIST_CACHE.write_text(json.dumps(cache, indent=2, ensure_ascii=False))
+    path.write_text(json.dumps(obj, indent=2, ensure_ascii=False))
+
+
+def load_cache() -> dict:
+    return _read_json(ASSIST_CACHE)
+
+
+def save_cache(cache: dict) -> None:
+    _write_json(ASSIST_CACHE, cache)
 
 
 def main() -> int:

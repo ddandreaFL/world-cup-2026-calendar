@@ -690,7 +690,14 @@
   "760432": {
     "final": false,
     "data": {
-      "goals": [],
+      "goals": [
+        [
+          "FRA",
+          "Kylian Mbappé",
+          "Michael Olise",
+          "66'"
+        ]
+      ],
       "cards": []
     }
   }

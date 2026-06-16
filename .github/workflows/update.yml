@@ -1,8 +1,12 @@
 name: Update World Cup calendar
 
+# GitHub's scheduled-cron floor is every 5 min, so to update faster we run a
+# single job that loops internally ~once a minute for ~55 min. The schedule is
+# just a heartbeat that keeps a fresh run queued to take over when one ends;
+# the concurrency group guarantees only one loop runs at a time.
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "*/10 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -15,6 +19,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 58
     steps:
       - uses: actions/checkout@v4
 
@@ -22,18 +27,39 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Generate calendar
-        run: python generate.py
-
-      - name: Commit if changed
+      - name: Generate and push on a 1-minute loop
         run: |
-          set -e
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/world_cup_2026.ics cache/assists.json 2>/dev/null || true
-          if git diff --cached --quiet; then
-            echo "No changes."
-          else
-            git commit -m "Update World Cup scores"
-            git push
-          fi
+
+          # Stop ~55 min in so the job finishes before the 58-min timeout and
+          # hands off to the next scheduled run.
+          deadline=$(( $(date +%s) + 55*60 ))
+
+          while [ "$(date +%s)" -lt "$deadline" ]; do
+            iter_start=$(date +%s)
+
+            python generate.py || echo "generate.py failed this iteration; will retry."
+
+            git add docs/world_cup_2026.ics cache/assists.json cache/scoreboard_days.json 2>/dev/null || true
+            if git diff --cached --quiet; then
+              echo "No changes."
+            else
+              git commit -m "Update World Cup scores"
+              for attempt in 1 2 3; do
+                if git push; then
+                  break
+                fi
+                echo "push failed (attempt $attempt), rebasing on remote..."
+                git pull --rebase --autostash || true
+                sleep 2
+              done
+            fi
+
+            # Pace each cycle to ~60s.
+            elapsed=$(( $(date +%s) - iter_start ))
+            remaining=$(( 60 - elapsed ))
+            if [ "$remaining" -gt 0 ]; then
+              sleep "$remaining"
+            fi
+          done
