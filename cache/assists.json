@@ -718,5 +718,31 @@
       ],
       "cards": []
     }
+  },
+  "760430": {
+    "final": false,
+    "data": {
+      "goals": [
+        [
+          "NOR",
+          "Erling Haaland",
+          "David Møller Wolfe",
+          "29'"
+        ],
+        [
+          "IRQ",
+          "Aymen Hussein",
+          "Amir Al-Ammari",
+          "39'"
+        ],
+        [
+          "NOR",
+          "Erling Haaland",
+          "",
+          "43'"
+        ]
+      ],
+      "cards": []
+    }
   }
 }
