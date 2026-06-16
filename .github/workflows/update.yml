@@ -1,7 +1,7 @@
 name: Update World Cup calendar
 
 # GitHub's scheduled-cron floor is every 5 min, so to update faster we run a
-# single job that loops internally ~once a minute for ~55 min. The schedule is
+# single job that loops internally ~every 150s for ~55 min. The schedule is
 # just a heartbeat that keeps a fresh run queued to take over when one ends;
 # the concurrency group guarantees only one loop runs at a time.
 on:
@@ -27,7 +27,7 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Generate and push on a 1-minute loop
+      - name: Generate and push on a ~2.5-minute loop
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -56,9 +56,9 @@ jobs:
               done
             fi
 
-            # Pace each cycle to ~60s.
+            # Pace each cycle to ~150s (balance freshness vs. commit/API volume).
             elapsed=$(( $(date +%s) - iter_start ))
-            remaining=$(( 60 - elapsed ))
+            remaining=$(( 150 - elapsed ))
             if [ "$remaining" -gt 0 ]; then
               sleep "$remaining"
             fi
