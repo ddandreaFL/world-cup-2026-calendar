@@ -1,0 +1,1357 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//world-cup-2026-calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:FIFA World Cup 2026
+X-WR-CALDESC:Auto-updating scores, goals, assists, and cards for the 2026 F
+ IFA World Cup.
+REFRESH-INTERVAL;VALUE=DURATION:PT15M
+X-PUBLISHED-TTL:PT15M
+BEGIN:VEVENT
+UID:espn-760415@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260611T190000Z
+DTEND:20260611T210000Z
+SUMMARY:🇲🇽 Mexico 2-0 South Africa 🇿🇦 (FT)
+LOCATION:Estadio Banorte\, Mexico City\, Mexico
+DESCRIPTION:Score: 2-0\nStatus: FT\n\nGoals:\n  ⚽ 9' 🇲🇽 Julián Qui
+ ñones (assist: Érik Lira)\n  ⚽ 67' 🇲🇽 Raúl Jiménez (assist: Ro
+ berto Alvarado)\n\nCards:\n  🟨 17' 🇿🇦 Teboho Mokoena\n  🟨 23' 
+ 🇲🇽 Brian Gutiérrez\n  🟥 49' 🇿🇦 Sphephelo Sithole\n  🟨 7
+ 4' 🇿🇦 Nkosinathi Sibisi\n  🟥 84' 🇿🇦 Themba Zwane\n  🟥 90
+ '+2' 🇲🇽 César Montes\n\nhttps://www.espn.com/soccer/match/_/gameId/
+ 760415/south-africa-mexico
+URL:https://www.espn.com/soccer/match/_/gameId/760415/south-africa-mexico
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760414@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260612T020000Z
+DTEND:20260612T040000Z
+SUMMARY:🇰🇷 South Korea 2-1 Czechia 🇨🇿 (FT)
+LOCATION:Estadio Akron\, Guadalajara\, Mexico
+DESCRIPTION:Score: 2-1\nStatus: FT\n\nGoals:\n  ⚽ 59' 🇨🇿 Ladislav K
+ rejcí (assist: Vladimír Coufal)\n  ⚽ 67' 🇰🇷 Hwang In-Beom (assis
+ t: Lee Kang-In)\n  ⚽ 80' 🇰🇷 Oh Hyeon-Gyu (assist: Hwang In-Beom)\n
+ \nCards:\n  🟨 90'+6' 🇰🇷 Lee Gi-Hyuk\n\nhttps://www.espn.com/socce
+ r/match/_/gameId/760414/czechia-south-korea
+URL:https://www.espn.com/soccer/match/_/gameId/760414/czechia-south-korea
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760416@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260612T190000Z
+DTEND:20260612T210000Z
+SUMMARY:🇨🇦 Canada 1-1 Bosnia-Herzegovina 🇧🇦 (FT)
+LOCATION:BMO Field\, Toronto\, Canada
+DESCRIPTION:Score: 1-1\nStatus: FT\n\nGoals:\n  ⚽ 21' 🇧🇦 Jovo Lukic
+  (assist: Sead Kolasinac)\n  ⚽ 78' 🇨🇦 Cyle Larin (assist: Promise 
+ David)\n\nCards:\n  🟨 11' 🇨🇦 Alistair Johnston\n  🟨 45' 🇧
+ 🇦 Ermedin Demirovic\n  🟨 45'+1' 🇧🇦 Jovo Lukic\n  🟨 53' 🇨
+ 🇦 Luc de Fougerolles\n  🟨 90'+3' 🇧🇦 Nikola Katic\n\nhttps://ww
+ w.espn.com/soccer/match/_/gameId/760416/bosnia-herzegovina-canada
+URL:https://www.espn.com/soccer/match/_/gameId/760416/bosnia-herzegovina-ca
+ nada
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760417@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260613T010000Z
+DTEND:20260613T030000Z
+SUMMARY:🇺🇸 United States 4-1 Paraguay 🇵🇾 (FT)
+LOCATION:SoFi Stadium\, Inglewood\, California\, USA
+DESCRIPTION:Score: 4-1\nStatus: FT\n\nGoals:\n  ⚽ 7' 🇺🇸 Damián Bob
+ adilla\n  ⚽ 31' 🇺🇸 Folarin Balogun (assist: Christian Pulisic)\n  
+ ⚽ 45'+5' 🇺🇸 Folarin Balogun (assist: Malik Tillman)\n  ⚽ 73' 
+ 🇵🇾 Maurício (assist: Julio Enciso)\n  ⚽ 90'+8' 🇺🇸 Giovanni 
+ Reyna (assist: Alex Freeman)\n\nCards:\n  🟨 10' 🇵🇾 Juan Jose Các
+ eres\n  🟥 52' 🇺🇸 Tim Ream\n  🟨 53' 🇵🇾 Miguel Almirón\n 
+  🟨 59' 🇺🇸 Tyler Adams\n  🟨 79' 🇵🇾 Diego Gómez\n  🟨 8
+ 8' 🇵🇾 Alex Arce\n  🟨 90'+3' 🇵🇾 Júnior Alonso\n\nhttps://ww
+ w.espn.com/soccer/match/_/gameId/760417/paraguay-united-states
+URL:https://www.espn.com/soccer/match/_/gameId/760417/paraguay-united-state
+ s
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760420@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260613T190000Z
+DTEND:20260613T210000Z
+SUMMARY:🇶🇦 Qatar 1-1 Switzerland 🇨🇭 (FT)
+LOCATION:Levi's Stadium\, Santa Clara\, California\, USA
+DESCRIPTION:Score: 1-1\nStatus: FT\n\nGoals:\n  ⚽ 17' 🇨🇭 Breel Embo
+ lo\n  ⚽ 90'+4' 🇶🇦 Miro Muheim (assist: Homam Ahmed)\n\nCards:\n  
+ 🟨 16' 🇶🇦 Mahmoud Abunada\n  🟨 23' 🇶🇦 Jassem Gaber\n  
+ 🟨 42' 🇨🇭 Denis Zakaria\n\nhttps://www.espn.com/soccer/match/_/gam
+ eId/760420/switzerland-qatar
+URL:https://www.espn.com/soccer/match/_/gameId/760420/switzerland-qatar
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760419@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260613T220000Z
+DTEND:20260614T000000Z
+SUMMARY:🇧🇷 Brazil 1-1 Morocco 🇲🇦 (FT)
+LOCATION:MetLife Stadium\, East Rutherford\, New Jersey\, USA
+DESCRIPTION:Score: 1-1\nStatus: FT\n\nGoals:\n  ⚽ 21' 🇲🇦 Ismael Sai
+ bari (assist: Brahim Díaz)\n  ⚽ 32' 🇧🇷 Vinícius Júnior (assist:
+  Bruno Guimarães)\n\nCards:\n  🟨 37' 🇧🇷 Casemiro\n  🟨 43' 
+ 🇧🇷 Roger Ibañez\n\nhttps://www.espn.com/soccer/match/_/gameId/76041
+ 9/morocco-brazil
+URL:https://www.espn.com/soccer/match/_/gameId/760419/morocco-brazil
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760418@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260614T010000Z
+DTEND:20260614T030000Z
+SUMMARY:🇭🇹 Haiti 0-1 Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿 (FT)
+LOCATION:Gillette Stadium\, Foxborough\, Massachusetts\, USA
+DESCRIPTION:Score: 0-1\nStatus: FT\n\nGoals:\n  ⚽ 28' 🏴󠁧󠁢󠁳
+ 󠁣󠁴󠁿 John McGinn\n\nCards:\n  🟨 39' 🇭🇹 Jean-Ricner Belleg
+ arde\n  🟨 46' 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Aaron Hickey\n  🟨 90'+1' 
+ 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Findlay Curtis\n  🟨 90'+5' 🏴󠁧󠁢
+ 󠁳󠁣󠁴󠁿 Kenny McLean\n\nhttps://www.espn.com/soccer/match/_/gameI
+ d/760418/scotland-haiti
+URL:https://www.espn.com/soccer/match/_/gameId/760418/scotland-haiti
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760421@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260614T040000Z
+DTEND:20260614T060000Z
+SUMMARY:🇦🇺 Australia 2-0 Türkiye 🇹🇷 (FT)
+LOCATION:BC Place\, Vancouver\, Canada
+DESCRIPTION:Score: 2-0\nStatus: FT\n\nGoals:\n  ⚽ 27' 🇦🇺 Nestory Ir
+ ankunda (assist: Paul Okon-Engstler)\n  ⚽ 75' 🇦🇺 Connor Metcalfe\n
+ \nCards:\n  🟨 86' 🇹🇷 Yunus Akgün\n\nhttps://www.espn.com/soccer/
+ match/_/gameId/760421/turkiye-australia
+URL:https://www.espn.com/soccer/match/_/gameId/760421/turkiye-australia
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760422@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260614T170000Z
+DTEND:20260614T190000Z
+SUMMARY:🇩🇪 Germany 7-1 Curaçao ⚽ (FT)
+LOCATION:NRG Stadium\, Houston\, Texas\, USA
+DESCRIPTION:Score: 7-1\nStatus: FT\n\nGoals:\n  ⚽ 6' 🇩🇪 Felix Nmech
+ a (assist: Florian Wirtz)\n  ⚽ 21' ⚽ Livano Comenencia\n  ⚽ 38' 🇩
+ 🇪 Nico Schlotterbeck (assist: Nathaniel Brown)\n  ⚽ 45'+5' 🇩🇪 K
+ ai Havertz\n  ⚽ 47' 🇩🇪 Jamal Musiala (assist: Joshua Kimmich)\n  
+ ⚽ 68' 🇩🇪 Nathaniel Brown (assist: Deniz Undav)\n  ⚽ 78' 🇩🇪
+  Deniz Undav (assist: Joshua Kimmich)\n  ⚽ 88' 🇩🇪 Kai Havertz (ass
+ ist: Deniz Undav)\n\nhttps://www.espn.com/soccer/match/_/gameId/760422/cur
+ acao-germany
+URL:https://www.espn.com/soccer/match/_/gameId/760422/curacao-germany
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760425@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260614T200000Z
+DTEND:20260614T220000Z
+SUMMARY:🇳🇱 Netherlands 2-2 Japan 🇯🇵 (FT)
+LOCATION:AT&T Stadium\, Arlington\, Texas\, USA
+DESCRIPTION:Score: 2-2\nStatus: FT\n\nGoals:\n  ⚽ 51' 🇳🇱 Virgil van
+  Dijk (assist: Ryan Gravenberch)\n  ⚽ 57' 🇯🇵 Keito Nakamura (assis
+ t: Takefusa Kubo)\n  ⚽ 64' 🇳🇱 Crysencio Summerville (assist: Ryan 
+ Gravenberch)\n  ⚽ 89' 🇯🇵 Daichi Kamada (assist: Koki Ogawa)\n\nCar
+ ds:\n  🟨 61' 🇳🇱 Crysencio Summerville\n  🟨 83' 🇳🇱 Memphi
+ s Depay\n  🟨 90'+1' 🇳🇱 Micky van de Ven\n\nhttps://www.espn.com/s
+ occer/match/_/gameId/760425/japan-netherlands
+URL:https://www.espn.com/soccer/match/_/gameId/760425/japan-netherlands
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760423@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260614T230000Z
+DTEND:20260615T010000Z
+SUMMARY:🇨🇮 Ivory Coast 1-0 Ecuador 🇪🇨 (FT)
+LOCATION:Lincoln Financial Field\, Philadelphia\, Pennsylvania\, USA
+DESCRIPTION:Score: 1-0\nStatus: FT\n\nGoals:\n  ⚽ 90' 🇨🇮 Amad Diall
+ o (assist: Wilfried Singo)\n\nCards:\n  🟨 28' 🇨🇮 Seko Fofana\n  
+ 🟨 38' 🇨🇮 Franck Kessié\n  🟨 40' 🇨🇮 Guela Doué\n  🟨 
+ 73' 🇪🇨 Jackson Porozo\n\nhttps://www.espn.com/soccer/match/_/gameId/
+ 760423/ecuador-ivory-coast
+URL:https://www.espn.com/soccer/match/_/gameId/760423/ecuador-ivory-coast
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760424@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260615T020000Z
+DTEND:20260615T040000Z
+SUMMARY:🇸🇪 Sweden 5-1 Tunisia 🇹🇳 (FT)
+LOCATION:Estadio BBVA\, Guadalupe\, Mexico
+DESCRIPTION:Score: 5-1\nStatus: FT\n\nGoals:\n  ⚽ 7' 🇸🇪 Yasin Ayari
+ \n  ⚽ 30' 🇸🇪 Alexander Isak (assist: Viktor Gyökeres)\n  ⚽ 43' 
+ 🇹🇳 Omar Rekik (assist: Hannibal Mejbri)\n  ⚽ 59' 🇸🇪 Viktor G
+ yökeres (assist: Alexander Isak)\n  ⚽ 84' 🇸🇪 Mattias Svanberg (as
+ sist: Alexander Isak)\n  ⚽ 90'+6' 🇸🇪 Yasin Ayari (assist: Lucas Be
+ rgvall)\n\nCards:\n  🟨 54' 🇹🇳 Rani Khedira\n\nhttps://www.espn.co
+ m/soccer/match/_/gameId/760424/tunisia-sweden
+URL:https://www.espn.com/soccer/match/_/gameId/760424/tunisia-sweden
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760428@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260615T160000Z
+DTEND:20260615T180000Z
+SUMMARY:🇪🇸 Spain 0-0 Cape Verde 🇨🇻 (FT)
+LOCATION:Mercedes-Benz Stadium\, Atlanta\, Georgia\, USA
+DESCRIPTION:Score: 0-0\nStatus: FT\n\nCards:\n  🟨 16' 🇨🇻 Sidny Lop
+ es Cabral\n  🟨 90'+3' 🇪🇸 Pedri\n\nhttps://www.espn.com/soccer/mat
+ ch/_/gameId/760428/cape-verde-spain
+URL:https://www.espn.com/soccer/match/_/gameId/760428/cape-verde-spain
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760426@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260615T190000Z
+DTEND:20260615T210000Z
+SUMMARY:🇧🇪 Belgium 1-1 Egypt 🇪🇬 (FT)
+LOCATION:Lumen Field\, Seattle\, Washington\, USA
+DESCRIPTION:Score: 1-1\nStatus: FT\n\nGoals:\n  ⚽ 20' 🇪🇬 Emam Ashou
+ r (assist: Mohamed Salah)\n  ⚽ 66' 🇧🇪 Mohamed Hany\n\nCards:\n  
+ 🟨 13' 🇪🇬 Marawan Attia\n  🟨 14' 🇧🇪 Timothy Castagne\n  
+ 🟨 34' 🇪🇬 Ahmed Fatouh\n  🟨 75' 🇧🇪 Maxim De Cuyper\n\nhtt
+ ps://www.espn.com/soccer/match/_/gameId/760426/egypt-belgium
+URL:https://www.espn.com/soccer/match/_/gameId/760426/egypt-belgium
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760429@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260615T220000Z
+DTEND:20260616T000000Z
+SUMMARY:🇸🇦 Saudi Arabia 1-1 Uruguay 🇺🇾 (FT)
+LOCATION:Hard Rock Stadium\, Miami Gardens\, Florida\, USA
+DESCRIPTION:Score: 1-1\nStatus: FT\n\nGoals:\n  ⚽ 41' 🇸🇦 Abdulelah 
+ Al-Amri\n  ⚽ 80' 🇺🇾 Maxi Araújo\n\nCards:\n  🟨 44' 🇸🇦 Ab
+ dulelah Al-Amri\n\nhttps://www.espn.com/soccer/match/_/gameId/760429/urugu
+ ay-saudi-arabia
+URL:https://www.espn.com/soccer/match/_/gameId/760429/uruguay-saudi-arabia
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760427@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260616T010000Z
+DTEND:20260616T030000Z
+SUMMARY:🇮🇷 Iran 2-2 New Zealand 🇳🇿 (FT)
+LOCATION:SoFi Stadium\, Inglewood\, California\, USA
+DESCRIPTION:Score: 2-2\nStatus: FT\n\nGoals:\n  ⚽ 7' 🇳🇿 Elijah Just
+  (assist: Chris Wood)\n  ⚽ 32' 🇮🇷 Ramin Rezaeian\n  ⚽ 54' 🇳
+ 🇿 Elijah Just (assist: Chris Wood)\n  ⚽ 64' 🇮🇷 Mohammad Mohebbi
+  (assist: Ramin Rezaeian)\n\nCards:\n  🟨 89' 🇮🇷 Ehsan Hajsafi\n\n
+ https://www.espn.com/soccer/match/_/gameId/760427/new-zealand-iran
+URL:https://www.espn.com/soccer/match/_/gameId/760427/new-zealand-iran
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760432@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260616T190000Z
+DTEND:20260616T210000Z
+SUMMARY:🔴 🇫🇷 France 0-0 Senegal 🇸🇳 (57')
+LOCATION:MetLife Stadium\, East Rutherford\, New Jersey\, USA
+DESCRIPTION:Score: 0-0\nStatus: 57'\n\nhttps://www.espn.com/soccer/match/_/
+ gameId/760432
+URL:https://www.espn.com/soccer/match/_/gameId/760432
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760430@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260616T220000Z
+DTEND:20260617T000000Z
+SUMMARY:🇮🇶 Iraq vs Norway 🇳🇴
+LOCATION:Gillette Stadium\, Foxborough\, Massachusetts\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760430/norway-iraq
+URL:https://www.espn.com/soccer/match/_/gameId/760430/norway-iraq
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760433@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260617T010000Z
+DTEND:20260617T030000Z
+SUMMARY:🇦🇷 Argentina vs Algeria 🇩🇿
+LOCATION:GEHA Field at Arrowhead Stadium\, Kansas City\, Missouri\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760433/algeria-argentina
+URL:https://www.espn.com/soccer/match/_/gameId/760433/algeria-argentina
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760431@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260617T040000Z
+DTEND:20260617T060000Z
+SUMMARY:🇦🇹 Austria vs Jordan 🇯🇴
+LOCATION:Levi's Stadium\, Santa Clara\, California\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760431/jordan-austria
+URL:https://www.espn.com/soccer/match/_/gameId/760431/jordan-austria
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760435@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260617T170000Z
+DTEND:20260617T190000Z
+SUMMARY:🇵🇹 Portugal vs Congo DR 🇨🇩
+LOCATION:NRG Stadium\, Houston\, Texas\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760435/congo-dr-portugal
+URL:https://www.espn.com/soccer/match/_/gameId/760435/congo-dr-portugal
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760437@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260617T200000Z
+DTEND:20260617T220000Z
+SUMMARY:🏴󠁧󠁢󠁥󠁮󠁧󠁿 England vs Croatia 🇭🇷
+LOCATION:AT&T Stadium\, Arlington\, Texas\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760437/croatia-england
+URL:https://www.espn.com/soccer/match/_/gameId/760437/croatia-england
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760434@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260617T230000Z
+DTEND:20260618T010000Z
+SUMMARY:🇬🇭 Ghana vs Panama 🇵🇦
+LOCATION:BMO Field\, Toronto\, Canada
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760434/panama-ghana
+URL:https://www.espn.com/soccer/match/_/gameId/760434/panama-ghana
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760436@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260618T020000Z
+DTEND:20260618T040000Z
+SUMMARY:🇺🇿 Uzbekistan vs Colombia 🇨🇴
+LOCATION:Estadio Banorte\, Mexico City\, Mexico
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760436/colombia-uzbekistan
+URL:https://www.espn.com/soccer/match/_/gameId/760436/colombia-uzbekistan
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760438@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260618T160000Z
+DTEND:20260618T180000Z
+SUMMARY:🇨🇿 Czechia vs South Africa 🇿🇦
+LOCATION:Mercedes-Benz Stadium\, Atlanta\, Georgia\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760438/south-africa-czechia
+URL:https://www.espn.com/soccer/match/_/gameId/760438/south-africa-czechia
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760439@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260618T190000Z
+DTEND:20260618T210000Z
+SUMMARY:🇨🇭 Switzerland vs Bosnia-Herzegovina 🇧🇦
+LOCATION:SoFi Stadium\, Inglewood\, California\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760439/bosnia-herzegovina-switzerland
+URL:https://www.espn.com/soccer/match/_/gameId/760439/bosnia-herzegovina-sw
+ itzerland
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760440@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260618T220000Z
+DTEND:20260619T000000Z
+SUMMARY:🇨🇦 Canada vs Qatar 🇶🇦
+LOCATION:BC Place\, Vancouver\, Canada
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760440/qatar-canada
+URL:https://www.espn.com/soccer/match/_/gameId/760440/qatar-canada
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760441@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260619T010000Z
+DTEND:20260619T030000Z
+SUMMARY:🇲🇽 Mexico vs South Korea 🇰🇷
+LOCATION:Estadio Akron\, Guadalajara\, Mexico
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760441/south-korea-mexico
+URL:https://www.espn.com/soccer/match/_/gameId/760441/south-korea-mexico
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760442@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260619T190000Z
+DTEND:20260619T210000Z
+SUMMARY:🇺🇸 United States vs Australia 🇦🇺
+LOCATION:Lumen Field\, Seattle\, Washington\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760442/australia-united-states
+URL:https://www.espn.com/soccer/match/_/gameId/760442/australia-united-stat
+ es
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760445@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260619T220000Z
+DTEND:20260620T000000Z
+SUMMARY:🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland vs Morocco 🇲🇦
+LOCATION:Gillette Stadium\, Foxborough\, Massachusetts\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760445/morocco-scotland
+URL:https://www.espn.com/soccer/match/_/gameId/760445/morocco-scotland
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760444@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260620T003000Z
+DTEND:20260620T023000Z
+SUMMARY:🇧🇷 Brazil vs Haiti 🇭🇹
+LOCATION:Lincoln Financial Field\, Philadelphia\, Pennsylvania\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760444/haiti-brazil
+URL:https://www.espn.com/soccer/match/_/gameId/760444/haiti-brazil
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760443@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260620T030000Z
+DTEND:20260620T050000Z
+SUMMARY:🇹🇷 Türkiye vs Paraguay 🇵🇾
+LOCATION:Levi's Stadium\, Santa Clara\, California\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760443/paraguay-turkiye
+URL:https://www.espn.com/soccer/match/_/gameId/760443/paraguay-turkiye
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760447@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260620T170000Z
+DTEND:20260620T190000Z
+SUMMARY:🇳🇱 Netherlands vs Sweden 🇸🇪
+LOCATION:NRG Stadium\, Houston\, Texas\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760447/sweden-netherlands
+URL:https://www.espn.com/soccer/match/_/gameId/760447/sweden-netherlands
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760448@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260620T200000Z
+DTEND:20260620T220000Z
+SUMMARY:🇩🇪 Germany vs Ivory Coast 🇨🇮
+LOCATION:BMO Field\, Toronto\, Canada
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760448/ivory-coast-germany
+URL:https://www.espn.com/soccer/match/_/gameId/760448/ivory-coast-germany
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760446@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260621T000000Z
+DTEND:20260621T020000Z
+SUMMARY:🇪🇨 Ecuador vs Curaçao ⚽
+LOCATION:GEHA Field at Arrowhead Stadium\, Kansas City\, Missouri\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760446/curacao-ecuador
+URL:https://www.espn.com/soccer/match/_/gameId/760446/curacao-ecuador
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760449@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260621T040000Z
+DTEND:20260621T060000Z
+SUMMARY:🇹🇳 Tunisia vs Japan 🇯🇵
+LOCATION:Estadio BBVA\, Guadalupe\, Mexico
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760449/japan-tunisia
+URL:https://www.espn.com/soccer/match/_/gameId/760449/japan-tunisia
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760453@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260621T160000Z
+DTEND:20260621T180000Z
+SUMMARY:🇪🇸 Spain vs Saudi Arabia 🇸🇦
+LOCATION:Mercedes-Benz Stadium\, Atlanta\, Georgia\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760453/saudi-arabia-spain
+URL:https://www.espn.com/soccer/match/_/gameId/760453/saudi-arabia-spain
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760451@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260621T190000Z
+DTEND:20260621T210000Z
+SUMMARY:🇧🇪 Belgium vs Iran 🇮🇷
+LOCATION:SoFi Stadium\, Inglewood\, California\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760451/iran-belgium
+URL:https://www.espn.com/soccer/match/_/gameId/760451/iran-belgium
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760450@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260621T220000Z
+DTEND:20260622T000000Z
+SUMMARY:🇺🇾 Uruguay vs Cape Verde 🇨🇻
+LOCATION:Hard Rock Stadium\, Miami Gardens\, Florida\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760450/cape-verde-uruguay
+URL:https://www.espn.com/soccer/match/_/gameId/760450/cape-verde-uruguay
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760452@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260622T010000Z
+DTEND:20260622T030000Z
+SUMMARY:🇳🇿 New Zealand vs Egypt 🇪🇬
+LOCATION:BC Place\, Vancouver\, Canada
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760452/egypt-new-zealand
+URL:https://www.espn.com/soccer/match/_/gameId/760452/egypt-new-zealand
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760456@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260622T170000Z
+DTEND:20260622T190000Z
+SUMMARY:🇦🇷 Argentina vs Austria 🇦🇹
+LOCATION:AT&T Stadium\, Arlington\, Texas\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760456/austria-argentina
+URL:https://www.espn.com/soccer/match/_/gameId/760456/austria-argentina
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760457@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260622T210000Z
+DTEND:20260622T230000Z
+SUMMARY:🇫🇷 France vs Iraq 🇮🇶
+LOCATION:Lincoln Financial Field\, Philadelphia\, Pennsylvania\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760457/iraq-france
+URL:https://www.espn.com/soccer/match/_/gameId/760457/iraq-france
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760454@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260623T000000Z
+DTEND:20260623T020000Z
+SUMMARY:🇳🇴 Norway vs Senegal 🇸🇳
+LOCATION:MetLife Stadium\, East Rutherford\, New Jersey\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760454/senegal-norway
+URL:https://www.espn.com/soccer/match/_/gameId/760454/senegal-norway
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760455@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260623T030000Z
+DTEND:20260623T050000Z
+SUMMARY:🇯🇴 Jordan vs Algeria 🇩🇿
+LOCATION:Levi's Stadium\, Santa Clara\, California\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760455/algeria-jordan
+URL:https://www.espn.com/soccer/match/_/gameId/760455/algeria-jordan
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760461@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260623T170000Z
+DTEND:20260623T190000Z
+SUMMARY:🇵🇹 Portugal vs Uzbekistan 🇺🇿
+LOCATION:NRG Stadium\, Houston\, Texas\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760461/uzbekistan-portugal
+URL:https://www.espn.com/soccer/match/_/gameId/760461/uzbekistan-portugal
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760458@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260623T200000Z
+DTEND:20260623T220000Z
+SUMMARY:🏴󠁧󠁢󠁥󠁮󠁧󠁿 England vs Ghana 🇬🇭
+LOCATION:Gillette Stadium\, Foxborough\, Massachusetts\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760458/ghana-england
+URL:https://www.espn.com/soccer/match/_/gameId/760458/ghana-england
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760460@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260623T230000Z
+DTEND:20260624T010000Z
+SUMMARY:🇵🇦 Panama vs Croatia 🇭🇷
+LOCATION:BMO Field\, Toronto\, Canada
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760460/croatia-panama
+URL:https://www.espn.com/soccer/match/_/gameId/760460/croatia-panama
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760459@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260624T020000Z
+DTEND:20260624T040000Z
+SUMMARY:🇨🇴 Colombia vs Congo DR 🇨🇩
+LOCATION:Estadio Akron\, Guadalajara\, Mexico
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760459/congo-dr-colombia
+URL:https://www.espn.com/soccer/match/_/gameId/760459/congo-dr-colombia
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760462@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260624T190000Z
+DTEND:20260624T210000Z
+SUMMARY:🇧🇦 Bosnia-Herzegovina vs Qatar 🇶🇦
+LOCATION:Lumen Field\, Seattle\, Washington\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760462/qatar-bosnia-herzegovina
+URL:https://www.espn.com/soccer/match/_/gameId/760462/qatar-bosnia-herzegov
+ ina
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760463@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260624T190000Z
+DTEND:20260624T210000Z
+SUMMARY:🇨🇭 Switzerland vs Canada 🇨🇦
+LOCATION:BC Place\, Vancouver\, Canada
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760463/canada-switzerland
+URL:https://www.espn.com/soccer/match/_/gameId/760463/canada-switzerland
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760464@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260624T220000Z
+DTEND:20260625T000000Z
+SUMMARY:🇲🇦 Morocco vs Haiti 🇭🇹
+LOCATION:Mercedes-Benz Stadium\, Atlanta\, Georgia\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760464/haiti-morocco
+URL:https://www.espn.com/soccer/match/_/gameId/760464/haiti-morocco
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760465@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260624T220000Z
+DTEND:20260625T000000Z
+SUMMARY:🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland vs Brazil 🇧🇷
+LOCATION:Hard Rock Stadium\, Miami Gardens\, Florida\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760465/brazil-scotland
+URL:https://www.espn.com/soccer/match/_/gameId/760465/brazil-scotland
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760467@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260625T010000Z
+DTEND:20260625T030000Z
+SUMMARY:🇨🇿 Czechia vs Mexico 🇲🇽
+LOCATION:Estadio Banorte\, Mexico City\, Mexico
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760467/mexico-czechia
+URL:https://www.espn.com/soccer/match/_/gameId/760467/mexico-czechia
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760466@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260625T010000Z
+DTEND:20260625T030000Z
+SUMMARY:🇿🇦 South Africa vs South Korea 🇰🇷
+LOCATION:Estadio BBVA\, Guadalupe\, Mexico
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760466/south-korea-south-africa
+URL:https://www.espn.com/soccer/match/_/gameId/760466/south-korea-south-afr
+ ica
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760473@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260625T200000Z
+DTEND:20260625T220000Z
+SUMMARY:⚽ Curaçao vs Ivory Coast 🇨🇮
+LOCATION:Lincoln Financial Field\, Philadelphia\, Pennsylvania\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760473/ivory-coast-curacao
+URL:https://www.espn.com/soccer/match/_/gameId/760473/ivory-coast-curacao
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760468@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260625T200000Z
+DTEND:20260625T220000Z
+SUMMARY:🇪🇨 Ecuador vs Germany 🇩🇪
+LOCATION:MetLife Stadium\, East Rutherford\, New Jersey\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760468/germany-ecuador
+URL:https://www.espn.com/soccer/match/_/gameId/760468/germany-ecuador
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760471@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260625T230000Z
+DTEND:20260626T010000Z
+SUMMARY:🇯🇵 Japan vs Sweden 🇸🇪
+LOCATION:AT&T Stadium\, Arlington\, Texas\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760471/sweden-japan
+URL:https://www.espn.com/soccer/match/_/gameId/760471/sweden-japan
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760472@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260625T230000Z
+DTEND:20260626T010000Z
+SUMMARY:🇹🇳 Tunisia vs Netherlands 🇳🇱
+LOCATION:GEHA Field at Arrowhead Stadium\, Kansas City\, Missouri\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760472/netherlands-tunisia
+URL:https://www.espn.com/soccer/match/_/gameId/760472/netherlands-tunisia
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760469@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260626T020000Z
+DTEND:20260626T040000Z
+SUMMARY:🇵🇾 Paraguay vs Australia 🇦🇺
+LOCATION:Levi's Stadium\, Santa Clara\, California\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760469/australia-paraguay
+URL:https://www.espn.com/soccer/match/_/gameId/760469/australia-paraguay
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760470@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260626T020000Z
+DTEND:20260626T040000Z
+SUMMARY:🇹🇷 Türkiye vs United States 🇺🇸
+LOCATION:SoFi Stadium\, Inglewood\, California\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760470/united-states-turkiye
+URL:https://www.espn.com/soccer/match/_/gameId/760470/united-states-turkiye
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760475@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260626T190000Z
+DTEND:20260626T210000Z
+SUMMARY:🇳🇴 Norway vs France 🇫🇷
+LOCATION:Gillette Stadium\, Foxborough\, Massachusetts\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760475/france-norway
+URL:https://www.espn.com/soccer/match/_/gameId/760475/france-norway
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760474@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260626T190000Z
+DTEND:20260626T210000Z
+SUMMARY:🇸🇳 Senegal vs Iraq 🇮🇶
+LOCATION:BMO Field\, Toronto\, Canada
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760474/iraq-senegal
+URL:https://www.espn.com/soccer/match/_/gameId/760474/iraq-senegal
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760478@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260627T000000Z
+DTEND:20260627T020000Z
+SUMMARY:🇨🇻 Cape Verde vs Saudi Arabia 🇸🇦
+LOCATION:NRG Stadium\, Houston\, Texas\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760478/saudi-arabia-cape-verde
+URL:https://www.espn.com/soccer/match/_/gameId/760478/saudi-arabia-cape-ver
+ de
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760479@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260627T000000Z
+DTEND:20260627T020000Z
+SUMMARY:🇺🇾 Uruguay vs Spain 🇪🇸
+LOCATION:Estadio Akron\, Guadalajara\, Mexico
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760479/spain-uruguay
+URL:https://www.espn.com/soccer/match/_/gameId/760479/spain-uruguay
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760476@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260627T030000Z
+DTEND:20260627T050000Z
+SUMMARY:🇪🇬 Egypt vs Iran 🇮🇷
+LOCATION:Lumen Field\, Seattle\, Washington\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760476/iran-egypt
+URL:https://www.espn.com/soccer/match/_/gameId/760476/iran-egypt
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760477@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260627T030000Z
+DTEND:20260627T050000Z
+SUMMARY:🇳🇿 New Zealand vs Belgium 🇧🇪
+LOCATION:BC Place\, Vancouver\, Canada
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760477/belgium-new-zealand
+URL:https://www.espn.com/soccer/match/_/gameId/760477/belgium-new-zealand
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760480@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260627T210000Z
+DTEND:20260627T230000Z
+SUMMARY:🇭🇷 Croatia vs Ghana 🇬🇭
+LOCATION:Lincoln Financial Field\, Philadelphia\, Pennsylvania\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760480/ghana-croatia
+URL:https://www.espn.com/soccer/match/_/gameId/760480/ghana-croatia
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760485@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260627T210000Z
+DTEND:20260627T230000Z
+SUMMARY:🇵🇦 Panama vs England 🏴󠁧󠁢󠁥󠁮󠁧󠁿
+LOCATION:MetLife Stadium\, East Rutherford\, New Jersey\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760485/england-panama
+URL:https://www.espn.com/soccer/match/_/gameId/760485/england-panama
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760481@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260627T233000Z
+DTEND:20260628T013000Z
+SUMMARY:🇨🇴 Colombia vs Portugal 🇵🇹
+LOCATION:Hard Rock Stadium\, Miami Gardens\, Florida\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760481/portugal-colombia
+URL:https://www.espn.com/soccer/match/_/gameId/760481/portugal-colombia
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760482@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260627T233000Z
+DTEND:20260628T013000Z
+SUMMARY:🇨🇩 Congo DR vs Uzbekistan 🇺🇿
+LOCATION:Mercedes-Benz Stadium\, Atlanta\, Georgia\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760482/uzbekistan-congo-dr
+URL:https://www.espn.com/soccer/match/_/gameId/760482/uzbekistan-congo-dr
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760484@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260628T020000Z
+DTEND:20260628T040000Z
+SUMMARY:🇩🇿 Algeria vs Austria 🇦🇹
+LOCATION:GEHA Field at Arrowhead Stadium\, Kansas City\, Missouri\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760484/austria-algeria
+URL:https://www.espn.com/soccer/match/_/gameId/760484/austria-algeria
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760483@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260628T020000Z
+DTEND:20260628T040000Z
+SUMMARY:🇯🇴 Jordan vs Argentina 🇦🇷
+LOCATION:AT&T Stadium\, Arlington\, Texas\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760483/argentina-jordan
+URL:https://www.espn.com/soccer/match/_/gameId/760483/argentina-jordan
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760486@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260628T190000Z
+DTEND:20260628T210000Z
+SUMMARY:⚽ Group A 2nd Place vs Group B 2nd Place ⚽
+LOCATION:SoFi Stadium\, Inglewood\, California\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760486/group-b-2nd-place-group-a-2nd-place
+URL:https://www.espn.com/soccer/match/_/gameId/760486/group-b-2nd-place-gro
+ up-a-2nd-place
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760487@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260629T170000Z
+DTEND:20260629T190000Z
+SUMMARY:⚽ Group C Winner vs Group F 2nd Place ⚽
+LOCATION:NRG Stadium\, Houston\, Texas\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760487/group-f-2nd-place-group-c-winner
+URL:https://www.espn.com/soccer/match/_/gameId/760487/group-f-2nd-place-gro
+ up-c-winner
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760489@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260629T203000Z
+DTEND:20260629T223000Z
+SUMMARY:⚽ Group E Winner vs Third Place Group A/B/C/D/F ⚽
+LOCATION:Gillette Stadium\, Foxborough\, Massachusetts\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760489/third-place-group-abcdf-group-e-winner
+URL:https://www.espn.com/soccer/match/_/gameId/760489/third-place-group-abc
+ df-group-e-winner
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760488@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260630T010000Z
+DTEND:20260630T030000Z
+SUMMARY:⚽ Group F Winner vs Group C 2nd Place ⚽
+LOCATION:Estadio BBVA\, Guadalupe\, Mexico
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760488/group-c-2nd-place-group-f-winner
+URL:https://www.espn.com/soccer/match/_/gameId/760488/group-c-2nd-place-gro
+ up-f-winner
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760490@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260630T170000Z
+DTEND:20260630T190000Z
+SUMMARY:⚽ Group E 2nd Place vs Group I 2nd Place ⚽
+LOCATION:AT&T Stadium\, Arlington\, Texas\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760490/group-i-2nd-place-group-e-2nd-place
+URL:https://www.espn.com/soccer/match/_/gameId/760490/group-i-2nd-place-gro
+ up-e-2nd-place
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760492@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260630T210000Z
+DTEND:20260630T230000Z
+SUMMARY:⚽ Group I Winner vs Third Place Group C/D/F/G/H ⚽
+LOCATION:MetLife Stadium\, East Rutherford\, New Jersey\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760492/third-place-group-cdfgh-group-i-winner
+URL:https://www.espn.com/soccer/match/_/gameId/760492/third-place-group-cdf
+ gh-group-i-winner
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760491@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260701T010000Z
+DTEND:20260701T030000Z
+SUMMARY:⚽ Group A Winner vs Third Place Group C/E/F/H/I ⚽
+LOCATION:Estadio Banorte\, Mexico City\, Mexico
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760491/third-place-group-cefhi-group-a-winner
+URL:https://www.espn.com/soccer/match/_/gameId/760491/third-place-group-cef
+ hi-group-a-winner
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760495@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260701T160000Z
+DTEND:20260701T180000Z
+SUMMARY:⚽ Group L Winner vs Third Place Group E/H/I/J/K ⚽
+LOCATION:Mercedes-Benz Stadium\, Atlanta\, Georgia\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760495/third-place-group-ehijk-group-l-winner
+URL:https://www.espn.com/soccer/match/_/gameId/760495/third-place-group-ehi
+ jk-group-l-winner
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760493@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260701T200000Z
+DTEND:20260701T220000Z
+SUMMARY:⚽ Group G Winner vs Third Place Group A/E/H/I/J ⚽
+LOCATION:Lumen Field\, Seattle\, Washington\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760493/third-place-group-aehij-group-g-winner
+URL:https://www.espn.com/soccer/match/_/gameId/760493/third-place-group-aeh
+ ij-group-g-winner
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760494@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260702T000000Z
+DTEND:20260702T020000Z
+SUMMARY:⚽ Group D Winner vs Third Place Group B/E/F/I/J ⚽
+LOCATION:Levi's Stadium\, Santa Clara\, California\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760494/third-place-group-befij-group-d-winner
+URL:https://www.espn.com/soccer/match/_/gameId/760494/third-place-group-bef
+ ij-group-d-winner
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760497@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260702T190000Z
+DTEND:20260702T210000Z
+SUMMARY:⚽ Group H Winner vs Group J 2nd Place ⚽
+LOCATION:SoFi Stadium\, Inglewood\, California\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760497/group-j-2nd-place-group-h-winner
+URL:https://www.espn.com/soccer/match/_/gameId/760497/group-j-2nd-place-gro
+ up-h-winner
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760496@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260702T230000Z
+DTEND:20260703T010000Z
+SUMMARY:⚽ Group K 2nd Place vs Group L 2nd Place ⚽
+LOCATION:BMO Field\, Toronto\, Canada
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760496/group-l-2nd-place-group-k-2nd-place
+URL:https://www.espn.com/soccer/match/_/gameId/760496/group-l-2nd-place-gro
+ up-k-2nd-place
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760498@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260703T030000Z
+DTEND:20260703T050000Z
+SUMMARY:⚽ Group B Winner vs Third Place Group E/F/G/I/J ⚽
+LOCATION:BC Place\, Vancouver\, Canada
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760498/third-place-group-efgij-group-b-winner
+URL:https://www.espn.com/soccer/match/_/gameId/760498/third-place-group-efg
+ ij-group-b-winner
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760499@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260703T180000Z
+DTEND:20260703T200000Z
+SUMMARY:⚽ Group D 2nd Place vs Group G 2nd Place ⚽
+LOCATION:AT&T Stadium\, Arlington\, Texas\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760499/group-g-2nd-place-group-d-2nd-place
+URL:https://www.espn.com/soccer/match/_/gameId/760499/group-g-2nd-place-gro
+ up-d-2nd-place
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760500@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260703T220000Z
+DTEND:20260704T000000Z
+SUMMARY:⚽ Group J Winner vs Group H 2nd Place ⚽
+LOCATION:Hard Rock Stadium\, Miami Gardens\, Florida\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760500/group-h-2nd-place-group-j-winner
+URL:https://www.espn.com/soccer/match/_/gameId/760500/group-h-2nd-place-gro
+ up-j-winner
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760501@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260704T013000Z
+DTEND:20260704T033000Z
+SUMMARY:⚽ Group K Winner vs Third Place Group D/E/I/J/L ⚽
+LOCATION:GEHA Field at Arrowhead Stadium\, Kansas City\, Missouri\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760501/third-place-group-deijl-group-k-winner
+URL:https://www.espn.com/soccer/match/_/gameId/760501/third-place-group-dei
+ jl-group-k-winner
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760502@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260704T170000Z
+DTEND:20260704T190000Z
+SUMMARY:⚽ Round of 32 1 Winner vs Round of 32 3 Winner ⚽
+LOCATION:NRG Stadium\, Houston\, Texas\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760502/round-of-32-3-winner-round-of-32-1-winner
+URL:https://www.espn.com/soccer/match/_/gameId/760502/round-of-32-3-winner-
+ round-of-32-1-winner
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760503@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260704T210000Z
+DTEND:20260704T230000Z
+SUMMARY:⚽ Round of 32 2 Winner vs Round of 32 5 Winner ⚽
+LOCATION:Lincoln Financial Field\, Philadelphia\, Pennsylvania\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760503/round-of-32-5-winner-round-of-32-2-winner
+URL:https://www.espn.com/soccer/match/_/gameId/760503/round-of-32-5-winner-
+ round-of-32-2-winner
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760504@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260705T200000Z
+DTEND:20260705T220000Z
+SUMMARY:⚽ Round of 32 4 Winner vs Round of 32 6 Winner ⚽
+LOCATION:MetLife Stadium\, East Rutherford\, New Jersey\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760504/round-of-32-6-winner-round-of-32-4-winner
+URL:https://www.espn.com/soccer/match/_/gameId/760504/round-of-32-6-winner-
+ round-of-32-4-winner
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760505@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260706T000000Z
+DTEND:20260706T020000Z
+SUMMARY:⚽ Round of 32 7 Winner vs Round of 32 8 Winner ⚽
+LOCATION:Estadio Banorte\, Mexico City\, Mexico
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760505/round-of-32-8-winner-round-of-32-7-winner
+URL:https://www.espn.com/soccer/match/_/gameId/760505/round-of-32-8-winner-
+ round-of-32-7-winner
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760506@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260706T190000Z
+DTEND:20260706T210000Z
+SUMMARY:⚽ Round of 32 11 Winner vs Round of 32 12 Winner ⚽
+LOCATION:AT&T Stadium\, Arlington\, Texas\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760506/round-of-32-12-winner-round-of-32-11-winner
+URL:https://www.espn.com/soccer/match/_/gameId/760506/round-of-32-12-winner
+ -round-of-32-11-winner
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760507@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260707T000000Z
+DTEND:20260707T020000Z
+SUMMARY:⚽ Round of 32 9 Winner vs Round of 32 10 Winner ⚽
+LOCATION:Lumen Field\, Seattle\, Washington\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760507/round-of-32-10-winner-round-of-32-9-winner
+URL:https://www.espn.com/soccer/match/_/gameId/760507/round-of-32-10-winner
+ -round-of-32-9-winner
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760509@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260707T160000Z
+DTEND:20260707T180000Z
+SUMMARY:⚽ Round of 32 14 Winner vs Round of 32 16 Winner ⚽
+LOCATION:Mercedes-Benz Stadium\, Atlanta\, Georgia\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760509/round-of-32-16-winner-round-of-32-14-winner
+URL:https://www.espn.com/soccer/match/_/gameId/760509/round-of-32-16-winner
+ -round-of-32-14-winner
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760508@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260707T200000Z
+DTEND:20260707T220000Z
+SUMMARY:⚽ Round of 32 13 Winner vs Round of 32 15 Winner ⚽
+LOCATION:BC Place\, Vancouver\, Canada
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760508/round-of-32-15-winner-round-of-32-13-winner
+URL:https://www.espn.com/soccer/match/_/gameId/760508/round-of-32-15-winner
+ -round-of-32-13-winner
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760510@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260709T200000Z
+DTEND:20260709T220000Z
+SUMMARY:⚽ Round of 16 1 Winner vs Round of 16 2 Winner ⚽
+LOCATION:Gillette Stadium\, Foxborough\, Massachusetts\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760510/round-of-16-2-winner-round-of-16-1-winner
+URL:https://www.espn.com/soccer/match/_/gameId/760510/round-of-16-2-winner-
+ round-of-16-1-winner
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760511@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260710T190000Z
+DTEND:20260710T210000Z
+SUMMARY:⚽ Round of 16 5 Winner vs Round of 16 6 Winner ⚽
+LOCATION:SoFi Stadium\, Inglewood\, California\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760511/round-of-16-6-winner-round-of-16-5-winner
+URL:https://www.espn.com/soccer/match/_/gameId/760511/round-of-16-6-winner-
+ round-of-16-5-winner
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760512@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260711T210000Z
+DTEND:20260711T230000Z
+SUMMARY:⚽ Round of 16 3 Winner vs Round of 16 4 Winner ⚽
+LOCATION:Hard Rock Stadium\, Miami Gardens\, Florida\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760512/round-of-16-4-winner-round-of-16-3-winner
+URL:https://www.espn.com/soccer/match/_/gameId/760512/round-of-16-4-winner-
+ round-of-16-3-winner
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760513@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260712T010000Z
+DTEND:20260712T030000Z
+SUMMARY:⚽ Round of 16 7 Winner vs Round of 16 8 Winner ⚽
+LOCATION:GEHA Field at Arrowhead Stadium\, Kansas City\, Missouri\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760513/round-of-16-8-winner-round-of-16-7-winner
+URL:https://www.espn.com/soccer/match/_/gameId/760513/round-of-16-8-winner-
+ round-of-16-7-winner
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760514@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260714T190000Z
+DTEND:20260714T210000Z
+SUMMARY:⚽ Quarterfinal 1 Winner vs Quarterfinal 2 Winner ⚽
+LOCATION:AT&T Stadium\, Arlington\, Texas\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760514/quarterfinal-2-winner-quarterfinal-1-winner
+URL:https://www.espn.com/soccer/match/_/gameId/760514/quarterfinal-2-winner
+ -quarterfinal-1-winner
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760515@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260715T190000Z
+DTEND:20260715T210000Z
+SUMMARY:⚽ Quarterfinal 3 Winner vs Quarterfinal 4 Winner ⚽
+LOCATION:Mercedes-Benz Stadium\, Atlanta\, Georgia\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760515/quarterfinal-4-winner-quarterfinal-3-winner
+URL:https://www.espn.com/soccer/match/_/gameId/760515/quarterfinal-4-winner
+ -quarterfinal-3-winner
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760516@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260718T210000Z
+DTEND:20260718T230000Z
+SUMMARY:⚽ Semifinal 1 Loser vs Semifinal 2 Loser ⚽
+LOCATION:Hard Rock Stadium\, Miami Gardens\, Florida\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760516/semifinal-2-loser-semifinal-1-loser
+URL:https://www.espn.com/soccer/match/_/gameId/760516/semifinal-2-loser-sem
+ ifinal-1-loser
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:espn-760517@world-cup-2026
+DTSTAMP:20260616T202123Z
+DTSTART:20260719T190000Z
+DTEND:20260719T210000Z
+SUMMARY:⚽ Semifinal 1 Winner vs Semifinal 2 Winner ⚽
+LOCATION:MetLife Stadium\, East Rutherford\, New Jersey\, USA
+DESCRIPTION:Status: Scheduled\n\nhttps://www.espn.com/soccer/match/_/gameId
+ /760517/semifinal-2-winner-semifinal-1-winner
+URL:https://www.espn.com/soccer/match/_/gameId/760517/semifinal-2-winner-se
+ mifinal-1-winner
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR
