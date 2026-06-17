@@ -828,5 +828,38 @@
         ]
       ]
     }
+  },
+  "760435": {
+    "final": false,
+    "data": {
+      "goals": [
+        [
+          "POR",
+          "João Neves",
+          "Pedro Neto",
+          "6'"
+        ],
+        [
+          "COD",
+          "Yoane Wissa",
+          "Arthur Masuaku",
+          "45'+5'"
+        ]
+      ],
+      "cards": [
+        [
+          "POR",
+          "Bernardo Silva",
+          "🟨",
+          "13'"
+        ],
+        [
+          "COD",
+          "Chancel Mbemba",
+          "🟨",
+          "32'"
+        ]
+      ]
+    }
   }
 }
