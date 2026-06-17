@@ -875,7 +875,7 @@
     }
   },
   "760437": {
-    "final": false,
+    "final": true,
     "data": {
       "goals": [
         [
@@ -901,6 +901,18 @@
           "Petar Musa",
           "Ivan Perisic",
           "45'+5'"
+        ],
+        [
+          "ENG",
+          "Jude Bellingham",
+          "Elliot Anderson",
+          "47'"
+        ],
+        [
+          "ENG",
+          "Marcus Rashford",
+          "Bukayo Saka",
+          "85'"
         ]
       ],
       "cards": []
