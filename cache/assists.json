@@ -789,5 +789,44 @@
       ],
       "cards": []
     }
+  },
+  "760431": {
+    "final": true,
+    "data": {
+      "goals": [
+        [
+          "AUT",
+          "Romano Schmid",
+          "Xaver Schlager",
+          "21'"
+        ],
+        [
+          "JOR",
+          "Ali Olwan",
+          "Noor Al-Rawabdeh",
+          "50'"
+        ],
+        [
+          "AUT",
+          "Yazan Al-Arab",
+          "",
+          "76'"
+        ],
+        [
+          "AUT",
+          "Marko Arnautovic",
+          "",
+          "90'+12'"
+        ]
+      ],
+      "cards": [
+        [
+          "AUT",
+          "Marcel Sabitzer",
+          "🟨",
+          "77'"
+        ]
+      ]
+    }
   }
 }
