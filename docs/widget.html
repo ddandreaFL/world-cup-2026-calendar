@@ -19,15 +19,16 @@
     color: var(--text);
     background: var(--bg);
     padding: clamp(8px, 2.5vw, 14px);
+    text-align: center;
   }
   .wrap { width: 100%; max-width: 560px; margin: 0 auto; }
   .head {
-    display: flex; align-items: baseline; justify-content: space-between;
-    gap: 8px; margin-bottom: 10px;
+    display: flex; flex-direction: column; align-items: center;
+    gap: 2px; margin-bottom: 12px;
   }
-  .title { font-weight: 700; font-size: clamp(14px, 3vw, 17px); }
+  .title { font-weight: 700; font-size: clamp(15px, 3.2vw, 18px); }
   .title a { color: inherit; text-decoration: none; }
-  .day { color: var(--muted); font-size: clamp(11px, 2.4vw, 13px); white-space: nowrap; }
+  .day { color: var(--muted); font-size: clamp(11px, 2.4vw, 13px); }
   .match {
     background: linear-gradient(180deg, var(--card), var(--card2));
     border: 1px solid var(--line);
@@ -58,8 +59,19 @@
     animation: pulse 1.2s infinite;
   }
   @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .25; } }
-  .note { text-align: center; color: var(--muted); font-size: clamp(11px, 2.4vw, 13px); padding: 22px 0; }
-  .foot { text-align: center; color: var(--muted); font-size: clamp(10px, 2.2vw, 12px); margin-top: 8px; }
+  .details {
+    grid-column: 1 / -1;
+    margin-top: 8px; padding-top: 8px;
+    border-top: 1px dashed var(--line);
+    font-size: clamp(11px, 2.3vw, 12.5px);
+    color: var(--muted);
+    display: flex; flex-direction: column; gap: 3px; align-items: center;
+  }
+  .ev { white-space: normal; }
+  .ev .assist { color: var(--muted); opacity: .85; }
+  .venue { font-style: italic; }
+  .note { color: var(--muted); font-size: clamp(11px, 2.4vw, 13px); padding: 22px 0; }
+  .foot { color: var(--muted); font-size: clamp(10px, 2.2vw, 12px); margin-top: 8px; }
   .foot a { color: var(--accent); text-decoration: none; }
   @media (prefers-reduced-motion: reduce) { .dot { animation: none; } }
 </style>
@@ -78,6 +90,7 @@
 const FLAGS = {"USA":"🇺🇸","CAN":"🇨🇦","MEX":"🇲🇽","ARG":"🇦🇷","BRA":"🇧🇷","URU":"🇺🇾","COL":"🇨🇴","ECU":"🇪🇨","PAR":"🇵🇾","CHI":"🇨🇱","PER":"🇵🇪","VEN":"🇻🇪","BOL":"🇧🇴","ENG":"🏴󠁧󠁢󠁥󠁮󠁧󠁿","SCO":"🏴󠁧󠁢󠁳󠁣󠁴󠁿","WAL":"🏴󠁧󠁢󠁷󠁬󠁳󠁿","NIR":"🇬🇧","FRA":"🇫🇷","GER":"🇩🇪","ESP":"🇪🇸","POR":"🇵🇹","NED":"🇳🇱","ITA":"🇮🇹","BEL":"🇧🇪","CRO":"🇭🇷","SUI":"🇨🇭","DEN":"🇩🇰","POL":"🇵🇱","SRB":"🇷🇸","CZE":"🇨🇿","AUT":"🇦🇹","TUR":"🇹🇷","NOR":"🇳🇴","SWE":"🇸🇪","UKR":"🇺🇦","HUN":"🇭🇺","ROU":"🇷🇴","GRE":"🇬🇷","IRL":"🇮🇪","SVK":"🇸🇰","SVN":"🇸🇮","FIN":"🇫🇮","ALB":"🇦🇱","BUL":"🇧🇬","ISL":"🇮🇸","MAR":"🇲🇦","SEN":"🇸🇳","EGY":"🇪🇬","NGA":"🇳🇬","GHA":"🇬🇭","CIV":"🇨🇮","ALG":"🇩🇿","TUN":"🇹🇳","CMR":"🇨🇲","MLI":"🇲🇱","RSA":"🇿🇦","ANG":"🇦🇴","BFA":"🇧🇫","CPV":"🇨🇻","JPN":"🇯🇵","KOR":"🇰🇷","IRN":"🇮🇷","AUS":"🇦🇺","KSA":"🇸🇦","IRQ":"🇮🇶","UAE":"🇦🇪","QAT":"🇶🇦","UZB":"🇺🇿","JOR":"🇯🇴","CHN":"🇨🇳","THA":"🇹🇭","CRC":"🇨🇷","JAM":"🇯🇲","PAN":"🇵🇦","HON":"🇭🇳","SLV":"🇸🇻","HAI":"🇭🇹","TRI":"🇹🇹","CUB":"🇨🇺","CUR":"🇨🇼","NZL":"🇳🇿","BIH":"🇧🇦","RUS":"🇷🇺","ISR":"🇮🇱","GEO":"🇬🇪","ARM":"🇦🇲","AZE":"🇦🇿","MNE":"🇲🇪","MKD":"🇲🇰","KAZ":"🇰🇿","BLR":"🇧🇾","LUX":"🇱🇺","CYP":"🇨🇾","MLT":"🇲🇹","MDA":"🇲🇩","GUI":"🇬🇳","GAM":"🇬🇲","ZAM":"🇿🇲","ZIM":"🇿🇼","MOZ":"🇲🇿","MAD":"🇲🇬","BEN":"🇧🇯","TOG":"🇹🇬","CGO":"🇨🇬","COD":"🇨🇩","GAB":"🇬🇦","UGA":"🇺🇬","KEN":"🇰🇪","TAN":"🇹🇿","ETH":"🇪🇹","SUD":"🇸🇩","LBY":"🇱🇾","MTN":"🇲🇷","NIG":"🇳🇪","SLE":"🇸🇱","LBR":"🇱🇷","GNB":"🇬🇼","BDI":"🇧🇮","RWA":"🇷🇼","COM":"🇰🇲","BHR":"🇧🇭","OMA":"🇴🇲","KUW":"🇰🇼","YEM":"🇾🇪","LIB":"🇱🇧","SYR":"🇸🇾","PLE":"🇵🇸","AFG":"🇦🇫","IND":"🇮🇳","PAK":"🇵🇰","BAN":"🇧🇩","VIE":"🇻🇳","MAS":"🇲🇾","SIN":"🇸🇬","INA":"🇮🇩","PHI":"🇵🇭","MYA":"🇲🇲","PRK":"🇰🇵","TPE":"🇹🇼","HKG":"🇭🇰","MAC":"🇲🇴","TKM":"🇹🇲","TJK":"🇹🇯","KGZ":"🇰🇬","GUA":"🇬🇹","NCA":"🇳🇮","BLZ":"🇧🇿","DOM":"🇩🇴","BAH":"🇧🇸","BRB":"🇧🇧","GRN":"🇬🇩","GUY":"🇬🇾","SUR":"🇸🇷","FIJ":"🇫🇯","PNG":"🇵🇬","SOL":"🇸🇧","VAN":"🇻🇺","TAH":"🇵🇫","NCL":"🇳🇨","SAM":"🇼🇸","TGA":"🇹🇴"};
 
 const SCOREBOARD = "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=";
+const SUMMARY = "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=";
 const REFRESH_MS = 30000;
 const $ = (id) => document.getElementById(id);
 
@@ -90,49 +103,127 @@ function flag(a){ return FLAGS[(a||"").toUpperCase()] || "⚽"; }
 function kickoff(iso){ return new Date(iso).toLocaleTimeString([], {hour:"numeric", minute:"2-digit"}); }
 function teamInfo(c){ const t=c.team||{}; return {name:t.shortDisplayName||t.displayName||t.name||"TBD", abbr:t.abbreviation||"", score:c.score??"", winner:!!c.winner}; }
 
-function renderMatch(ev){
-  const comp=(ev.competitions||[])[0]||{};
-  const cs=comp.competitors||[];
-  const home=teamInfo(cs.find(c=>c.homeAway==="home")||cs[0]||{});
-  const away=teamInfo(cs.find(c=>c.homeAway==="away")||cs[1]||{});
-  const type=(comp.status||ev.status||{}).type||{};
-  const clock=(comp.status||ev.status||{}).displayClock||"";
-  const state=type.state||"pre";
-  let center, badge;
-  if(state==="in"){
-    center=`<div class="score">${esc(home.score)}–${esc(away.score)}</div>`;
-    badge=`<div class="badge live"><span class="dot"></span>${esc(clock||type.shortDetail||"LIVE")}</div>`;
-  } else if(state==="post"||type.completed){
-    center=`<div class="score">${esc(home.score)}–${esc(away.score)}</div>`;
-    badge=`<div class="badge">Full time</div>`;
-  } else {
-    center=`<div class="vs">vs</div>`;
-    badge=`<div class="badge">${esc(kickoff(ev.date))}</div>`;
+function venueText(comp){
+  const v = comp.venue || {};
+  const addr = v.address || {};
+  const parts = [v.fullName, addr.city, addr.country].filter(Boolean);
+  return parts.join(", ");
+}
+
+// ---- summary parsing (goals / assists / cards), mirrors generate.py ----
+function pName(p){ const a = (p && p.athlete) ? p.athlete : p; return (a && (a.displayName || a.shortName)) || ""; }
+function parseAssist(text){
+  const low = (text||"").toLowerCase();
+  const i = low.indexOf("assisted by");
+  if (i < 0) return "";
+  let tail = text.slice(i + "assisted by".length).replace(/^[\s:]+/, "");
+  for (const stop of [".", " with ", " following ", " after "]) {
+    const j = tail.toLowerCase().indexOf(stop);
+    if (j >= 0) tail = tail.slice(0, j);
   }
+  return tail.replace(/^[\s.,:]+|[\s.,:]+$/g, "");
+}
+function parseDetails(data){
+  const goals = [], cards = [];
+  const abbrById = {};
+  const hc = (((data.header||{}).competitions||[{}])[0].competitors)||[];
+  hc.forEach(c => { const t=c.team||{}; if(t.id) abbrById[String(t.id)] = t.abbreviation||""; });
+  (data.keyEvents||[]).forEach(ev => {
+    const ty = (((ev.type||{}).type) || ((ev.type||{}).text) || "").toLowerCase();
+    const clock = ((ev.clock||{}).displayValue) || "";
+    const abbr = abbrById[String((ev.team||{}).id || "")] || "";
+    const parts = ev.participants || ev.athletesInvolved || [];
+    const text = ev.text || ev.shortText || "";
+    if (ty.includes("goal") || ev.scoringPlay) {
+      const scorer = parts[0] ? pName(parts[0]) : "";
+      let assist = parts[1] ? pName(parts[1]) : "";
+      if (!assist) assist = parseAssist(text);
+      if (scorer) goals.push({ abbr, scorer, assist, clock });
+    } else if (ty.includes("card")) {
+      const color = ty.includes("red") ? "🟥" : "🟨";
+      const player = parts[0] ? pName(parts[0]) : "";
+      if (player) cards.push({ abbr, player, color, clock });
+    }
+  });
+  return { goals, cards };
+}
+async function fetchDetails(id){
+  try {
+    const res = await fetch(SUMMARY + id, { cache: "no-store" });
+    if (!res.ok) return { goals: [], cards: [] };
+    return parseDetails(await res.json());
+  } catch(e) { return { goals: [], cards: [] }; }
+}
+
+function renderMatch(ev, details){
+  const comp = (ev.competitions||[])[0] || {};
+  const cs = comp.competitors || [];
+  const home = teamInfo(cs.find(c=>c.homeAway==="home")||cs[0]||{});
+  const away = teamInfo(cs.find(c=>c.homeAway==="away")||cs[1]||{});
+  const type = (comp.status||ev.status||{}).type || {};
+  const clock = (comp.status||ev.status||{}).displayClock || "";
+  const state = type.state || "pre";
+
+  let center, badge;
+  if (state === "in") {
+    center = `<div class="score">${esc(home.score)}–${esc(away.score)}</div>`;
+    badge = `<div class="badge live"><span class="dot"></span>${esc(clock||type.shortDetail||"LIVE")}</div>`;
+  } else if (state === "post" || type.completed) {
+    center = `<div class="score">${esc(home.score)}–${esc(away.score)}</div>`;
+    badge = `<div class="badge">Full time</div>`;
+  } else {
+    center = `<div class="vs">vs</div>`;
+    badge = `<div class="badge">${esc(kickoff(ev.date))}</div>`;
+  }
+
+  const rows = [];
+  const venue = venueText(comp);
+  if (venue) rows.push(`<div class="venue">📍 ${esc(venue)}</div>`);
+  (details.goals||[]).forEach(g => {
+    const mn = g.clock ? ` ${esc(g.clock)}` : "";
+    const a = g.assist ? ` <span class="assist">(assist: ${esc(g.assist)})</span>` : "";
+    rows.push(`<div class="ev">⚽${mn} ${flag(g.abbr)} ${esc(g.scorer)}${a}</div>`);
+  });
+  (details.cards||[]).forEach(c => {
+    const mn = c.clock ? ` ${esc(c.clock)}` : "";
+    rows.push(`<div class="ev">${c.color}${mn} ${flag(c.abbr)} ${esc(c.player)}</div>`);
+  });
+  const detailsHtml = rows.length ? `<div class="details">${rows.join("")}</div>` : "";
+
   return `<div class="match${state==="in"?" live":""}">
     <div class="team home"><span class="tname${home.winner?" winner":""}">${esc(home.name)}</span><span class="flag">${flag(home.abbr)}</span></div>
     <div class="center">${center}${badge}</div>
     <div class="team away"><span class="flag">${flag(away.abbr)}</span><span class="tname${away.winner?" winner":""}">${esc(away.name)}</span></div>
+    ${detailsHtml}
   </div>`;
 }
 
 function postHeight(){
-  // Let an embedding page auto-size the iframe (no inner scrollbars).
   const h = document.documentElement.scrollHeight;
   try { parent.postMessage({ type: "wc-widget-height", height: h }, "*"); } catch(e){}
 }
 
 async function load(){
   $("day").textContent = new Date().toLocaleDateString([], {weekday:"short", month:"short", day:"numeric"});
-  try{
+  try {
     const res = await fetch(SCOREBOARD + todayCompact(), { cache: "no-store" });
-    if(!res.ok) throw new Error("HTTP "+res.status);
+    if (!res.ok) throw new Error("HTTP "+res.status);
     const data = await res.json();
     const events = (data.events||[]).slice().sort((a,b)=>(a.date||"").localeCompare(b.date||""));
-    $("list").innerHTML = events.length ? events.map(renderMatch).join("")
+    // Goals/assists/cards only exist for live or finished matches -> fetch their summaries in parallel.
+    const enriched = await Promise.all(events.map(async ev => {
+      const comp = (ev.competitions||[])[0] || {};
+      const type = (comp.status||ev.status||{}).type || {};
+      const state = type.state || "pre";
+      const details = (state === "in" || state === "post" || type.completed)
+        ? await fetchDetails(ev.id) : { goals: [], cards: [] };
+      return { ev, details };
+    }));
+    $("list").innerHTML = enriched.length
+      ? enriched.map(x => renderMatch(x.ev, x.details)).join("")
       : `<div class="note">No matches today.</div>`;
     $("foot").innerHTML = `Updated ${new Date().toLocaleTimeString()} · <a href="scoreboard.html" target="_blank" rel="noopener">full scoreboard ↗</a>`;
-  }catch(e){
+  } catch(e) {
     $("list").innerHTML = `<div class="note">Couldn't load scores. Retrying…</div>`;
   }
   postHeight();
