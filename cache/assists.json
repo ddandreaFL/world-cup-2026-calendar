@@ -830,7 +830,7 @@
     }
   },
   "760435": {
-    "final": false,
+    "final": true,
     "data": {
       "goals": [
         [
@@ -858,8 +858,52 @@
           "Chancel Mbemba",
           "🟨",
           "32'"
+        ],
+        [
+          "POR",
+          "Nélson Semedo",
+          "🟨",
+          "88'"
+        ],
+        [
+          "POR",
+          "Tomás Araújo",
+          "🟨",
+          "90'+2'"
         ]
       ]
+    }
+  },
+  "760437": {
+    "final": false,
+    "data": {
+      "goals": [
+        [
+          "ENG",
+          "Harry Kane",
+          "",
+          "12'"
+        ],
+        [
+          "CRO",
+          "Martin Baturina",
+          "Petar Sucic",
+          "36'"
+        ],
+        [
+          "ENG",
+          "Harry Kane",
+          "Declan Rice",
+          "42'"
+        ],
+        [
+          "CRO",
+          "Petar Musa",
+          "Ivan Perisic",
+          "45'+5'"
+        ]
+      ],
+      "cards": []
     }
   }
 }
