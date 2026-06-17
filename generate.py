@@ -33,6 +33,10 @@ SUMMARY_URL = (
     "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event={event_id}"
 )
 
+# Public link attached to each calendar event (URL property + description).
+# The ESPN URLs above stay as the data source; this is just what users click.
+EVENT_LINK = "https://worldcup26.dillonpio.xyz"
+
 UA = "Mozilla/5.0 (world-cup-2026-calendar; +https://github.com/)"
 TIMEOUT = 20
 
@@ -202,7 +206,7 @@ def extract_match(ev: dict) -> dict | None:
         "clock": status.get("displayClock", ""),
         "completed": bool(stype.get("completed")),
         "location": location,
-        "link": ev.get("links", [{}])[0].get("href", "") if ev.get("links") else "",
+        "link": EVENT_LINK,
         "name": ev.get("name") or comp.get("name") or "",
     }
 
