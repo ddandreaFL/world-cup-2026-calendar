@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>World Cup 2026 — Today (widget)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --bg: #efe3cc; --card: #fbf5e9; --card2: #f3e7d0; --line: #d9c3a1;
+    --text: #3b2a1c; --muted: #8a7256; --accent: #8a5a2b; --live: #b3402e; --win: #6b7d2e;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body {
+    font: 400 clamp(13px, 2.6vw, 15px)/1.4 "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--text);
+    background: var(--bg);
+    padding: clamp(8px, 2.5vw, 14px);
+  }
+  .wrap { width: 100%; max-width: 560px; margin: 0 auto; }
+  .head {
+    display: flex; align-items: baseline; justify-content: space-between;
+    gap: 8px; margin-bottom: 10px;
+  }
+  .title { font-weight: 700; font-size: clamp(14px, 3vw, 17px); }
+  .title a { color: inherit; text-decoration: none; }
+  .day { color: var(--muted); font-size: clamp(11px, 2.4vw, 13px); white-space: nowrap; }
+  .match {
+    background: linear-gradient(180deg, var(--card), var(--card2));
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(59,42,28,.08);
+    padding: clamp(8px, 2.2vw, 12px) clamp(10px, 2.6vw, 14px);
+    margin: 8px 0;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    gap: clamp(6px, 2vw, 10px);
+  }
+  .match.live { border-color: rgba(179,64,46,.55); box-shadow: 0 0 0 1px rgba(179,64,46,.18); }
+  .team { display: flex; align-items: center; gap: 8px; min-width: 0; }
+  .team.home { justify-content: flex-end; text-align: right; }
+  .team.away { justify-content: flex-start; text-align: left; }
+  .flag { font-size: clamp(1.2rem, 4.4vw, 1.5rem); line-height: 1; flex: none; }
+  .tname { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-weight: 500; }
+  .tname.winner { color: var(--win); font-weight: 700; }
+  .center { text-align: center; min-width: clamp(58px, 16vw, 78px); }
+  .score { font-size: clamp(1.05rem, 4vw, 1.35rem); font-weight: 700; letter-spacing: .5px; }
+  .vs { color: var(--muted); font-weight: 600; }
+  .badge { margin-top: 3px; font-size: clamp(10px, 2.2vw, 12px); color: var(--muted); white-space: nowrap; }
+  .badge.live { color: var(--live); font-weight: 700; }
+  .dot {
+    display: inline-block; width: 6px; height: 6px; border-radius: 50%;
+    background: var(--live); margin-right: 4px; vertical-align: middle;
+    animation: pulse 1.2s infinite;
+  }
+  @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .25; } }
+  .note { text-align: center; color: var(--muted); font-size: clamp(11px, 2.4vw, 13px); padding: 22px 0; }
+  .foot { text-align: center; color: var(--muted); font-size: clamp(10px, 2.2vw, 12px); margin-top: 8px; }
+  .foot a { color: var(--accent); text-decoration: none; }
+  @media (prefers-reduced-motion: reduce) { .dot { animation: none; } }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="head">
+      <div class="title"><a href="scoreboard.html" target="_blank" rel="noopener">⚽ World Cup 2026</a></div>
+      <div class="day" id="day"></div>
+    </div>
+    <div id="list"><div class="note">Loading…</div></div>
+    <div class="foot" id="foot"></div>
+  </div>
+
+<script>
+const FLAGS = {"USA":"🇺🇸","CAN":"🇨🇦","MEX":"🇲🇽","ARG":"🇦🇷","BRA":"🇧🇷","URU":"🇺🇾","COL":"🇨🇴","ECU":"🇪🇨","PAR":"🇵🇾","CHI":"🇨🇱","PER":"🇵🇪","VEN":"🇻🇪","BOL":"🇧🇴","ENG":"🏴󠁧󠁢󠁥󠁮󠁧󠁿","SCO":"🏴󠁧󠁢󠁳󠁣󠁴󠁿","WAL":"🏴󠁧󠁢󠁷󠁬󠁳󠁿","NIR":"🇬🇧","FRA":"🇫🇷","GER":"🇩🇪","ESP":"🇪🇸","POR":"🇵🇹","NED":"🇳🇱","ITA":"🇮🇹","BEL":"🇧🇪","CRO":"🇭🇷","SUI":"🇨🇭","DEN":"🇩🇰","POL":"🇵🇱","SRB":"🇷🇸","CZE":"🇨🇿","AUT":"🇦🇹","TUR":"🇹🇷","NOR":"🇳🇴","SWE":"🇸🇪","UKR":"🇺🇦","HUN":"🇭🇺","ROU":"🇷🇴","GRE":"🇬🇷","IRL":"🇮🇪","SVK":"🇸🇰","SVN":"🇸🇮","FIN":"🇫🇮","ALB":"🇦🇱","BUL":"🇧🇬","ISL":"🇮🇸","MAR":"🇲🇦","SEN":"🇸🇳","EGY":"🇪🇬","NGA":"🇳🇬","GHA":"🇬🇭","CIV":"🇨🇮","ALG":"🇩🇿","TUN":"🇹🇳","CMR":"🇨🇲","MLI":"🇲🇱","RSA":"🇿🇦","ANG":"🇦🇴","BFA":"🇧🇫","CPV":"🇨🇻","JPN":"🇯🇵","KOR":"🇰🇷","IRN":"🇮🇷","AUS":"🇦🇺","KSA":"🇸🇦","IRQ":"🇮🇶","UAE":"🇦🇪","QAT":"🇶🇦","UZB":"🇺🇿","JOR":"🇯🇴","CHN":"🇨🇳","THA":"🇹🇭","CRC":"🇨🇷","JAM":"🇯🇲","PAN":"🇵🇦","HON":"🇭🇳","SLV":"🇸🇻","HAI":"🇭🇹","TRI":"🇹🇹","CUB":"🇨🇺","CUR":"🇨🇼","NZL":"🇳🇿","BIH":"🇧🇦","RUS":"🇷🇺","ISR":"🇮🇱","GEO":"🇬🇪","ARM":"🇦🇲","AZE":"🇦🇿","MNE":"🇲🇪","MKD":"🇲🇰","KAZ":"🇰🇿","BLR":"🇧🇾","LUX":"🇱🇺","CYP":"🇨🇾","MLT":"🇲🇹","MDA":"🇲🇩","GUI":"🇬🇳","GAM":"🇬🇲","ZAM":"🇿🇲","ZIM":"🇿🇼","MOZ":"🇲🇿","MAD":"🇲🇬","BEN":"🇧🇯","TOG":"🇹🇬","CGO":"🇨🇬","COD":"🇨🇩","GAB":"🇬🇦","UGA":"🇺🇬","KEN":"🇰🇪","TAN":"🇹🇿","ETH":"🇪🇹","SUD":"🇸🇩","LBY":"🇱🇾","MTN":"🇲🇷","NIG":"🇳🇪","SLE":"🇸🇱","LBR":"🇱🇷","GNB":"🇬🇼","BDI":"🇧🇮","RWA":"🇷🇼","COM":"🇰🇲","BHR":"🇧🇭","OMA":"🇴🇲","KUW":"🇰🇼","YEM":"🇾🇪","LIB":"🇱🇧","SYR":"🇸🇾","PLE":"🇵🇸","AFG":"🇦🇫","IND":"🇮🇳","PAK":"🇵🇰","BAN":"🇧🇩","VIE":"🇻🇳","MAS":"🇲🇾","SIN":"🇸🇬","INA":"🇮🇩","PHI":"🇵🇭","MYA":"🇲🇲","PRK":"🇰🇵","TPE":"🇹🇼","HKG":"🇭🇰","MAC":"🇲🇴","TKM":"🇹🇲","TJK":"🇹🇯","KGZ":"🇰🇬","GUA":"🇬🇹","NCA":"🇳🇮","BLZ":"🇧🇿","DOM":"🇩🇴","BAH":"🇧🇸","BRB":"🇧🇧","GRN":"🇬🇩","GUY":"🇬🇾","SUR":"🇸🇷","FIJ":"🇫🇯","PNG":"🇵🇬","SOL":"🇸🇧","VAN":"🇻🇺","TAH":"🇵🇫","NCL":"🇳🇨","SAM":"🇼🇸","TGA":"🇹🇴"};
+
+const SCOREBOARD = "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=";
+const REFRESH_MS = 30000;
+const $ = (id) => document.getElementById(id);
+
+function todayCompact() {
+  const d = new Date();
+  return `${d.getFullYear()}${String(d.getMonth()+1).padStart(2,"0")}${String(d.getDate()).padStart(2,"0")}`;
+}
+function esc(s){ return (s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
+function flag(a){ return FLAGS[(a||"").toUpperCase()] || "⚽"; }
+function kickoff(iso){ return new Date(iso).toLocaleTimeString([], {hour:"numeric", minute:"2-digit"}); }
+function teamInfo(c){ const t=c.team||{}; return {name:t.shortDisplayName||t.displayName||t.name||"TBD", abbr:t.abbreviation||"", score:c.score??"", winner:!!c.winner}; }
+
+function renderMatch(ev){
+  const comp=(ev.competitions||[])[0]||{};
+  const cs=comp.competitors||[];
+  const home=teamInfo(cs.find(c=>c.homeAway==="home")||cs[0]||{});
+  const away=teamInfo(cs.find(c=>c.homeAway==="away")||cs[1]||{});
+  const type=(comp.status||ev.status||{}).type||{};
+  const clock=(comp.status||ev.status||{}).displayClock||"";
+  const state=type.state||"pre";
+  let center, badge;
+  if(state==="in"){
+    center=`<div class="score">${esc(home.score)}–${esc(away.score)}</div>`;
+    badge=`<div class="badge live"><span class="dot"></span>${esc(clock||type.shortDetail||"LIVE")}</div>`;
+  } else if(state==="post"||type.completed){
+    center=`<div class="score">${esc(home.score)}–${esc(away.score)}</div>`;
+    badge=`<div class="badge">Full time</div>`;
+  } else {
+    center=`<div class="vs">vs</div>`;
+    badge=`<div class="badge">${esc(kickoff(ev.date))}</div>`;
+  }
+  return `<div class="match${state==="in"?" live":""}">
+    <div class="team home"><span class="tname${home.winner?" winner":""}">${esc(home.name)}</span><span class="flag">${flag(home.abbr)}</span></div>
+    <div class="center">${center}${badge}</div>
+    <div class="team away"><span class="flag">${flag(away.abbr)}</span><span class="tname${away.winner?" winner":""}">${esc(away.name)}</span></div>
+  </div>`;
+}
+
+function postHeight(){
+  // Let an embedding page auto-size the iframe (no inner scrollbars).
+  const h = document.documentElement.scrollHeight;
+  try { parent.postMessage({ type: "wc-widget-height", height: h }, "*"); } catch(e){}
+}
+
+async function load(){
+  $("day").textContent = new Date().toLocaleDateString([], {weekday:"short", month:"short", day:"numeric"});
+  try{
+    const res = await fetch(SCOREBOARD + todayCompact(), { cache: "no-store" });
+    if(!res.ok) throw new Error("HTTP "+res.status);
+    const data = await res.json();
+    const events = (data.events||[]).slice().sort((a,b)=>(a.date||"").localeCompare(b.date||""));
+    $("list").innerHTML = events.length ? events.map(renderMatch).join("")
+      : `<div class="note">No matches today.</div>`;
+    $("foot").innerHTML = `Updated ${new Date().toLocaleTimeString()} · <a href="scoreboard.html" target="_blank" rel="noopener">full scoreboard ↗</a>`;
+  }catch(e){
+    $("list").innerHTML = `<div class="note">Couldn't load scores. Retrying…</div>`;
+  }
+  postHeight();
+}
+
+window.addEventListener("load", postHeight);
+window.addEventListener("resize", postHeight);
+document.addEventListener("visibilitychange", () => { if(!document.hidden) load(); });
+load();
+setInterval(load, REFRESH_MS);
+</script>
+</body>
+</html>
