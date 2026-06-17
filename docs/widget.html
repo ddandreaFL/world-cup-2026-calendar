@@ -29,6 +29,12 @@
   .title { font-weight: 700; font-size: clamp(15px, 3.2vw, 18px); }
   .title a { color: inherit; text-decoration: none; }
   .day { color: var(--muted); font-size: clamp(11px, 2.4vw, 13px); }
+  .daygroup {
+    text-align: center; color: var(--accent); font-weight: 600;
+    font-size: clamp(11px, 2.4vw, 13px);
+    letter-spacing: .3px; margin: 14px 0 6px;
+  }
+  .daygroup:first-child { margin-top: 2px; }
   .match {
     background: linear-gradient(180deg, var(--card), var(--card2));
     border: 1px solid var(--line);
@@ -94,10 +100,14 @@ const SUMMARY = "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world
 const REFRESH_MS = 30000;
 const $ = (id) => document.getElementById(id);
 
-function todayCompact() {
-  const d = new Date();
+function compactOf(d) {
   return `${d.getFullYear()}${String(d.getMonth()+1).padStart(2,"0")}${String(d.getDate()).padStart(2,"0")}`;
 }
+function dayLabel(iso) {
+  return new Date(iso).toLocaleDateString([], { weekday: "long", month: "short", day: "numeric" });
+}
+// Finished matches never change -> cache their parsed details so we don't refetch each cycle.
+const finalDetails = {};
 function esc(s){ return (s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
 function flag(a){ return FLAGS[(a||"").toUpperCase()] || "⚽"; }
 function kickoff(iso){ return new Date(iso).toLocaleTimeString([], {hour:"numeric", minute:"2-digit"}); }
@@ -204,24 +214,47 @@ function postHeight(){
 }
 
 async function load(){
-  $("day").textContent = new Date().toLocaleDateString([], {weekday:"short", month:"short", day:"numeric"});
+  $("day").textContent = "Yesterday & today";
   try {
-    const res = await fetch(SCOREBOARD + todayCompact(), { cache: "no-store" });
-    if (!res.ok) throw new Error("HTTP "+res.status);
-    const data = await res.json();
-    const events = (data.events||[]).slice().sort((a,b)=>(a.date||"").localeCompare(b.date||""));
-    // Goals/assists/cards only exist for live or finished matches -> fetch their summaries in parallel.
+    // Rolling 24h: yesterday + today, so finished matches (and their details) linger a full day.
+    const now = new Date();
+    const yest = new Date(now); yest.setDate(now.getDate() - 1);
+    const days = await Promise.all([compactOf(yest), compactOf(now)].map(d =>
+      fetch(SCOREBOARD + d, { cache: "no-store" })
+        .then(r => r.ok ? r.json() : { events: [] })
+        .catch(() => ({ events: [] }))
+    ));
+    const seen = new Set();
+    const events = [];
+    days.forEach(d => (d.events || []).forEach(ev => {
+      const id = String(ev.id || "");
+      if (id && !seen.has(id)) { seen.add(id); events.push(ev); }
+    }));
+    events.sort((a, b) => (a.date || "").localeCompare(b.date || ""));
+
+    if (!events.length) { $("list").innerHTML = `<div class="note">No matches.</div>`; postHeight(); return; }
+
+    // Goals/assists/cards live in the per-match summary; fetch only for live/finished matches.
     const enriched = await Promise.all(events.map(async ev => {
       const comp = (ev.competitions||[])[0] || {};
       const type = (comp.status||ev.status||{}).type || {};
       const state = type.state || "pre";
-      const details = (state === "in" || state === "post" || type.completed)
-        ? await fetchDetails(ev.id) : { goals: [], cards: [] };
+      let details = { goals: [], cards: [] };
+      if (state === "post" || type.completed) {
+        details = finalDetails[ev.id] || (finalDetails[ev.id] = await fetchDetails(ev.id));
+      } else if (state === "in") {
+        details = await fetchDetails(ev.id);
+      }
       return { ev, details };
     }));
-    $("list").innerHTML = enriched.length
-      ? enriched.map(x => renderMatch(x.ev, x.details)).join("")
-      : `<div class="note">No matches today.</div>`;
+
+    let html = "", lastLabel = "";
+    enriched.forEach(x => {
+      const lbl = dayLabel(x.ev.date);
+      if (lbl !== lastLabel) { html += `<div class="daygroup">${esc(lbl)}</div>`; lastLabel = lbl; }
+      html += renderMatch(x.ev, x.details);
+    });
+    $("list").innerHTML = html;
     $("foot").innerHTML = `Updated ${new Date().toLocaleTimeString()} · <a href="scoreboard.html" target="_blank" rel="noopener">full scoreboard ↗</a>`;
   } catch(e) {
     $("list").innerHTML = `<div class="note">Couldn't load scores. Retrying…</div>`;
