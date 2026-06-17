@@ -720,7 +720,7 @@
     }
   },
   "760430": {
-    "final": false,
+    "final": true,
     "data": {
       "goals": [
         [
@@ -740,9 +740,28 @@
           "Erling Haaland",
           "",
           "43'"
+        ],
+        [
+          "NOR",
+          "Leo Østigard",
+          "Martin Ødegaard",
+          "76'"
+        ],
+        [
+          "NOR",
+          "Aymen Hussein",
+          "",
+          "90'+6'"
         ]
       ],
-      "cards": []
+      "cards": [
+        [
+          "IRQ",
+          "Zaid Tahseen",
+          "🟨",
+          "86'"
+        ]
+      ]
     }
   }
 }
