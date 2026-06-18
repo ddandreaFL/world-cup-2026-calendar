@@ -919,15 +919,79 @@
     }
   },
   "760434": {
-    "final": false,
+    "final": true,
     "data": {
-      "goals": [],
+      "goals": [
+        [
+          "GHA",
+          "Caleb Yirenkyi",
+          "Brandon Thomas-Asante",
+          "90'+5'"
+        ]
+      ],
       "cards": [
         [
           "GHA",
           "Caleb Yirenkyi",
           "🟨",
           "16'"
+        ],
+        [
+          "PAN",
+          "César Blackman",
+          "🟨",
+          "72'"
+        ],
+        [
+          "PAN",
+          "Carlos Harvey",
+          "🟨",
+          "90'+9'"
+        ]
+      ]
+    }
+  },
+  "760436": {
+    "final": true,
+    "data": {
+      "goals": [
+        [
+          "COL",
+          "Daniel Muñoz",
+          "Luis Díaz",
+          "40'"
+        ],
+        [
+          "UZB",
+          "Abbosbek Fayzullaev",
+          "",
+          "60'"
+        ],
+        [
+          "COL",
+          "Luis Díaz",
+          "Gustavo Puerta",
+          "65'"
+        ],
+        [
+          "COL",
+          "Jáminton Campaz",
+          "Cucho Hernández",
+          "90'+9'"
+        ]
+      ],
+      "cards": [
+        [
+          "COL",
+          "Johan Mojica",
+          "🟨",
+          "7'"
+        ],
+        [
+          "UZB",
+          "Abdukodir Khusanov",
+          "🟨",
+          "34'"
         ]
       ]
     }
