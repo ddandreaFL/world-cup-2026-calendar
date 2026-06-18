@@ -1034,5 +1034,68 @@
         ]
       ]
     }
+  },
+  "760439": {
+    "final": true,
+    "data": {
+      "goals": [
+        [
+          "SUI",
+          "Johan Manzambi",
+          "",
+          "74'"
+        ],
+        [
+          "SUI",
+          "Rubén Vargas",
+          "Breel Embolo",
+          "84'"
+        ],
+        [
+          "SUI",
+          "Johan Manzambi",
+          "Rubén Vargas",
+          "90'"
+        ],
+        [
+          "BIH",
+          "Ermin Mahmic",
+          "",
+          "90'+3'"
+        ],
+        [
+          "SUI",
+          "Granit Xhaka",
+          "",
+          "90'+7'"
+        ]
+      ],
+      "cards": [
+        [
+          "BIH",
+          "Amar Dedic",
+          "🟨",
+          "59'"
+        ],
+        [
+          "BIH",
+          "Edin Dzeko",
+          "🟨",
+          "61'"
+        ],
+        [
+          "SUI",
+          "Nico Elvedi",
+          "🟨",
+          "65'"
+        ],
+        [
+          "BIH",
+          "Tarik Muharemovic",
+          "🟥",
+          "80'"
+        ]
+      ]
+    }
   }
 }
