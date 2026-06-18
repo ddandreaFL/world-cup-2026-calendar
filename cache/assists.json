@@ -1097,5 +1097,44 @@
         ]
       ]
     }
+  },
+  "760440": {
+    "final": false,
+    "data": {
+      "goals": [
+        [
+          "CAN",
+          "Cyle Larin",
+          "",
+          "16'"
+        ],
+        [
+          "CAN",
+          "Jonathan David",
+          "",
+          "29'"
+        ],
+        [
+          "CAN",
+          "Jonathan David",
+          "",
+          "45'+3'"
+        ]
+      ],
+      "cards": [
+        [
+          "CAN",
+          "Derek Cornelius",
+          "🟨",
+          "9'"
+        ],
+        [
+          "QAT",
+          "Homam Ahmed",
+          "🟥",
+          "33'"
+        ]
+      ]
+    }
   }
 }
