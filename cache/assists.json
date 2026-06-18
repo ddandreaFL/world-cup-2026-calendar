@@ -917,5 +917,19 @@
       ],
       "cards": []
     }
+  },
+  "760434": {
+    "final": false,
+    "data": {
+      "goals": [],
+      "cards": [
+        [
+          "GHA",
+          "Caleb Yirenkyi",
+          "🟨",
+          "16'"
+        ]
+      ]
+    }
   }
 }
