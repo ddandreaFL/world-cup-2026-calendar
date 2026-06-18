@@ -997,10 +997,42 @@
     }
   },
   "760438": {
-    "final": false,
+    "final": true,
     "data": {
-      "goals": [],
-      "cards": []
+      "goals": [
+        [
+          "CZE",
+          "Michal Sadílek",
+          "Alexandr Sojka",
+          "6'"
+        ],
+        [
+          "RSA",
+          "Teboho Mokoena",
+          "",
+          "83'"
+        ]
+      ],
+      "cards": [
+        [
+          "RSA",
+          "Teboho Mokoena",
+          "🟨",
+          "33'"
+        ],
+        [
+          "RSA",
+          "Thalente Mbatha",
+          "🟨",
+          "40'"
+        ],
+        [
+          "CZE",
+          "Ladislav Krejcí",
+          "🟨",
+          "75'"
+        ]
+      ]
     }
   }
 }
