@@ -16826,5 +16826,3417 @@
         ]
       }
     ]
+  },
+  "20260618": {
+    "complete": true,
+    "events": [
+      {
+        "id": "760438",
+        "uid": "s:600~l:606~e:760438",
+        "date": "2026-06-18T16:00Z",
+        "name": "South Africa at Czechia",
+        "shortName": "RSA @ CZE",
+        "season": {
+          "year": 2026,
+          "type": 13802,
+          "slug": "group-stage"
+        },
+        "competitions": [
+          {
+            "id": "760438",
+            "uid": "s:600~l:606~e:760438~c:760438",
+            "date": "2026-06-18T16:00Z",
+            "startDate": "2026-06-18T16:00Z",
+            "attendance": 67442,
+            "timeValid": true,
+            "recent": false,
+            "status": {
+              "clock": 5400.0,
+              "displayClock": "90'+7'",
+              "period": 2,
+              "type": {
+                "id": "28",
+                "name": "STATUS_FULL_TIME",
+                "state": "post",
+                "completed": true,
+                "description": "Full Time",
+                "detail": "FT",
+                "shortDetail": "FT"
+              }
+            },
+            "venue": {
+              "id": "7485",
+              "fullName": "Mercedes-Benz Stadium",
+              "address": {
+                "city": "Atlanta, Georgia",
+                "country": "USA"
+              }
+            },
+            "format": {
+              "regulation": {
+                "periods": 2
+              }
+            },
+            "altGameNote": "FIFA World Cup, Group A",
+            "notes": [],
+            "geoBroadcasts": [
+              {
+                "type": {
+                  "id": "1",
+                  "shortName": "TV"
+                },
+                "market": {
+                  "id": "1",
+                  "type": "National"
+                },
+                "media": {
+                  "shortName": "FOX"
+                },
+                "lang": "en",
+                "region": "us"
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "shortName": "TV"
+                },
+                "market": {
+                  "id": "1",
+                  "type": "National"
+                },
+                "media": {
+                  "shortName": "Tele"
+                },
+                "lang": "en",
+                "region": "us"
+              },
+              {
+                "type": {
+                  "id": "4",
+                  "shortName": "STREAMING"
+                },
+                "market": {
+                  "id": "1",
+                  "type": "National"
+                },
+                "media": {
+                  "shortName": "FOX One"
+                },
+                "lang": "en",
+                "region": "us"
+              }
+            ],
+            "broadcasts": [
+              {
+                "market": "national",
+                "names": [
+                  "FOX",
+                  "Tele",
+                  "FOX One"
+                ]
+              }
+            ],
+            "broadcast": "",
+            "competitors": [
+              {
+                "id": "450",
+                "uid": "s:600~t:450",
+                "type": "team",
+                "order": 0,
+                "homeAway": "home",
+                "winner": false,
+                "form": "DLWWW",
+                "score": "1",
+                "records": [
+                  {
+                    "name": "All Splits",
+                    "type": "total",
+                    "summary": "0-1-1",
+                    "abbreviation": "Total"
+                  }
+                ],
+                "team": {
+                  "id": "450",
+                  "uid": "s:600~t:450",
+                  "abbreviation": "CZE",
+                  "displayName": "Czechia",
+                  "shortDisplayName": "Czechia",
+                  "name": "Czechia",
+                  "location": "Czechia",
+                  "color": "d7141a",
+                  "alternateColor": "ffffff",
+                  "isActive": true,
+                  "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cze.png",
+                  "links": [
+                    {
+                      "rel": [
+                        "clubhouse",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/_/id/450/czechia",
+                      "text": "Clubhouse",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "stats",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/stats/_/id/450/czechia",
+                      "text": "Stats",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "stats",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:450&section=stats",
+                      "text": "Stats",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "schedule",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/fixtures/_/id/450/czechia",
+                      "text": "Fixtures",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "schedule",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:450&section=scores",
+                      "text": "Fixtures",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "squad",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/squad/_/id/450/czechia",
+                      "text": "Squad",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "squad",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:450&section=squad",
+                      "text": "Squad",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    }
+                  ],
+                  "venue": {
+                    "id": "10944"
+                  }
+                },
+                "statistics": [
+                  {
+                    "name": "appearances",
+                    "abbreviation": "APP",
+                    "displayValue": "0"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "abbreviation": "FC",
+                    "displayValue": "12"
+                  },
+                  {
+                    "name": "wonCorners",
+                    "abbreviation": "CW",
+                    "displayValue": "5"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "abbreviation": "A",
+                    "displayValue": "1"
+                  },
+                  {
+                    "name": "possessionPct",
+                    "abbreviation": "PP",
+                    "displayValue": "38.3"
+                  },
+                  {
+                    "name": "shotAssists",
+                    "abbreviation": "SHAST",
+                    "displayValue": "11"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "abbreviation": "SOG",
+                    "displayValue": "3"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "abbreviation": "G",
+                    "displayValue": "1"
+                  },
+                  {
+                    "name": "totalShots",
+                    "abbreviation": "SHOT",
+                    "displayValue": "14"
+                  }
+                ]
+              },
+              {
+                "id": "467",
+                "uid": "s:600~t:467",
+                "type": "team",
+                "order": 1,
+                "homeAway": "away",
+                "winner": false,
+                "form": "DLWDL",
+                "score": "1",
+                "records": [
+                  {
+                    "name": "All Splits",
+                    "type": "total",
+                    "summary": "0-1-1",
+                    "abbreviation": "Total"
+                  }
+                ],
+                "team": {
+                  "id": "467",
+                  "uid": "s:600~t:467",
+                  "abbreviation": "RSA",
+                  "displayName": "South Africa",
+                  "shortDisplayName": "South Africa",
+                  "name": "South Africa",
+                  "location": "South Africa",
+                  "color": "FFB81C",
+                  "alternateColor": "0C562E",
+                  "isActive": true,
+                  "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rsa.png",
+                  "links": [
+                    {
+                      "rel": [
+                        "clubhouse",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/_/id/467/south-africa",
+                      "text": "Clubhouse",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "stats",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/stats/_/id/467/south-africa",
+                      "text": "Stats",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "stats",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:467&section=stats",
+                      "text": "Stats",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "schedule",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/fixtures/_/id/467/south-africa",
+                      "text": "Fixtures",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "schedule",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:467&section=scores",
+                      "text": "Fixtures",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "squad",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/squad/_/id/467/south-africa",
+                      "text": "Squad",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "squad",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:467&section=squad",
+                      "text": "Squad",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    }
+                  ],
+                  "venue": {
+                    "id": "4164"
+                  }
+                },
+                "statistics": [
+                  {
+                    "name": "appearances",
+                    "abbreviation": "APP",
+                    "displayValue": "0"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "abbreviation": "FC",
+                    "displayValue": "10"
+                  },
+                  {
+                    "name": "wonCorners",
+                    "abbreviation": "CW",
+                    "displayValue": "5"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "abbreviation": "A",
+                    "displayValue": "0"
+                  },
+                  {
+                    "name": "possessionPct",
+                    "abbreviation": "PP",
+                    "displayValue": "61.7"
+                  },
+                  {
+                    "name": "shotAssists",
+                    "abbreviation": "SHAST",
+                    "displayValue": "11"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "abbreviation": "SOG",
+                    "displayValue": "4"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "abbreviation": "G",
+                    "displayValue": "1"
+                  },
+                  {
+                    "name": "totalShots",
+                    "abbreviation": "SHOT",
+                    "displayValue": "17"
+                  }
+                ]
+              }
+            ],
+            "details": [
+              {
+                "type": {
+                  "id": "70",
+                  "text": "Goal"
+                },
+                "clock": {
+                  "value": 307.0,
+                  "displayValue": "6'"
+                },
+                "team": {
+                  "id": "450"
+                },
+                "scoreValue": 1,
+                "scoringPlay": true,
+                "redCard": false,
+                "yellowCard": false,
+                "penaltyKick": false,
+                "ownGoal": false,
+                "shootout": false,
+                "athletesInvolved": [
+                  {
+                    "id": "249525",
+                    "displayName": "Michal Sadílek",
+                    "shortName": "M. Sadílek",
+                    "fullName": "Michal Sadílek",
+                    "jersey": "18",
+                    "team": {
+                      "id": "450"
+                    },
+                    "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/249525.png",
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/soccer/player/_/id/249525/michal-sadilek",
+                        "isHidden": false
+                      }
+                    ],
+                    "position": "CM-L"
+                  }
+                ]
+              },
+              {
+                "type": {
+                  "id": "94",
+                  "text": "Yellow Card"
+                },
+                "clock": {
+                  "value": 1975.0,
+                  "displayValue": "33'"
+                },
+                "team": {
+                  "id": "467"
+                },
+                "scoreValue": 0,
+                "scoringPlay": false,
+                "redCard": false,
+                "yellowCard": true,
+                "penaltyKick": false,
+                "ownGoal": false,
+                "shootout": false,
+                "athletesInvolved": [
+                  {
+                    "id": "256691",
+                    "displayName": "Teboho Mokoena",
+                    "shortName": "T. Mokoena",
+                    "fullName": "Teboho Mokoena",
+                    "jersey": "4",
+                    "team": {
+                      "id": "467"
+                    },
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/soccer/player/_/id/256691/teboho-mokoena",
+                        "isHidden": false
+                      }
+                    ],
+                    "position": "CM"
+                  }
+                ]
+              },
+              {
+                "type": {
+                  "id": "94",
+                  "text": "Yellow Card"
+                },
+                "clock": {
+                  "value": 2393.0,
+                  "displayValue": "40'"
+                },
+                "team": {
+                  "id": "467"
+                },
+                "scoreValue": 0,
+                "scoringPlay": false,
+                "redCard": false,
+                "yellowCard": true,
+                "penaltyKick": false,
+                "ownGoal": false,
+                "shootout": false,
+                "athletesInvolved": [
+                  {
+                    "id": "301321",
+                    "displayName": "Thalente Mbatha",
+                    "shortName": "T. Mbatha",
+                    "fullName": "Thalente Mbatha",
+                    "jersey": "5",
+                    "team": {
+                      "id": "467"
+                    },
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/soccer/player/_/id/301321/thalente-mbatha",
+                        "isHidden": false
+                      }
+                    ],
+                    "position": "RM"
+                  }
+                ]
+              },
+              {
+                "type": {
+                  "id": "94",
+                  "text": "Yellow Card"
+                },
+                "clock": {
+                  "value": 4484.0,
+                  "displayValue": "75'"
+                },
+                "team": {
+                  "id": "450"
+                },
+                "scoreValue": 0,
+                "scoringPlay": false,
+                "redCard": false,
+                "yellowCard": true,
+                "penaltyKick": false,
+                "ownGoal": false,
+                "shootout": false,
+                "athletesInvolved": [
+                  {
+                    "id": "151714",
+                    "displayName": "Ladislav Krejcí",
+                    "shortName": "L. Krejcí",
+                    "fullName": "Ladislav Krejcí",
+                    "jersey": "7",
+                    "team": {
+                      "id": "450"
+                    },
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/soccer/player/_/id/151714/ladislav-krejci",
+                        "isHidden": false
+                      }
+                    ],
+                    "position": "CD-L"
+                  }
+                ]
+              },
+              {
+                "type": {
+                  "id": "98",
+                  "text": "Penalty - Scored"
+                },
+                "clock": {
+                  "value": 4968.0,
+                  "displayValue": "83'"
+                },
+                "team": {
+                  "id": "467"
+                },
+                "scoreValue": 1,
+                "scoringPlay": true,
+                "redCard": false,
+                "yellowCard": false,
+                "penaltyKick": true,
+                "ownGoal": false,
+                "shootout": false,
+                "athletesInvolved": [
+                  {
+                    "id": "256691",
+                    "displayName": "Teboho Mokoena",
+                    "shortName": "T. Mokoena",
+                    "fullName": "Teboho Mokoena",
+                    "jersey": "4",
+                    "team": {
+                      "id": "467"
+                    },
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/soccer/player/_/id/256691/teboho-mokoena",
+                        "isHidden": false
+                      }
+                    ],
+                    "position": "CM"
+                  }
+                ]
+              }
+            ],
+            "headlines": [
+              {
+                "description": "A late penalty from Teboho Mokoena secured South Africa a 1-1 draw with the Czechia in Atalanta, which keeps alive both sides' hopes of qualification from Group A.",
+                "type": "Recap",
+                "shortLinkText": "South Africa snatch Czechia draw after late penalty"
+              }
+            ],
+            "odds": [
+              null
+            ],
+            "wasSuspended": false,
+            "playByPlayAvailable": true,
+            "playByPlayAthletes": true
+          }
+        ],
+        "status": {
+          "clock": 5400.0,
+          "displayClock": "90'+7'",
+          "period": 2,
+          "type": {
+            "id": "28",
+            "name": "STATUS_FULL_TIME",
+            "state": "post",
+            "completed": true,
+            "description": "Full Time",
+            "detail": "FT",
+            "shortDetail": "FT"
+          }
+        },
+        "venue": {
+          "displayName": "Mercedes-Benz Stadium"
+        },
+        "links": [
+          {
+            "language": "en-US",
+            "rel": [
+              "summary",
+              "desktop",
+              "event"
+            ],
+            "href": "https://www.espn.com/soccer/match/_/gameId/760438/south-africa-czechia",
+            "text": "Summary",
+            "shortText": "Summary",
+            "isExternal": false,
+            "isPremium": false,
+            "isHidden": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "highlights",
+              "desktop"
+            ],
+            "href": "https://www.espn.com/soccer/video/_/gameId/760438",
+            "text": "Highlights",
+            "shortText": "Highlights",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "recap",
+              "desktop",
+              "event"
+            ],
+            "href": "https://www.espn.com/soccer/report/_/gameId/760438",
+            "text": "Report",
+            "shortText": "Report",
+            "isExternal": false,
+            "isPremium": false,
+            "isHidden": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "stats",
+              "desktop",
+              "event"
+            ],
+            "href": "https://www.espn.com/soccer/matchstats/_/gameId/760438",
+            "text": "Statistics",
+            "shortText": "Statistics",
+            "isExternal": false,
+            "isPremium": false,
+            "isHidden": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "bracket",
+              "desktop",
+              "event"
+            ],
+            "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
+            "text": "Bracket",
+            "shortText": "Bracket",
+            "isExternal": false,
+            "isPremium": false,
+            "isHidden": false
+          }
+        ]
+      },
+      {
+        "id": "760439",
+        "uid": "s:600~l:606~e:760439",
+        "date": "2026-06-18T19:00Z",
+        "name": "Bosnia-Herzegovina at Switzerland",
+        "shortName": "BIH @ SUI",
+        "season": {
+          "year": 2026,
+          "type": 13802,
+          "slug": "group-stage"
+        },
+        "competitions": [
+          {
+            "id": "760439",
+            "uid": "s:600~l:606~e:760439~c:760439",
+            "date": "2026-06-18T19:00Z",
+            "startDate": "2026-06-18T19:00Z",
+            "attendance": 70026,
+            "timeValid": true,
+            "recent": false,
+            "status": {
+              "clock": 5400.0,
+              "displayClock": "90'+8'",
+              "period": 2,
+              "type": {
+                "id": "28",
+                "name": "STATUS_FULL_TIME",
+                "state": "post",
+                "completed": true,
+                "description": "Full Time",
+                "detail": "FT",
+                "shortDetail": "FT"
+              }
+            },
+            "venue": {
+              "id": "9115",
+              "fullName": "SoFi Stadium",
+              "address": {
+                "city": "Inglewood, California",
+                "country": "USA"
+              }
+            },
+            "format": {
+              "regulation": {
+                "periods": 2
+              }
+            },
+            "altGameNote": "FIFA World Cup, Group B",
+            "notes": [],
+            "geoBroadcasts": [
+              {
+                "type": {
+                  "id": "1",
+                  "shortName": "TV"
+                },
+                "market": {
+                  "id": "1",
+                  "type": "National"
+                },
+                "media": {
+                  "shortName": "FOX"
+                },
+                "lang": "en",
+                "region": "us"
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "shortName": "TV"
+                },
+                "market": {
+                  "id": "1",
+                  "type": "National"
+                },
+                "media": {
+                  "shortName": "Tele"
+                },
+                "lang": "en",
+                "region": "us"
+              },
+              {
+                "type": {
+                  "id": "4",
+                  "shortName": "STREAMING"
+                },
+                "market": {
+                  "id": "1",
+                  "type": "National"
+                },
+                "media": {
+                  "shortName": "FOX One"
+                },
+                "lang": "en",
+                "region": "us"
+              }
+            ],
+            "broadcasts": [
+              {
+                "market": "national",
+                "names": [
+                  "FOX",
+                  "Tele",
+                  "FOX One"
+                ]
+              }
+            ],
+            "broadcast": "",
+            "competitors": [
+              {
+                "id": "475",
+                "uid": "s:600~t:475",
+                "type": "team",
+                "order": 0,
+                "homeAway": "home",
+                "winner": true,
+                "advance": true,
+                "form": "WDDWD",
+                "score": "4",
+                "records": [
+                  {
+                    "name": "All Splits",
+                    "type": "total",
+                    "summary": "1-1-0",
+                    "abbreviation": "Total"
+                  }
+                ],
+                "team": {
+                  "id": "475",
+                  "uid": "s:600~t:475",
+                  "abbreviation": "SUI",
+                  "displayName": "Switzerland",
+                  "shortDisplayName": "Switzerland",
+                  "name": "Switzerland",
+                  "location": "Switzerland",
+                  "color": "FF0000",
+                  "alternateColor": "BCECAC",
+                  "isActive": true,
+                  "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
+                  "links": [
+                    {
+                      "rel": [
+                        "clubhouse",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/_/id/475/switzerland",
+                      "text": "Clubhouse",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "stats",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/stats/_/id/475/switzerland",
+                      "text": "Stats",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "stats",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:475&section=stats",
+                      "text": "Stats",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "schedule",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/fixtures/_/id/475/switzerland",
+                      "text": "Fixtures",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "schedule",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:475&section=scores",
+                      "text": "Fixtures",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "squad",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/squad/_/id/475/switzerland",
+                      "text": "Squad",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "squad",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:475&section=squad",
+                      "text": "Squad",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    }
+                  ],
+                  "venue": {
+                    "id": "10742"
+                  }
+                },
+                "statistics": [
+                  {
+                    "name": "appearances",
+                    "abbreviation": "APP",
+                    "displayValue": "0"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "abbreviation": "FC",
+                    "displayValue": "7"
+                  },
+                  {
+                    "name": "wonCorners",
+                    "abbreviation": "CW",
+                    "displayValue": "7"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "abbreviation": "A",
+                    "displayValue": "2"
+                  },
+                  {
+                    "name": "possessionPct",
+                    "abbreviation": "PP",
+                    "displayValue": "62.3"
+                  },
+                  {
+                    "name": "shotAssists",
+                    "abbreviation": "SHAST",
+                    "displayValue": "10"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "abbreviation": "SOG",
+                    "displayValue": "7"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "abbreviation": "G",
+                    "displayValue": "4"
+                  },
+                  {
+                    "name": "totalShots",
+                    "abbreviation": "SHOT",
+                    "displayValue": "13"
+                  }
+                ]
+              },
+              {
+                "id": "452",
+                "uid": "s:600~t:452",
+                "type": "team",
+                "order": 1,
+                "homeAway": "away",
+                "winner": false,
+                "advance": false,
+                "form": "LDDDW",
+                "score": "1",
+                "records": [
+                  {
+                    "name": "All Splits",
+                    "type": "total",
+                    "summary": "0-1-1",
+                    "abbreviation": "Total"
+                  }
+                ],
+                "team": {
+                  "id": "452",
+                  "uid": "s:600~t:452",
+                  "abbreviation": "BIH",
+                  "displayName": "Bosnia-Herzegovina",
+                  "shortDisplayName": "Bosnia-Herz",
+                  "name": "Bosnia-Herzegovina",
+                  "location": "Bosnia-Herzegovina",
+                  "color": "112855",
+                  "alternateColor": "ffffff",
+                  "isActive": true,
+                  "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png",
+                  "links": [
+                    {
+                      "rel": [
+                        "clubhouse",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/_/id/452/bosnia-herzegovina",
+                      "text": "Clubhouse",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "stats",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/stats/_/id/452/bosnia-herzegovina",
+                      "text": "Stats",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "stats",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:452&section=stats",
+                      "text": "Stats",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "schedule",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/fixtures/_/id/452/bosnia-herzegovina",
+                      "text": "Fixtures",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "schedule",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:452&section=scores",
+                      "text": "Fixtures",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "squad",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/squad/_/id/452/bosnia-herzegovina",
+                      "text": "Squad",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "squad",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:452&section=squad",
+                      "text": "Squad",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    }
+                  ],
+                  "venue": {
+                    "id": "5895"
+                  }
+                },
+                "statistics": [
+                  {
+                    "name": "appearances",
+                    "abbreviation": "APP",
+                    "displayValue": "0"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "abbreviation": "FC",
+                    "displayValue": "18"
+                  },
+                  {
+                    "name": "wonCorners",
+                    "abbreviation": "CW",
+                    "displayValue": "3"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "abbreviation": "A",
+                    "displayValue": "0"
+                  },
+                  {
+                    "name": "possessionPct",
+                    "abbreviation": "PP",
+                    "displayValue": "37.7"
+                  },
+                  {
+                    "name": "shotAssists",
+                    "abbreviation": "SHAST",
+                    "displayValue": "3"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "abbreviation": "SOG",
+                    "displayValue": "3"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "abbreviation": "G",
+                    "displayValue": "1"
+                  },
+                  {
+                    "name": "totalShots",
+                    "abbreviation": "SHOT",
+                    "displayValue": "5"
+                  }
+                ]
+              }
+            ],
+            "details": [
+              {
+                "type": {
+                  "id": "94",
+                  "text": "Yellow Card"
+                },
+                "clock": {
+                  "value": 3531.0,
+                  "displayValue": "59'"
+                },
+                "team": {
+                  "id": "452"
+                },
+                "scoreValue": 0,
+                "scoringPlay": false,
+                "redCard": false,
+                "yellowCard": true,
+                "penaltyKick": false,
+                "ownGoal": false,
+                "shootout": false,
+                "athletesInvolved": [
+                  {
+                    "id": "308979",
+                    "displayName": "Amar Dedic",
+                    "shortName": "A. Dedic",
+                    "fullName": "Amar Dedic",
+                    "jersey": "7",
+                    "team": {
+                      "id": "452"
+                    },
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/soccer/player/_/id/308979/amar-dedic",
+                        "isHidden": false
+                      }
+                    ],
+                    "position": "RB"
+                  }
+                ]
+              },
+              {
+                "type": {
+                  "id": "94",
+                  "text": "Yellow Card"
+                },
+                "clock": {
+                  "value": 3609.0,
+                  "displayValue": "61'"
+                },
+                "team": {
+                  "id": "452"
+                },
+                "scoreValue": 0,
+                "scoringPlay": false,
+                "redCard": false,
+                "yellowCard": true,
+                "penaltyKick": false,
+                "ownGoal": false,
+                "shootout": false,
+                "athletesInvolved": [
+                  {
+                    "id": "102337",
+                    "displayName": "Edin Dzeko",
+                    "shortName": "E. Dzeko",
+                    "fullName": "Edin Dzeko",
+                    "jersey": "11",
+                    "team": {
+                      "id": "452"
+                    },
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/soccer/player/_/id/102337/edin-dzeko",
+                        "isHidden": false
+                      }
+                    ],
+                    "position": "CF-L"
+                  }
+                ]
+              },
+              {
+                "type": {
+                  "id": "94",
+                  "text": "Yellow Card"
+                },
+                "clock": {
+                  "value": 3892.0,
+                  "displayValue": "65'"
+                },
+                "team": {
+                  "id": "475"
+                },
+                "scoreValue": 0,
+                "scoringPlay": false,
+                "redCard": false,
+                "yellowCard": true,
+                "penaltyKick": false,
+                "ownGoal": false,
+                "shootout": false,
+                "athletesInvolved": [
+                  {
+                    "id": "212237",
+                    "displayName": "Nico Elvedi",
+                    "shortName": "N. Elvedi",
+                    "fullName": "Nico Elvedi",
+                    "jersey": "4",
+                    "team": {
+                      "id": "475"
+                    },
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/soccer/player/_/id/212237/nico-elvedi",
+                        "isHidden": false
+                      }
+                    ],
+                    "position": "CD-R"
+                  }
+                ]
+              },
+              {
+                "type": {
+                  "id": "173",
+                  "text": "Goal - Volley"
+                },
+                "clock": {
+                  "value": 4422.0,
+                  "displayValue": "74'"
+                },
+                "team": {
+                  "id": "475"
+                },
+                "scoreValue": 1,
+                "scoringPlay": true,
+                "redCard": false,
+                "yellowCard": false,
+                "penaltyKick": false,
+                "ownGoal": false,
+                "shootout": false,
+                "athletesInvolved": [
+                  {
+                    "id": "386992",
+                    "displayName": "Johan Manzambi",
+                    "shortName": "J. Manzambi",
+                    "fullName": "Johan Manzambi",
+                    "jersey": "9",
+                    "team": {
+                      "id": "475"
+                    },
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/soccer/player/_/id/386992/johan-manzambi",
+                        "isHidden": false
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": {
+                  "id": "93",
+                  "text": "Red Card"
+                },
+                "clock": {
+                  "value": 4761.0,
+                  "displayValue": "80'"
+                },
+                "team": {
+                  "id": "452"
+                },
+                "scoreValue": 0,
+                "scoringPlay": false,
+                "redCard": true,
+                "yellowCard": false,
+                "penaltyKick": false,
+                "ownGoal": false,
+                "shootout": false,
+                "athletesInvolved": [
+                  {
+                    "id": "318390",
+                    "displayName": "Tarik Muharemovic",
+                    "shortName": "T. Muharemovic",
+                    "fullName": "Tarik Muharemovic",
+                    "jersey": "4",
+                    "team": {
+                      "id": "452"
+                    },
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/soccer/player/_/id/318390/tarik-muharemovic",
+                        "isHidden": false
+                      }
+                    ],
+                    "position": "CD-L"
+                  }
+                ]
+              },
+              {
+                "type": {
+                  "id": "70",
+                  "text": "Goal"
+                },
+                "clock": {
+                  "value": 5026.0,
+                  "displayValue": "84'"
+                },
+                "team": {
+                  "id": "475"
+                },
+                "scoreValue": 1,
+                "scoringPlay": true,
+                "redCard": false,
+                "yellowCard": false,
+                "penaltyKick": false,
+                "ownGoal": false,
+                "shootout": false,
+                "athletesInvolved": [
+                  {
+                    "id": "259513",
+                    "displayName": "Rubén Vargas",
+                    "shortName": "R. Vargas",
+                    "fullName": "Rubén Vargas",
+                    "jersey": "17",
+                    "team": {
+                      "id": "475"
+                    },
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/soccer/player/_/id/259513/ruben-vargas",
+                        "isHidden": false
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": {
+                  "id": "70",
+                  "text": "Goal"
+                },
+                "clock": {
+                  "value": 5362.0,
+                  "displayValue": "90'"
+                },
+                "team": {
+                  "id": "475"
+                },
+                "scoreValue": 1,
+                "scoringPlay": true,
+                "redCard": false,
+                "yellowCard": false,
+                "penaltyKick": false,
+                "ownGoal": false,
+                "shootout": false,
+                "athletesInvolved": [
+                  {
+                    "id": "386992",
+                    "displayName": "Johan Manzambi",
+                    "shortName": "J. Manzambi",
+                    "fullName": "Johan Manzambi",
+                    "jersey": "9",
+                    "team": {
+                      "id": "475"
+                    },
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/soccer/player/_/id/386992/johan-manzambi",
+                        "isHidden": false
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": {
+                  "id": "173",
+                  "text": "Goal - Volley"
+                },
+                "clock": {
+                  "value": 5400.0,
+                  "displayValue": "90'+3'"
+                },
+                "team": {
+                  "id": "452"
+                },
+                "scoreValue": 1,
+                "scoringPlay": true,
+                "redCard": false,
+                "yellowCard": false,
+                "penaltyKick": false,
+                "ownGoal": false,
+                "shootout": false,
+                "athletesInvolved": [
+                  {
+                    "id": "414676",
+                    "displayName": "Ermin Mahmic",
+                    "shortName": "E. Mahmic",
+                    "fullName": "Ermin Mahmic",
+                    "jersey": "26",
+                    "team": {
+                      "id": "452"
+                    },
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/soccer/player/_/id/414676/ermin-mahmic",
+                        "isHidden": false
+                      }
+                    ],
+                    "position": "SUB"
+                  }
+                ]
+              },
+              {
+                "type": {
+                  "id": "98",
+                  "text": "Penalty - Scored"
+                },
+                "clock": {
+                  "value": 5400.0,
+                  "displayValue": "90'+7'"
+                },
+                "team": {
+                  "id": "475"
+                },
+                "scoreValue": 1,
+                "scoringPlay": true,
+                "redCard": false,
+                "yellowCard": false,
+                "penaltyKick": true,
+                "ownGoal": false,
+                "shootout": false,
+                "athletesInvolved": [
+                  {
+                    "id": "149981",
+                    "displayName": "Granit Xhaka",
+                    "shortName": "G. Xhaka",
+                    "fullName": "Granit Xhaka",
+                    "jersey": "10",
+                    "team": {
+                      "id": "475"
+                    },
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/soccer/player/_/id/149981/granit-xhaka",
+                        "isHidden": false
+                      }
+                    ],
+                    "position": "CM"
+                  }
+                ]
+              }
+            ],
+            "headlines": [
+              {
+                "description": "Substitute Johan Manzambi scored his first World Cup goal on an outstanding volley in the 74th minute, and Switzerland erupted late for a 4-1 victory over Bosnia-Herzegovina on Thursday to take control of its group.",
+                "type": "Recap",
+                "shortLinkText": "Switzerland turn on class late to ease past Bosnia"
+              }
+            ],
+            "odds": [
+              null
+            ],
+            "wasSuspended": false,
+            "playByPlayAvailable": true,
+            "playByPlayAthletes": true
+          }
+        ],
+        "status": {
+          "clock": 5400.0,
+          "displayClock": "90'+8'",
+          "period": 2,
+          "type": {
+            "id": "28",
+            "name": "STATUS_FULL_TIME",
+            "state": "post",
+            "completed": true,
+            "description": "Full Time",
+            "detail": "FT",
+            "shortDetail": "FT"
+          }
+        },
+        "venue": {
+          "displayName": "SoFi Stadium"
+        },
+        "links": [
+          {
+            "language": "en-US",
+            "rel": [
+              "summary",
+              "desktop",
+              "event"
+            ],
+            "href": "https://www.espn.com/soccer/match/_/gameId/760439/bosnia-herzegovina-switzerland",
+            "text": "Summary",
+            "shortText": "Summary",
+            "isExternal": false,
+            "isPremium": false,
+            "isHidden": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "highlights",
+              "desktop"
+            ],
+            "href": "https://www.espn.com/soccer/video/_/gameId/760439",
+            "text": "Highlights",
+            "shortText": "Highlights",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "recap",
+              "desktop",
+              "event"
+            ],
+            "href": "https://www.espn.com/soccer/report/_/gameId/760439",
+            "text": "Report",
+            "shortText": "Report",
+            "isExternal": false,
+            "isPremium": false,
+            "isHidden": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "stats",
+              "desktop",
+              "event"
+            ],
+            "href": "https://www.espn.com/soccer/matchstats/_/gameId/760439",
+            "text": "Statistics",
+            "shortText": "Statistics",
+            "isExternal": false,
+            "isPremium": false,
+            "isHidden": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "bracket",
+              "desktop",
+              "event"
+            ],
+            "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
+            "text": "Bracket",
+            "shortText": "Bracket",
+            "isExternal": false,
+            "isPremium": false,
+            "isHidden": false
+          }
+        ]
+      },
+      {
+        "id": "760440",
+        "uid": "s:600~l:606~e:760440",
+        "date": "2026-06-18T22:00Z",
+        "name": "Qatar at Canada",
+        "shortName": "QAT @ CAN",
+        "season": {
+          "year": 2026,
+          "type": 13802,
+          "slug": "group-stage"
+        },
+        "competitions": [
+          {
+            "id": "760440",
+            "uid": "s:600~l:606~e:760440~c:760440",
+            "date": "2026-06-18T22:00Z",
+            "startDate": "2026-06-18T22:00Z",
+            "attendance": 52497,
+            "timeValid": true,
+            "recent": false,
+            "status": {
+              "clock": 5400.0,
+              "displayClock": "90'+10'",
+              "period": 2,
+              "type": {
+                "id": "28",
+                "name": "STATUS_FULL_TIME",
+                "state": "post",
+                "completed": true,
+                "description": "Full Time",
+                "detail": "FT",
+                "shortDetail": "FT"
+              }
+            },
+            "venue": {
+              "id": "4370",
+              "fullName": "BC Place",
+              "address": {
+                "city": "Vancouver",
+                "country": "Canada"
+              }
+            },
+            "format": {
+              "regulation": {
+                "periods": 2
+              }
+            },
+            "altGameNote": "FIFA World Cup, Group B",
+            "notes": [],
+            "geoBroadcasts": [
+              {
+                "type": {
+                  "id": "1",
+                  "shortName": "TV"
+                },
+                "market": {
+                  "id": "1",
+                  "type": "National"
+                },
+                "media": {
+                  "shortName": "FS1"
+                },
+                "lang": "en",
+                "region": "us"
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "shortName": "TV"
+                },
+                "market": {
+                  "id": "1",
+                  "type": "National"
+                },
+                "media": {
+                  "shortName": "Tele"
+                },
+                "lang": "en",
+                "region": "us"
+              },
+              {
+                "type": {
+                  "id": "4",
+                  "shortName": "STREAMING"
+                },
+                "market": {
+                  "id": "1",
+                  "type": "National"
+                },
+                "media": {
+                  "shortName": "FOX One"
+                },
+                "lang": "en",
+                "region": "us"
+              }
+            ],
+            "broadcasts": [
+              {
+                "market": "national",
+                "names": [
+                  "FS1",
+                  "Tele",
+                  "FOX One"
+                ]
+              }
+            ],
+            "broadcast": "",
+            "competitors": [
+              {
+                "id": "206",
+                "uid": "s:600~t:206",
+                "type": "team",
+                "order": 0,
+                "homeAway": "home",
+                "winner": true,
+                "advance": true,
+                "form": "WDDWD",
+                "score": "6",
+                "records": [
+                  {
+                    "name": "All Splits",
+                    "type": "total",
+                    "summary": "1-1-0",
+                    "abbreviation": "Total"
+                  }
+                ],
+                "team": {
+                  "id": "206",
+                  "uid": "s:600~t:206",
+                  "abbreviation": "CAN",
+                  "displayName": "Canada",
+                  "shortDisplayName": "Canada",
+                  "name": "Canada",
+                  "location": "Canada",
+                  "color": "ed2224",
+                  "alternateColor": "000000",
+                  "isActive": true,
+                  "logo": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
+                  "links": [
+                    {
+                      "rel": [
+                        "clubhouse",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/_/id/206/canada",
+                      "text": "Clubhouse",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "stats",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/stats/_/id/206/canada",
+                      "text": "Stats",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "stats",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:206&section=stats",
+                      "text": "Stats",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "schedule",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/fixtures/_/id/206/canada",
+                      "text": "Fixtures",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "schedule",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:206&section=scores",
+                      "text": "Fixtures",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "squad",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/squad/_/id/206/canada",
+                      "text": "Squad",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "squad",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:206&section=squad",
+                      "text": "Squad",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    }
+                  ],
+                  "venue": {
+                    "id": "7605"
+                  }
+                },
+                "statistics": [
+                  {
+                    "name": "appearances",
+                    "abbreviation": "APP",
+                    "displayValue": "0"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "abbreviation": "FC",
+                    "displayValue": "9"
+                  },
+                  {
+                    "name": "wonCorners",
+                    "abbreviation": "CW",
+                    "displayValue": "19"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "abbreviation": "A",
+                    "displayValue": "1"
+                  },
+                  {
+                    "name": "possessionPct",
+                    "abbreviation": "PP",
+                    "displayValue": "79"
+                  },
+                  {
+                    "name": "shotAssists",
+                    "abbreviation": "SHAST",
+                    "displayValue": "21"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "abbreviation": "SOG",
+                    "displayValue": "10"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "abbreviation": "G",
+                    "displayValue": "6"
+                  },
+                  {
+                    "name": "totalShots",
+                    "abbreviation": "SHOT",
+                    "displayValue": "32"
+                  }
+                ]
+              },
+              {
+                "id": "4398",
+                "uid": "s:600~t:4398",
+                "type": "team",
+                "order": 1,
+                "homeAway": "away",
+                "winner": false,
+                "advance": false,
+                "form": "LDDLL",
+                "score": "0",
+                "records": [
+                  {
+                    "name": "All Splits",
+                    "type": "total",
+                    "summary": "0-1-1",
+                    "abbreviation": "Total"
+                  }
+                ],
+                "team": {
+                  "id": "4398",
+                  "uid": "s:600~t:4398",
+                  "abbreviation": "QAT",
+                  "displayName": "Qatar",
+                  "shortDisplayName": "Qatar",
+                  "name": "Qatar",
+                  "location": "Qatar",
+                  "color": "691a40",
+                  "alternateColor": "FFFFFF",
+                  "isActive": true,
+                  "logo": "https://a.espncdn.com/i/teamlogos/countries/500/qat.png",
+                  "links": [
+                    {
+                      "rel": [
+                        "clubhouse",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/_/id/4398/qatar",
+                      "text": "Clubhouse",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "stats",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/stats/_/id/4398/qatar",
+                      "text": "Stats",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "stats",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:4398&section=stats",
+                      "text": "Stats",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "schedule",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/fixtures/_/id/4398/qatar",
+                      "text": "Fixtures",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "schedule",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:4398&section=scores",
+                      "text": "Fixtures",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "squad",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/squad/_/id/4398/qatar",
+                      "text": "Squad",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "squad",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:4398&section=squad",
+                      "text": "Squad",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    }
+                  ]
+                },
+                "statistics": [
+                  {
+                    "name": "appearances",
+                    "abbreviation": "APP",
+                    "displayValue": "0"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "abbreviation": "FC",
+                    "displayValue": "10"
+                  },
+                  {
+                    "name": "wonCorners",
+                    "abbreviation": "CW",
+                    "displayValue": "1"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "abbreviation": "A",
+                    "displayValue": "0"
+                  },
+                  {
+                    "name": "possessionPct",
+                    "abbreviation": "PP",
+                    "displayValue": "21"
+                  },
+                  {
+                    "name": "shotAssists",
+                    "abbreviation": "SHAST",
+                    "displayValue": "1"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "abbreviation": "SOG",
+                    "displayValue": "0"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "abbreviation": "G",
+                    "displayValue": "0"
+                  },
+                  {
+                    "name": "totalShots",
+                    "abbreviation": "SHOT",
+                    "displayValue": "2"
+                  }
+                ]
+              }
+            ],
+            "details": [
+              {
+                "type": {
+                  "id": "94",
+                  "text": "Yellow Card"
+                },
+                "clock": {
+                  "value": 499.0,
+                  "displayValue": "9'"
+                },
+                "team": {
+                  "id": "206"
+                },
+                "scoreValue": 0,
+                "scoringPlay": false,
+                "redCard": false,
+                "yellowCard": true,
+                "penaltyKick": false,
+                "ownGoal": false,
+                "shootout": false,
+                "athletesInvolved": [
+                  {
+                    "id": "238712",
+                    "displayName": "Derek Cornelius",
+                    "shortName": "D. Cornelius",
+                    "fullName": "Derek Cornelius",
+                    "jersey": "13",
+                    "team": {
+                      "id": "206"
+                    },
+                    "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/238712.png",
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/soccer/player/_/id/238712/derek-cornelius",
+                        "isHidden": false
+                      }
+                    ],
+                    "position": "CD-L"
+                  }
+                ]
+              },
+              {
+                "type": {
+                  "id": "70",
+                  "text": "Goal"
+                },
+                "clock": {
+                  "value": 954.0,
+                  "displayValue": "16'"
+                },
+                "team": {
+                  "id": "206"
+                },
+                "scoreValue": 1,
+                "scoringPlay": true,
+                "redCard": false,
+                "yellowCard": false,
+                "penaltyKick": false,
+                "ownGoal": false,
+                "shootout": false,
+                "athletesInvolved": [
+                  {
+                    "id": "205024",
+                    "displayName": "Cyle Larin",
+                    "shortName": "C. Larin",
+                    "fullName": "Cyle Larin",
+                    "jersey": "9",
+                    "team": {
+                      "id": "206"
+                    },
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/soccer/player/_/id/205024/cyle-larin",
+                        "isHidden": false
+                      }
+                    ],
+                    "position": "CF-L"
+                  }
+                ]
+              },
+              {
+                "type": {
+                  "id": "173",
+                  "text": "Goal - Volley"
+                },
+                "clock": {
+                  "value": 1706.0,
+                  "displayValue": "29'"
+                },
+                "team": {
+                  "id": "206"
+                },
+                "scoreValue": 1,
+                "scoringPlay": true,
+                "redCard": false,
+                "yellowCard": false,
+                "penaltyKick": false,
+                "ownGoal": false,
+                "shootout": false,
+                "athletesInvolved": [
+                  {
+                    "id": "273499",
+                    "displayName": "Jonathan David",
+                    "shortName": "J. David",
+                    "fullName": "Jonathan David",
+                    "jersey": "10",
+                    "team": {
+                      "id": "206"
+                    },
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/soccer/player/_/id/273499/jonathan-david",
+                        "isHidden": false
+                      }
+                    ],
+                    "position": "CF-R"
+                  }
+                ]
+              },
+              {
+                "type": {
+                  "id": "93",
+                  "text": "Red Card"
+                },
+                "clock": {
+                  "value": 1964.0,
+                  "displayValue": "33'"
+                },
+                "team": {
+                  "id": "4398"
+                },
+                "scoreValue": 0,
+                "scoringPlay": false,
+                "redCard": true,
+                "yellowCard": false,
+                "penaltyKick": false,
+                "ownGoal": false,
+                "shootout": false,
+                "athletesInvolved": [
+                  {
+                    "id": "272874",
+                    "displayName": "Homam Ahmed",
+                    "shortName": "H. Ahmed",
+                    "fullName": "Homam Ahmed",
+                    "jersey": "14",
+                    "team": {
+                      "id": "4398"
+                    },
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/soccer/player/_/id/272874/homam-ahmed",
+                        "isHidden": false
+                      }
+                    ],
+                    "position": "LB"
+                  }
+                ]
+              },
+              {
+                "type": {
+                  "id": "173",
+                  "text": "Goal - Volley"
+                },
+                "clock": {
+                  "value": 2700.0,
+                  "displayValue": "45'+3'"
+                },
+                "team": {
+                  "id": "206"
+                },
+                "scoreValue": 1,
+                "scoringPlay": true,
+                "redCard": false,
+                "yellowCard": false,
+                "penaltyKick": false,
+                "ownGoal": false,
+                "shootout": false,
+                "athletesInvolved": [
+                  {
+                    "id": "273499",
+                    "displayName": "Jonathan David",
+                    "shortName": "J. David",
+                    "fullName": "Jonathan David",
+                    "jersey": "10",
+                    "team": {
+                      "id": "206"
+                    },
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/soccer/player/_/id/273499/jonathan-david",
+                        "isHidden": false
+                      }
+                    ],
+                    "position": "CF-R"
+                  }
+                ]
+              },
+              {
+                "type": {
+                  "id": "93",
+                  "text": "Red Card"
+                },
+                "clock": {
+                  "value": 3167.0,
+                  "displayValue": "53'"
+                },
+                "team": {
+                  "id": "4398"
+                },
+                "scoreValue": 0,
+                "scoringPlay": false,
+                "redCard": true,
+                "yellowCard": false,
+                "penaltyKick": false,
+                "ownGoal": false,
+                "shootout": false,
+                "athletesInvolved": [
+                  {
+                    "id": "219254",
+                    "displayName": "Assim Madibo",
+                    "shortName": "A. Madibo",
+                    "fullName": "Assim Madibo",
+                    "jersey": "23",
+                    "team": {
+                      "id": "4398"
+                    },
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/soccer/player/_/id/219254/assim-madibo",
+                        "isHidden": false
+                      }
+                    ],
+                    "position": "CM"
+                  }
+                ]
+              },
+              {
+                "type": {
+                  "id": "94",
+                  "text": "Yellow Card"
+                },
+                "clock": {
+                  "value": 3692.0,
+                  "displayValue": "62'"
+                },
+                "team": {
+                  "id": "4398"
+                },
+                "scoreValue": 0,
+                "scoringPlay": false,
+                "redCard": false,
+                "yellowCard": true,
+                "penaltyKick": false,
+                "ownGoal": false,
+                "shootout": false,
+                "athletesInvolved": [
+                  {
+                    "id": "268018",
+                    "displayName": "Ahmed Fathy",
+                    "shortName": "A. Fathy",
+                    "fullName": "Ahmed Fathy",
+                    "jersey": "20",
+                    "team": {
+                      "id": "4398"
+                    },
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/soccer/player/_/id/268018/ahmed-fathy",
+                        "isHidden": false
+                      }
+                    ],
+                    "position": "SUB"
+                  }
+                ]
+              },
+              {
+                "type": {
+                  "id": "138",
+                  "text": "Goal - Free-kick"
+                },
+                "clock": {
+                  "value": 3782.0,
+                  "displayValue": "64'"
+                },
+                "team": {
+                  "id": "206"
+                },
+                "scoreValue": 1,
+                "scoringPlay": true,
+                "redCard": false,
+                "yellowCard": false,
+                "penaltyKick": false,
+                "ownGoal": false,
+                "shootout": false,
+                "athletesInvolved": [
+                  {
+                    "id": "311163",
+                    "displayName": "Nathan Saliba",
+                    "shortName": "N. Saliba",
+                    "fullName": "Nathan Saliba",
+                    "jersey": "25",
+                    "team": {
+                      "id": "206"
+                    },
+                    "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/311163.png",
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/soccer/player/_/id/311163/nathan-saliba",
+                        "isHidden": false
+                      }
+                    ],
+                    "position": "SUB"
+                  }
+                ]
+              },
+              {
+                "type": {
+                  "id": "97",
+                  "text": "Own Goal"
+                },
+                "clock": {
+                  "value": 4463.0,
+                  "displayValue": "75'"
+                },
+                "team": {
+                  "id": "206"
+                },
+                "scoreValue": 1,
+                "scoringPlay": true,
+                "redCard": false,
+                "yellowCard": false,
+                "penaltyKick": false,
+                "ownGoal": true,
+                "shootout": false,
+                "athletesInvolved": [
+                  {
+                    "id": "309315",
+                    "displayName": "Mohamed Manai",
+                    "shortName": "M. Manai",
+                    "fullName": "Mohamed Manai",
+                    "jersey": "26",
+                    "team": {
+                      "id": "4398"
+                    },
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/soccer/player/_/id/309315/mohamed-manai",
+                        "isHidden": false
+                      }
+                    ],
+                    "position": "SUB"
+                  }
+                ]
+              },
+              {
+                "type": {
+                  "id": "70",
+                  "text": "Goal"
+                },
+                "clock": {
+                  "value": 5400.0,
+                  "displayValue": "90'+2'"
+                },
+                "team": {
+                  "id": "206"
+                },
+                "scoreValue": 1,
+                "scoringPlay": true,
+                "redCard": false,
+                "yellowCard": false,
+                "penaltyKick": false,
+                "ownGoal": false,
+                "shootout": false,
+                "athletesInvolved": [
+                  {
+                    "id": "273499",
+                    "displayName": "Jonathan David",
+                    "shortName": "J. David",
+                    "fullName": "Jonathan David",
+                    "jersey": "10",
+                    "team": {
+                      "id": "206"
+                    },
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/soccer/player/_/id/273499/jonathan-david",
+                        "isHidden": false
+                      }
+                    ],
+                    "position": "CF-R"
+                  }
+                ]
+              }
+            ],
+            "headlines": [
+              {
+                "description": "Canada beat 9-men Qatar 6-0 to go top of Group B",
+                "type": "Recap",
+                "shortLinkText": "David hat-trick sees Canada thrash Qatar for first World Cup win"
+              }
+            ],
+            "odds": [
+              null
+            ],
+            "wasSuspended": false,
+            "playByPlayAvailable": true,
+            "playByPlayAthletes": true
+          }
+        ],
+        "status": {
+          "clock": 5400.0,
+          "displayClock": "90'+10'",
+          "period": 2,
+          "type": {
+            "id": "28",
+            "name": "STATUS_FULL_TIME",
+            "state": "post",
+            "completed": true,
+            "description": "Full Time",
+            "detail": "FT",
+            "shortDetail": "FT"
+          }
+        },
+        "venue": {
+          "displayName": "BC Place"
+        },
+        "links": [
+          {
+            "language": "en-US",
+            "rel": [
+              "summary",
+              "desktop",
+              "event"
+            ],
+            "href": "https://www.espn.com/soccer/match/_/gameId/760440/qatar-canada",
+            "text": "Summary",
+            "shortText": "Summary",
+            "isExternal": false,
+            "isPremium": false,
+            "isHidden": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "highlights",
+              "desktop"
+            ],
+            "href": "https://www.espn.com/soccer/video/_/gameId/760440",
+            "text": "Highlights",
+            "shortText": "Highlights",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "recap",
+              "desktop",
+              "event"
+            ],
+            "href": "https://www.espn.com/soccer/report/_/gameId/760440",
+            "text": "Report",
+            "shortText": "Report",
+            "isExternal": false,
+            "isPremium": false,
+            "isHidden": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "stats",
+              "desktop",
+              "event"
+            ],
+            "href": "https://www.espn.com/soccer/matchstats/_/gameId/760440",
+            "text": "Statistics",
+            "shortText": "Statistics",
+            "isExternal": false,
+            "isPremium": false,
+            "isHidden": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "bracket",
+              "desktop",
+              "event"
+            ],
+            "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
+            "text": "Bracket",
+            "shortText": "Bracket",
+            "isExternal": false,
+            "isPremium": false,
+            "isHidden": false
+          }
+        ]
+      },
+      {
+        "id": "760441",
+        "uid": "s:600~l:606~e:760441",
+        "date": "2026-06-19T01:00Z",
+        "name": "South Korea at Mexico",
+        "shortName": "KOR @ MEX",
+        "season": {
+          "year": 2026,
+          "type": 13802,
+          "slug": "group-stage"
+        },
+        "competitions": [
+          {
+            "id": "760441",
+            "uid": "s:600~l:606~e:760441~c:760441",
+            "date": "2026-06-19T01:00Z",
+            "startDate": "2026-06-19T01:00Z",
+            "attendance": 45522,
+            "timeValid": true,
+            "recent": true,
+            "status": {
+              "clock": 5400.0,
+              "displayClock": "90'+6'",
+              "period": 2,
+              "type": {
+                "id": "28",
+                "name": "STATUS_FULL_TIME",
+                "state": "post",
+                "completed": true,
+                "description": "Full Time",
+                "detail": "FT",
+                "shortDetail": "FT"
+              }
+            },
+            "venue": {
+              "id": "5009",
+              "fullName": "Estadio Akron",
+              "address": {
+                "city": "Guadalajara",
+                "country": "Mexico"
+              }
+            },
+            "format": {
+              "regulation": {
+                "periods": 2
+              }
+            },
+            "altGameNote": "FIFA World Cup, Group A",
+            "notes": [],
+            "geoBroadcasts": [
+              {
+                "type": {
+                  "id": "1",
+                  "shortName": "TV"
+                },
+                "market": {
+                  "id": "1",
+                  "type": "National"
+                },
+                "media": {
+                  "shortName": "FOX"
+                },
+                "lang": "en",
+                "region": "us"
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "shortName": "TV"
+                },
+                "market": {
+                  "id": "1",
+                  "type": "National"
+                },
+                "media": {
+                  "shortName": "Tele"
+                },
+                "lang": "en",
+                "region": "us"
+              },
+              {
+                "type": {
+                  "id": "4",
+                  "shortName": "STREAMING"
+                },
+                "market": {
+                  "id": "1",
+                  "type": "National"
+                },
+                "media": {
+                  "shortName": "FOX One"
+                },
+                "lang": "en",
+                "region": "us"
+              }
+            ],
+            "broadcasts": [
+              {
+                "market": "national",
+                "names": [
+                  "FOX",
+                  "Tele",
+                  "FOX One"
+                ]
+              }
+            ],
+            "broadcast": "",
+            "competitors": [
+              {
+                "id": "203",
+                "uid": "s:600~t:203",
+                "type": "team",
+                "order": 0,
+                "homeAway": "home",
+                "winner": true,
+                "advance": true,
+                "form": "WWWWW",
+                "score": "1",
+                "records": [
+                  {
+                    "name": "All Splits",
+                    "type": "total",
+                    "summary": "2-0-0",
+                    "abbreviation": "Total"
+                  }
+                ],
+                "team": {
+                  "id": "203",
+                  "uid": "s:600~t:203",
+                  "abbreviation": "MEX",
+                  "displayName": "Mexico",
+                  "shortDisplayName": "Mexico",
+                  "name": "Mexico",
+                  "location": "Mexico",
+                  "color": "006847",
+                  "alternateColor": "000000",
+                  "isActive": true,
+                  "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
+                  "links": [
+                    {
+                      "rel": [
+                        "clubhouse",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/_/id/203/mexico",
+                      "text": "Clubhouse",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "stats",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/stats/_/id/203/mexico",
+                      "text": "Stats",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "stats",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:203&section=stats",
+                      "text": "Stats",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "schedule",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/fixtures/_/id/203/mexico",
+                      "text": "Fixtures",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "schedule",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:203&section=scores",
+                      "text": "Fixtures",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "squad",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/squad/_/id/203/mexico",
+                      "text": "Squad",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "squad",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:203&section=squad",
+                      "text": "Squad",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    }
+                  ],
+                  "venue": {
+                    "id": "4685"
+                  }
+                },
+                "statistics": [
+                  {
+                    "name": "appearances",
+                    "abbreviation": "APP",
+                    "displayValue": "0"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "abbreviation": "FC",
+                    "displayValue": "9"
+                  },
+                  {
+                    "name": "wonCorners",
+                    "abbreviation": "CW",
+                    "displayValue": "1"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "abbreviation": "A",
+                    "displayValue": "0"
+                  },
+                  {
+                    "name": "possessionPct",
+                    "abbreviation": "PP",
+                    "displayValue": "42.4"
+                  },
+                  {
+                    "name": "shotAssists",
+                    "abbreviation": "SHAST",
+                    "displayValue": "6"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "abbreviation": "SOG",
+                    "displayValue": "4"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "abbreviation": "G",
+                    "displayValue": "1"
+                  },
+                  {
+                    "name": "totalShots",
+                    "abbreviation": "SHOT",
+                    "displayValue": "8"
+                  }
+                ]
+              },
+              {
+                "id": "451",
+                "uid": "s:600~t:451",
+                "type": "team",
+                "order": 1,
+                "homeAway": "away",
+                "winner": false,
+                "advance": false,
+                "form": "LWWWL",
+                "score": "0",
+                "records": [
+                  {
+                    "name": "All Splits",
+                    "type": "total",
+                    "summary": "1-0-1",
+                    "abbreviation": "Total"
+                  }
+                ],
+                "team": {
+                  "id": "451",
+                  "uid": "s:600~t:451",
+                  "abbreviation": "KOR",
+                  "displayName": "South Korea",
+                  "shortDisplayName": "South Korea",
+                  "name": "South Korea",
+                  "location": "South Korea",
+                  "color": "ce2028",
+                  "alternateColor": "9E82C8",
+                  "isActive": true,
+                  "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kors.png",
+                  "links": [
+                    {
+                      "rel": [
+                        "clubhouse",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/_/id/451/south-korea",
+                      "text": "Clubhouse",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "stats",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/stats/_/id/451/south-korea",
+                      "text": "Stats",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "stats",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:451&section=stats",
+                      "text": "Stats",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "schedule",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/fixtures/_/id/451/south-korea",
+                      "text": "Fixtures",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "schedule",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:451&section=scores",
+                      "text": "Fixtures",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "squad",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/squad/_/id/451/south-korea",
+                      "text": "Squad",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "squad",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:451&section=squad",
+                      "text": "Squad",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    }
+                  ],
+                  "venue": {
+                    "id": "3082"
+                  }
+                },
+                "statistics": [
+                  {
+                    "name": "appearances",
+                    "abbreviation": "APP",
+                    "displayValue": "0"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "abbreviation": "FC",
+                    "displayValue": "7"
+                  },
+                  {
+                    "name": "wonCorners",
+                    "abbreviation": "CW",
+                    "displayValue": "2"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "abbreviation": "A",
+                    "displayValue": "0"
+                  },
+                  {
+                    "name": "possessionPct",
+                    "abbreviation": "PP",
+                    "displayValue": "57.6"
+                  },
+                  {
+                    "name": "shotAssists",
+                    "abbreviation": "SHAST",
+                    "displayValue": "6"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "abbreviation": "SOG",
+                    "displayValue": "2"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "abbreviation": "G",
+                    "displayValue": "0"
+                  },
+                  {
+                    "name": "totalShots",
+                    "abbreviation": "SHOT",
+                    "displayValue": "9"
+                  }
+                ]
+              }
+            ],
+            "details": [
+              {
+                "type": {
+                  "id": "94",
+                  "text": "Yellow Card"
+                },
+                "clock": {
+                  "value": 213.0,
+                  "displayValue": "4'"
+                },
+                "team": {
+                  "id": "451"
+                },
+                "scoreValue": 0,
+                "scoringPlay": false,
+                "redCard": false,
+                "yellowCard": true,
+                "penaltyKick": false,
+                "ownGoal": false,
+                "shootout": false,
+                "athletesInvolved": [
+                  {
+                    "id": "274197",
+                    "displayName": "Lee Kang-In",
+                    "shortName": "L. Kang-In",
+                    "fullName": "Lee Kang-In",
+                    "jersey": "19",
+                    "team": {
+                      "id": "451"
+                    },
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/soccer/player/_/id/274197/lee-kang-in",
+                        "isHidden": false
+                      }
+                    ],
+                    "position": "CF-R"
+                  }
+                ]
+              },
+              {
+                "type": {
+                  "id": "173",
+                  "text": "Goal - Volley"
+                },
+                "clock": {
+                  "value": 2981.0,
+                  "displayValue": "50'"
+                },
+                "team": {
+                  "id": "203"
+                },
+                "scoreValue": 1,
+                "scoringPlay": true,
+                "redCard": false,
+                "yellowCard": false,
+                "penaltyKick": false,
+                "ownGoal": false,
+                "shootout": false,
+                "athletesInvolved": [
+                  {
+                    "id": "242614",
+                    "displayName": "Luis Romo",
+                    "shortName": "L. Romo",
+                    "fullName": "Luis Romo",
+                    "jersey": "7",
+                    "team": {
+                      "id": "203"
+                    },
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/soccer/player/_/id/242614/luis-romo",
+                        "isHidden": false
+                      }
+                    ],
+                    "position": "LM"
+                  }
+                ]
+              },
+              {
+                "type": {
+                  "id": "94",
+                  "text": "Yellow Card"
+                },
+                "clock": {
+                  "value": 3459.0,
+                  "displayValue": "58'"
+                },
+                "team": {
+                  "id": "451"
+                },
+                "scoreValue": 0,
+                "scoringPlay": false,
+                "redCard": false,
+                "yellowCard": true,
+                "penaltyKick": false,
+                "ownGoal": false,
+                "shootout": false,
+                "athletesInvolved": [
+                  {
+                    "id": "256598",
+                    "displayName": "Paik Seung-Ho",
+                    "shortName": "P. Seung-Ho",
+                    "fullName": "Paik Seung-Ho",
+                    "jersey": "8",
+                    "team": {
+                      "id": "451"
+                    },
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/soccer/player/_/id/256598/paik-seung-ho",
+                        "isHidden": false
+                      }
+                    ],
+                    "position": "CM-L"
+                  }
+                ]
+              }
+            ],
+            "headlines": [
+              {
+                "description": "A Luis Romo goal saw Mexico beat South Korea 1-0",
+                "type": "Recap",
+                "shortLinkText": "Mexico edge South Korea, confirm progress to knockouts"
+              }
+            ],
+            "odds": [
+              null
+            ],
+            "wasSuspended": false,
+            "playByPlayAvailable": true,
+            "playByPlayAthletes": true
+          }
+        ],
+        "status": {
+          "clock": 5400.0,
+          "displayClock": "90'+6'",
+          "period": 2,
+          "type": {
+            "id": "28",
+            "name": "STATUS_FULL_TIME",
+            "state": "post",
+            "completed": true,
+            "description": "Full Time",
+            "detail": "FT",
+            "shortDetail": "FT"
+          }
+        },
+        "venue": {
+          "displayName": "Estadio Akron"
+        },
+        "links": [
+          {
+            "language": "en-US",
+            "rel": [
+              "summary",
+              "desktop",
+              "event"
+            ],
+            "href": "https://www.espn.com/soccer/match/_/gameId/760441/south-korea-mexico",
+            "text": "Summary",
+            "shortText": "Summary",
+            "isExternal": false,
+            "isPremium": false,
+            "isHidden": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "highlights",
+              "desktop"
+            ],
+            "href": "https://www.espn.com/soccer/video/_/gameId/760441",
+            "text": "Highlights",
+            "shortText": "Highlights",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "recap",
+              "desktop",
+              "event"
+            ],
+            "href": "https://www.espn.com/soccer/report/_/gameId/760441",
+            "text": "Report",
+            "shortText": "Report",
+            "isExternal": false,
+            "isPremium": false,
+            "isHidden": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "stats",
+              "desktop",
+              "event"
+            ],
+            "href": "https://www.espn.com/soccer/matchstats/_/gameId/760441",
+            "text": "Statistics",
+            "shortText": "Statistics",
+            "isExternal": false,
+            "isPremium": false,
+            "isHidden": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "bracket",
+              "desktop",
+              "event"
+            ],
+            "href": "https://www.espn.com/soccer/bracket/_/season/2026/league/fifa.world",
+            "text": "Bracket",
+            "shortText": "Bracket",
+            "isExternal": false,
+            "isPremium": false,
+            "isHidden": false
+          }
+        ]
+      }
+    ]
   }
 }

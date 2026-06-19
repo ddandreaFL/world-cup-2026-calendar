@@ -1168,15 +1168,28 @@
     }
   },
   "760441": {
-    "final": false,
+    "final": true,
     "data": {
-      "goals": [],
+      "goals": [
+        [
+          "MEX",
+          "Luis Romo",
+          "",
+          "50'"
+        ]
+      ],
       "cards": [
         [
           "KOR",
           "Lee Kang-In",
           "🟨",
           "4'"
+        ],
+        [
+          "KOR",
+          "Paik Seung-Ho",
+          "🟨",
+          "58'"
         ]
       ]
     }
