@@ -1256,5 +1256,26 @@
         ]
       ]
     }
+  },
+  "760445": {
+    "final": false,
+    "data": {
+      "goals": [
+        [
+          "MAR",
+          "Ismael Saibari",
+          "Brahim Díaz",
+          "2'"
+        ]
+      ],
+      "cards": [
+        [
+          "MAR",
+          "Issa Diop",
+          "🟨",
+          "23'"
+        ]
+      ]
+    }
   }
 }
