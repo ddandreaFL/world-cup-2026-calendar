@@ -1193,5 +1193,44 @@
         ]
       ]
     }
+  },
+  "760442": {
+    "final": false,
+    "data": {
+      "goals": [
+        [
+          "USA",
+          "Cameron Burgess",
+          "",
+          "11'"
+        ],
+        [
+          "USA",
+          "Alex Freeman",
+          "",
+          "43'"
+        ]
+      ],
+      "cards": [
+        [
+          "AUS",
+          "Jordan Bos",
+          "🟨",
+          "16'"
+        ],
+        [
+          "AUS",
+          "Alessandro Circati",
+          "🟨",
+          "32'"
+        ],
+        [
+          "USA",
+          "Antonee Robinson",
+          "🟨",
+          "56'"
+        ]
+      ]
+    }
   }
 }
