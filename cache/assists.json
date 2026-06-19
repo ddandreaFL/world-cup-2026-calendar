@@ -1099,7 +1099,7 @@
     }
   },
   "760440": {
-    "final": false,
+    "final": true,
     "data": {
       "goals": [
         [
@@ -1119,6 +1119,24 @@
           "Jonathan David",
           "",
           "45'+3'"
+        ],
+        [
+          "CAN",
+          "Nathan Saliba",
+          "",
+          "64'"
+        ],
+        [
+          "CAN",
+          "Mohamed Manai",
+          "",
+          "75'"
+        ],
+        [
+          "CAN",
+          "Jonathan David",
+          "Nathan Saliba",
+          "90'+2'"
         ]
       ],
       "cards": [
@@ -1133,6 +1151,32 @@
           "Homam Ahmed",
           "🟥",
           "33'"
+        ],
+        [
+          "QAT",
+          "Assim Madibo",
+          "🟥",
+          "53'"
+        ],
+        [
+          "QAT",
+          "Ahmed Fathy",
+          "🟨",
+          "62'"
+        ]
+      ]
+    }
+  },
+  "760441": {
+    "final": false,
+    "data": {
+      "goals": [],
+      "cards": [
+        [
+          "KOR",
+          "Lee Kang-In",
+          "🟨",
+          "4'"
         ]
       ]
     }
