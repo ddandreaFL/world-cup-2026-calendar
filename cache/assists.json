@@ -1195,7 +1195,7 @@
     }
   },
   "760442": {
-    "final": false,
+    "final": true,
     "data": {
       "goals": [
         [
@@ -1229,6 +1229,30 @@
           "Antonee Robinson",
           "🟨",
           "56'"
+        ],
+        [
+          "AUS",
+          "Harry Souttar",
+          "🟨",
+          "88'"
+        ],
+        [
+          "USA",
+          "Folarin Balogun",
+          "🟨",
+          "89'"
+        ],
+        [
+          "AUS",
+          "Jacob Italiano",
+          "🟨",
+          "89'"
+        ],
+        [
+          "USA",
+          "Chris Richards",
+          "🟨",
+          "90'+3'"
         ]
       ]
     }
