@@ -1432,7 +1432,7 @@
     }
   },
   "760448": {
-    "final": false,
+    "final": true,
     "data": {
       "goals": [
         [
@@ -1440,6 +1440,18 @@
           "Franck Kessié",
           "",
           "30'"
+        ],
+        [
+          "GER",
+          "Deniz Undav",
+          "Nadiem Amiri",
+          "68'"
+        ],
+        [
+          "GER",
+          "Deniz Undav",
+          "Felix Nmecha",
+          "90'+4'"
         ]
       ],
       "cards": []
