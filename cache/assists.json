@@ -1369,7 +1369,7 @@
     }
   },
   "760447": {
-    "final": false,
+    "final": true,
     "data": {
       "goals": [
         [
@@ -1389,9 +1389,46 @@
           "Cody Gakpo",
           "Denzel Dumfries",
           "47'"
+        ],
+        [
+          "NED",
+          "Cody Gakpo",
+          "Crysencio Summerville",
+          "54'"
+        ],
+        [
+          "SWE",
+          "Anthony Elanga",
+          "Alexander Isak",
+          "59'"
+        ],
+        [
+          "NED",
+          "Crysencio Summerville",
+          "Memphis Depay",
+          "89'"
         ]
       ],
-      "cards": []
+      "cards": [
+        [
+          "SWE",
+          "Gabriel Gudmundsson",
+          "🟨",
+          "53'"
+        ],
+        [
+          "SWE",
+          "Yasin Ayari",
+          "🟨",
+          "75'"
+        ],
+        [
+          "SWE",
+          "Lucas Bergvall",
+          "🟨",
+          "80'"
+        ]
+      ]
     }
   }
 }
