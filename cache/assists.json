@@ -1367,5 +1367,31 @@
         ]
       ]
     }
+  },
+  "760447": {
+    "final": false,
+    "data": {
+      "goals": [
+        [
+          "NED",
+          "Brian Brobbey",
+          "Cody Gakpo",
+          "5'"
+        ],
+        [
+          "NED",
+          "Brian Brobbey",
+          "Denzel Dumfries",
+          "17'"
+        ],
+        [
+          "NED",
+          "Cody Gakpo",
+          "Denzel Dumfries",
+          "47'"
+        ]
+      ],
+      "cards": []
+    }
   }
 }
