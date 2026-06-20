@@ -1285,7 +1285,7 @@
     }
   },
   "760444": {
-    "final": false,
+    "final": true,
     "data": {
       "goals": [
         [
@@ -1319,6 +1319,51 @@
           "Frantzdy Pierrot",
           "🟨",
           "45'+4'"
+        ],
+        [
+          "BRA",
+          "Douglas Santos",
+          "🟨",
+          "65'"
+        ],
+        [
+          "HAI",
+          "Danley Jean Jacques",
+          "🟨",
+          "72'"
+        ]
+      ]
+    }
+  },
+  "760443": {
+    "final": true,
+    "data": {
+      "goals": [
+        [
+          "PAR",
+          "Matías Galarza",
+          "Julio Enciso",
+          "2'"
+        ]
+      ],
+      "cards": [
+        [
+          "PAR",
+          "Matías Galarza",
+          "🟨",
+          "4'"
+        ],
+        [
+          "PAR",
+          "Miguel Almirón",
+          "🟥",
+          "45'+3'"
+        ],
+        [
+          "TUR",
+          "Eren Elmali",
+          "🟨",
+          "71'"
         ]
       ]
     }
