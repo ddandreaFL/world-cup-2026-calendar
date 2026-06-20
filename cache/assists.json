@@ -1430,5 +1430,19 @@
         ]
       ]
     }
+  },
+  "760448": {
+    "final": false,
+    "data": {
+      "goals": [
+        [
+          "CIV",
+          "Franck Kessié",
+          "",
+          "30'"
+        ]
+      ],
+      "cards": []
+    }
   }
 }
