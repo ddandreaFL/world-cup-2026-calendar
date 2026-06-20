@@ -1258,7 +1258,7 @@
     }
   },
   "760445": {
-    "final": false,
+    "final": true,
     "data": {
       "goals": [
         [
@@ -1280,6 +1280,45 @@
           "Andy Robertson",
           "🟨",
           "65'"
+        ]
+      ]
+    }
+  },
+  "760444": {
+    "final": false,
+    "data": {
+      "goals": [
+        [
+          "BRA",
+          "Matheus Cunha",
+          "",
+          "23'"
+        ],
+        [
+          "BRA",
+          "Matheus Cunha",
+          "Vinícius Júnior",
+          "36'"
+        ],
+        [
+          "BRA",
+          "Vinícius Júnior",
+          "Lucas Paquetá",
+          "45'+3'"
+        ]
+      ],
+      "cards": [
+        [
+          "HAI",
+          "Carlens Arcus",
+          "🟨",
+          "4'"
+        ],
+        [
+          "HAI",
+          "Frantzdy Pierrot",
+          "🟨",
+          "45'+4'"
         ]
       ]
     }
