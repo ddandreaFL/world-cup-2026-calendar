@@ -1500,5 +1500,37 @@
         ]
       ]
     }
+  },
+  "760449": {
+    "final": true,
+    "data": {
+      "goals": [
+        [
+          "JPN",
+          "Daichi Kamada",
+          "Keito Nakamura",
+          "4'"
+        ],
+        [
+          "JPN",
+          "Ayase Ueda",
+          "Kou Itakura",
+          "31'"
+        ],
+        [
+          "JPN",
+          "Junya Ito",
+          "Ayase Ueda",
+          "69'"
+        ],
+        [
+          "JPN",
+          "Ayase Ueda",
+          "Kaishu Sano",
+          "83'"
+        ]
+      ],
+      "cards": []
+    }
   }
 }
