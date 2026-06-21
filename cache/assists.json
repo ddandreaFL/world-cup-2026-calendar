@@ -1577,5 +1577,25 @@
         ]
       ]
     }
+  },
+  "760451": {
+    "final": false,
+    "data": {
+      "goals": [],
+      "cards": [
+        [
+          "BEL",
+          "Romelu Lukaku",
+          "🟨",
+          "3'"
+        ],
+        [
+          "IRN",
+          "Saeid Ezatolahi",
+          "🟨",
+          "33'"
+        ]
+      ]
+    }
   }
 }
