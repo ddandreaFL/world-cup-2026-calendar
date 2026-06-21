@@ -1579,7 +1579,7 @@
     }
   },
   "760451": {
-    "final": false,
+    "final": true,
     "data": {
       "goals": [],
       "cards": [
@@ -1594,6 +1594,12 @@
           "Saeid Ezatolahi",
           "🟨",
           "33'"
+        ],
+        [
+          "BEL",
+          "Nathan Ngoy",
+          "🟥",
+          "66'"
         ]
       ]
     }
