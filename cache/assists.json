@@ -1534,7 +1534,7 @@
     }
   },
   "760453": {
-    "final": false,
+    "final": true,
     "data": {
       "goals": [
         [
@@ -1554,6 +1554,12 @@
           "Mikel Oyarzabal",
           "Dani Olmo",
           "24'"
+        ],
+        [
+          "ESP",
+          "Hassan Al-Tambakti",
+          "",
+          "49'"
         ]
       ],
       "cards": [
@@ -1562,6 +1568,12 @@
           "Salem Al-Dawsari",
           "🟨",
           "30'"
+        ],
+        [
+          "KSA",
+          "Mohamed Kanno",
+          "🟨",
+          "60'"
         ]
       ]
     }
