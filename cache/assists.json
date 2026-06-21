@@ -1603,5 +1603,38 @@
         ]
       ]
     }
+  },
+  "760450": {
+    "final": false,
+    "data": {
+      "goals": [
+        [
+          "CPV",
+          "Kevin Pina",
+          "",
+          "21'"
+        ],
+        [
+          "URU",
+          "Maxi Araújo",
+          "",
+          "44'"
+        ]
+      ],
+      "cards": [
+        [
+          "CPV",
+          "Sidny Lopes Cabral",
+          "🟨",
+          "5'"
+        ],
+        [
+          "URU",
+          "Rodrigo Bentancur",
+          "🟨",
+          "20'"
+        ]
+      ]
+    }
   }
 }
