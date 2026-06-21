@@ -1532,5 +1532,38 @@
       ],
       "cards": []
     }
+  },
+  "760453": {
+    "final": false,
+    "data": {
+      "goals": [
+        [
+          "ESP",
+          "Lamine Yamal",
+          "Mikel Oyarzabal",
+          "10'"
+        ],
+        [
+          "ESP",
+          "Mikel Oyarzabal",
+          "Aymeric Laporte",
+          "21'"
+        ],
+        [
+          "ESP",
+          "Mikel Oyarzabal",
+          "Dani Olmo",
+          "24'"
+        ]
+      ],
+      "cards": [
+        [
+          "KSA",
+          "Salem Al-Dawsari",
+          "🟨",
+          "30'"
+        ]
+      ]
+    }
   }
 }
