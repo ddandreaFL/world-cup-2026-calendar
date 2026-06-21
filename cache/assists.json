@@ -1456,5 +1456,49 @@
       ],
       "cards": []
     }
+  },
+  "760446": {
+    "final": true,
+    "data": {
+      "goals": [],
+      "cards": [
+        [
+          "ECU",
+          "Jordy Alcívar",
+          "🟨",
+          "38'"
+        ],
+        [
+          "CUW",
+          "Leandro Bacuna",
+          "🟨",
+          "39'"
+        ],
+        [
+          "CUW",
+          "Juninho Bacuna",
+          "🟨",
+          "53'"
+        ],
+        [
+          "CUW",
+          "Livano Comenencia",
+          "🟨",
+          "56'"
+        ],
+        [
+          "CUW",
+          "Juriën Gaari",
+          "🟨",
+          "75'"
+        ],
+        [
+          "CUW",
+          "Gervane Kastaneer",
+          "🟨",
+          "90'+1'"
+        ]
+      ]
+    }
   }
 }
