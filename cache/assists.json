@@ -1605,7 +1605,7 @@
     }
   },
   "760450": {
-    "final": false,
+    "final": true,
     "data": {
       "goals": [
         [
@@ -1622,7 +1622,7 @@
         ],
         [
           "URU",
-          "Agustín Cano",
+          "Agustín Canobbio",
           "Maxi Araújo",
           "45'+6'"
         ],
@@ -1656,7 +1656,58 @@
           "CPV",
           "Diney Borges",
           "🟨",
-          "90'+4'"
+          "90'+3'"
+        ]
+      ]
+    }
+  },
+  "760452": {
+    "final": true,
+    "data": {
+      "goals": [
+        [
+          "NZL",
+          "Finn Surman",
+          "Tim Payne",
+          "15'"
+        ],
+        [
+          "EGY",
+          "Mostafa Zico",
+          "Mohamed Hany",
+          "58'"
+        ],
+        [
+          "EGY",
+          "Mohamed Salah",
+          "Mostafa Zico",
+          "67'"
+        ],
+        [
+          "EGY",
+          "Trézéguet",
+          "Mohamed Salah",
+          "82'"
+        ]
+      ],
+      "cards": [
+        [
+          "EGY",
+          "Mohanad Lashin",
+          "🟨",
+          "17'"
+        ],
+        [
+          "NZL",
+          "Sarpreet Singh",
+          "🟨",
+          "20'"
+        ],
+        [
+          "NZL",
+          "Callum McCowatt",
+          "🟨",
+          "34'"
         ]
       ]
     }
