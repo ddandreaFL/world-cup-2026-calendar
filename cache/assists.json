@@ -1756,5 +1756,26 @@
         ]
       ]
     }
+  },
+  "760457": {
+    "final": false,
+    "data": {
+      "goals": [
+        [
+          "FRA",
+          "Kylian Mbappé",
+          "Michael Olise",
+          "14'"
+        ]
+      ],
+      "cards": [
+        [
+          "IRQ",
+          "Amir Al-Ammari",
+          "🟨",
+          "6'"
+        ]
+      ]
+    }
   }
 }
