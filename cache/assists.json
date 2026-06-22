@@ -1711,5 +1711,50 @@
         ]
       ]
     }
+  },
+  "760456": {
+    "final": true,
+    "data": {
+      "goals": [
+        [
+          "ARG",
+          "Lionel Messi",
+          "Facundo Medina",
+          "38'"
+        ],
+        [
+          "ARG",
+          "Lionel Messi",
+          "",
+          "90'+5'"
+        ]
+      ],
+      "cards": [
+        [
+          "AUT",
+          "Stefan Posch",
+          "🟨",
+          "40'"
+        ],
+        [
+          "ARG",
+          "Facundo Medina",
+          "🟨",
+          "76'"
+        ],
+        [
+          "AUT",
+          "Konrad Laimer",
+          "🟨",
+          "76'"
+        ],
+        [
+          "ARG",
+          "Leandro Paredes",
+          "🟨",
+          "90'+2'"
+        ]
+      ]
+    }
   }
 }
