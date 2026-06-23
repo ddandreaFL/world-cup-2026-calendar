@@ -1766,6 +1766,12 @@
           "Kylian Mbappé",
           "Michael Olise",
           "14'"
+        ],
+        [
+          "FRA",
+          "Kylian Mbappé",
+          "Ousmane Dembélé",
+          "54'"
         ]
       ],
       "cards": [
@@ -1776,6 +1782,13 @@
           "6'"
         ]
       ]
+    }
+  },
+  "760454": {
+    "final": false,
+    "data": {
+      "goals": [],
+      "cards": []
     }
   }
 }
