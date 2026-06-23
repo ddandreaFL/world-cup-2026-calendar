@@ -1868,7 +1868,7 @@
     }
   },
   "760461": {
-    "final": false,
+    "final": true,
     "data": {
       "goals": [
         [
@@ -1894,6 +1894,12 @@
           "Abduvohid Nematov",
           "",
           "60'"
+        ],
+        [
+          "POR",
+          "Rafael Leão",
+          "",
+          "87'"
         ]
       ],
       "cards": [
@@ -1902,8 +1908,21 @@
           "Odiljon Xamrobekov",
           "🟨",
           "14'"
+        ],
+        [
+          "POR",
+          "Renato Veiga",
+          "🟨",
+          "68'"
         ]
       ]
+    }
+  },
+  "760458": {
+    "final": false,
+    "data": {
+      "goals": [],
+      "cards": []
     }
   }
 }
