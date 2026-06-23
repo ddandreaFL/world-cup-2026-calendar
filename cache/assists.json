@@ -1758,7 +1758,7 @@
     }
   },
   "760457": {
-    "final": false,
+    "final": true,
     "data": {
       "goals": [
         [
@@ -1772,6 +1772,12 @@
           "Kylian Mbappé",
           "Ousmane Dembélé",
           "54'"
+        ],
+        [
+          "FRA",
+          "Ousmane Dembélé",
+          "Michael Olise",
+          "66'"
         ]
       ],
       "cards": [
@@ -1785,10 +1791,74 @@
     }
   },
   "760454": {
+    "final": true,
+    "data": {
+      "goals": [
+        [
+          "NOR",
+          "Marcus Holmgren Pedersen",
+          "",
+          "43'"
+        ],
+        [
+          "NOR",
+          "Erling Haaland",
+          "Martin Ødegaard",
+          "48'"
+        ],
+        [
+          "SEN",
+          "Ismaïla Sarr",
+          "Sadio Mané",
+          "53'"
+        ],
+        [
+          "NOR",
+          "Erling Haaland",
+          "Patrick Berg",
+          "58'"
+        ],
+        [
+          "SEN",
+          "Ismaïla Sarr",
+          "Nicolas Jackson",
+          "90'+3'"
+        ]
+      ],
+      "cards": []
+    }
+  },
+  "760455": {
     "final": false,
     "data": {
-      "goals": [],
-      "cards": []
+      "goals": [
+        [
+          "JOR",
+          "Nizar Al-Rashdan",
+          "Mousa Al-Tamari",
+          "36'"
+        ],
+        [
+          "ALG",
+          "Nadhir Benbouali",
+          "Riyad Mahrez",
+          "69'"
+        ]
+      ],
+      "cards": [
+        [
+          "ALG",
+          "Ramiz Zerrouki",
+          "🟨",
+          "44'"
+        ],
+        [
+          "JOR",
+          "Husam Abu Dahab",
+          "🟨",
+          "64'"
+        ]
+      ]
     }
   }
 }
