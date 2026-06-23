@@ -1829,7 +1829,7 @@
     }
   },
   "760455": {
-    "final": false,
+    "final": true,
     "data": {
       "goals": [
         [
@@ -1843,6 +1843,12 @@
           "Nadhir Benbouali",
           "Riyad Mahrez",
           "69'"
+        ],
+        [
+          "ALG",
+          "Amine Gouiri",
+          "",
+          "82'"
         ]
       ],
       "cards": [
