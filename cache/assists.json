@@ -1919,10 +1919,23 @@
     }
   },
   "760458": {
-    "final": false,
+    "final": true,
     "data": {
       "goals": [],
-      "cards": []
+      "cards": [
+        [
+          "ENG",
+          "Declan Rice",
+          "🟨",
+          "41'"
+        ],
+        [
+          "GHA",
+          "Iñaki Williams",
+          "🟨",
+          "60'"
+        ]
+      ]
     }
   }
 }
