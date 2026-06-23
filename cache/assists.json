@@ -1866,5 +1866,44 @@
         ]
       ]
     }
+  },
+  "760461": {
+    "final": false,
+    "data": {
+      "goals": [
+        [
+          "POR",
+          "Cristiano Ronaldo",
+          "João Cancelo",
+          "6'"
+        ],
+        [
+          "POR",
+          "Nuno Mendes",
+          "",
+          "17'"
+        ],
+        [
+          "POR",
+          "Cristiano Ronaldo",
+          "Bruno Fernandes",
+          "39'"
+        ],
+        [
+          "POR",
+          "Abduvohid Nematov",
+          "",
+          "60'"
+        ]
+      ],
+      "cards": [
+        [
+          "UZB",
+          "Odiljon Xamrobekov",
+          "🟨",
+          "14'"
+        ]
+      ]
+    }
   }
 }
