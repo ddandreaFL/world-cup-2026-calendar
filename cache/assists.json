@@ -2087,5 +2087,57 @@
         ]
       ]
     }
+  },
+  "760464": {
+    "final": false,
+    "data": {
+      "goals": [
+        [
+          "HAI",
+          "Yassine Bounou",
+          "Jean-Kévin Duverne",
+          "10'"
+        ],
+        [
+          "MAR",
+          "Achraf Hakimi",
+          "",
+          "39'"
+        ],
+        [
+          "HAI",
+          "Wilson Isidor",
+          "Jean-Kévin Duverne",
+          "43'"
+        ],
+        [
+          "MAR",
+          "Ismael Saibari",
+          "Achraf Hakimi",
+          "45'+1'"
+        ]
+      ],
+      "cards": []
+    }
+  },
+  "760465": {
+    "final": false,
+    "data": {
+      "goals": [
+        [
+          "BRA",
+          "Vinícius Júnior",
+          "Rayan",
+          "7'"
+        ],
+        [
+          "BRA",
+          "Vinícius Júnior",
+          "Bruno Guimarães",
+          "45'+3'"
+        ]
+      ],
+      "cards": []
+    }
   }
 }
