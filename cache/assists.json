@@ -1939,7 +1939,7 @@
     }
   },
   "760460": {
-    "final": false,
+    "final": true,
     "data": {
       "goals": [
         [
@@ -1949,7 +1949,53 @@
           "54'"
         ]
       ],
-      "cards": []
+      "cards": [
+        [
+          "PAN",
+          "Édgar Yoel Bárcenas",
+          "🟨",
+          "61'"
+        ],
+        [
+          "CRO",
+          "Petar Sucic",
+          "🟨",
+          "90'+2'"
+        ]
+      ]
+    }
+  },
+  "760459": {
+    "final": true,
+    "data": {
+      "goals": [
+        [
+          "COL",
+          "Daniel Muñoz",
+          "Juan Fernando Quintero",
+          "76'"
+        ]
+      ],
+      "cards": [
+        [
+          "COL",
+          "Jhon Lucumí",
+          "🟨",
+          "56'"
+        ],
+        [
+          "COD",
+          "Charles Pickel",
+          "🟨",
+          "90'+3'"
+        ],
+        [
+          "COL",
+          "Jefferson Lerma",
+          "🟨",
+          "90'+4'"
+        ]
+      ]
     }
   }
 }
