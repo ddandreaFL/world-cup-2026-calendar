@@ -1997,5 +1997,51 @@
         ]
       ]
     }
+  },
+  "760462": {
+    "final": false,
+    "data": {
+      "goals": [
+        [
+          "BIH",
+          "Kerim Alajbegovic",
+          "Ivan Basic",
+          "29'"
+        ],
+        [
+          "BIH",
+          "Sultan Al-Brake",
+          "",
+          "34'"
+        ],
+        [
+          "QAT",
+          "Hassan Al-Haydos",
+          "Edmílson Junior",
+          "42'"
+        ]
+      ],
+      "cards": []
+    }
+  },
+  "760463": {
+    "final": false,
+    "data": {
+      "goals": [],
+      "cards": [
+        [
+          "CAN",
+          "Cyle Larin",
+          "🟨",
+          "32'"
+        ],
+        [
+          "SUI",
+          "Granit Xhaka",
+          "🟨",
+          "32'"
+        ]
+      ]
+    }
   }
 }
