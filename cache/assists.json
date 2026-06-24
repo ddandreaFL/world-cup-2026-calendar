@@ -2115,9 +2115,34 @@
           "Ismael Saibari",
           "Achraf Hakimi",
           "45'+1'"
+        ],
+        [
+          "MAR",
+          "Soufiane Rahimi",
+          "Chadi Riad",
+          "78'"
+        ],
+        [
+          "MAR",
+          "Gessime Yassine",
+          "Soufiane Rahimi",
+          "89'"
         ]
       ],
-      "cards": []
+      "cards": [
+        [
+          "HAI",
+          "Johny Placide",
+          "🟨",
+          "79'"
+        ],
+        [
+          "HAI",
+          "Duckens Nazon",
+          "🟨",
+          "80'"
+        ]
+      ]
     }
   },
   "760465": {
@@ -2135,9 +2160,34 @@
           "Vinícius Júnior",
           "Bruno Guimarães",
           "45'+3'"
+        ],
+        [
+          "BRA",
+          "Matheus Cunha",
+          "Bruno Guimarães",
+          "60'"
         ]
       ],
-      "cards": []
+      "cards": [
+        [
+          "BRA",
+          "Danilo",
+          "🟨",
+          "62'"
+        ],
+        [
+          "BRA",
+          "Fabinho",
+          "🟨",
+          "82'"
+        ],
+        [
+          "SCO",
+          "Ryan Christie",
+          "🟨",
+          "89'"
+        ]
+      ]
     }
   }
 }
