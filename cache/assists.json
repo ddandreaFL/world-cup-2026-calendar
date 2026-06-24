@@ -1999,7 +1999,7 @@
     }
   },
   "760462": {
-    "final": false,
+    "final": true,
     "data": {
       "goals": [
         [
@@ -2010,7 +2010,7 @@
         ],
         [
           "BIH",
-          "Sultan Al-Brake",
+          "Mahmoud Abunada",
           "",
           "34'"
         ],
@@ -2019,15 +2019,53 @@
           "Hassan Al-Haydos",
           "Edmílson Junior",
           "42'"
+        ],
+        [
+          "BIH",
+          "Ermin Mahmic",
+          "Dennis Hadzikadunic",
+          "80'"
         ]
       ],
-      "cards": []
+      "cards": [
+        [
+          "QAT",
+          "Ahmed Fathy",
+          "🟨",
+          "78'"
+        ],
+        [
+          "BIH",
+          "Ermin Mahmic",
+          "🟨",
+          "82'"
+        ]
+      ]
     }
   },
   "760463": {
-    "final": false,
+    "final": true,
     "data": {
-      "goals": [],
+      "goals": [
+        [
+          "SUI",
+          "Rubén Vargas",
+          "Johan Manzambi",
+          "46'"
+        ],
+        [
+          "SUI",
+          "Johan Manzambi",
+          "Breel Embolo",
+          "57'"
+        ],
+        [
+          "CAN",
+          "Promise David",
+          "Nathan Saliba",
+          "76'"
+        ]
+      ],
       "cards": [
         [
           "CAN",
@@ -2040,6 +2078,12 @@
           "Granit Xhaka",
           "🟨",
           "32'"
+        ],
+        [
+          "CAN",
+          "Liam Millar",
+          "🟨",
+          "87'"
         ]
       ]
     }
