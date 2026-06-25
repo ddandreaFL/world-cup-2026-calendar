@@ -2257,7 +2257,7 @@
     }
   },
   "760473": {
-    "final": false,
+    "final": true,
     "data": {
       "goals": [
         [
@@ -2265,6 +2265,12 @@
           "Nicolas Pépé",
           "Yan Diomande",
           "7'"
+        ],
+        [
+          "CIV",
+          "Nicolas Pépé",
+          "Ibrahim Sangaré",
+          "64'"
         ]
       ],
       "cards": [
@@ -2273,12 +2279,24 @@
           "Nicolas Pépé",
           "🟨",
           "35'"
+        ],
+        [
+          "CUW",
+          "Juninho Bacuna",
+          "🟨",
+          "75'"
+        ],
+        [
+          "CUW",
+          "Gervane Kastaneer",
+          "🟨",
+          "83'"
         ]
       ]
     }
   },
   "760468": {
-    "final": false,
+    "final": true,
     "data": {
       "goals": [
         [
@@ -2292,6 +2310,12 @@
           "Nilson Angulo",
           "Pedro Vite",
           "9'"
+        ],
+        [
+          "ECU",
+          "Gonzalo Plata",
+          "Kevin Rodríguez",
+          "77'"
         ]
       ],
       "cards": [
@@ -2312,6 +2336,12 @@
           "Alan Franco",
           "🟨",
           "50'"
+        ],
+        [
+          "ECU",
+          "Gonzalo Plata",
+          "🟨",
+          "89'"
         ]
       ]
     }
