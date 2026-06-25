@@ -2089,7 +2089,7 @@
     }
   },
   "760464": {
-    "final": false,
+    "final": true,
     "data": {
       "goals": [
         [
@@ -2141,12 +2141,18 @@
           "Duckens Nazon",
           "🟨",
           "80'"
+        ],
+        [
+          "HAI",
+          "Josué Casimir",
+          "🟨",
+          "90'+3'"
         ]
       ]
     }
   },
   "760465": {
-    "final": false,
+    "final": true,
     "data": {
       "goals": [
         [
@@ -2186,6 +2192,66 @@
           "Ryan Christie",
           "🟨",
           "89'"
+        ]
+      ]
+    }
+  },
+  "760467": {
+    "final": true,
+    "data": {
+      "goals": [
+        [
+          "MEX",
+          "Mateo Chávez",
+          "Luis Romo",
+          "55'"
+        ],
+        [
+          "MEX",
+          "Julián Quiñones",
+          "Jorge Sánchez",
+          "61'"
+        ],
+        [
+          "MEX",
+          "Álvaro Fidalgo",
+          "Roberto Alvarado",
+          "90'+4'"
+        ]
+      ],
+      "cards": [
+        [
+          "MEX",
+          "Edson Álvarez",
+          "🟨",
+          "64'"
+        ]
+      ]
+    }
+  },
+  "760466": {
+    "final": true,
+    "data": {
+      "goals": [
+        [
+          "RSA",
+          "Thapelo Maseko",
+          "Tshepang Moremi",
+          "63'"
+        ]
+      ],
+      "cards": [
+        [
+          "RSA",
+          "Aubrey Modiba",
+          "🟨",
+          "73'"
+        ],
+        [
+          "KOR",
+          "Cho Gue-Sung",
+          "🟨",
+          "79'"
         ]
       ]
     }
