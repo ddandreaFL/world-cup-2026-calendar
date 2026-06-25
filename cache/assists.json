@@ -2255,5 +2255,65 @@
         ]
       ]
     }
+  },
+  "760473": {
+    "final": false,
+    "data": {
+      "goals": [
+        [
+          "CIV",
+          "Nicolas Pépé",
+          "Yan Diomande",
+          "7'"
+        ]
+      ],
+      "cards": [
+        [
+          "CIV",
+          "Nicolas Pépé",
+          "🟨",
+          "35'"
+        ]
+      ]
+    }
+  },
+  "760468": {
+    "final": false,
+    "data": {
+      "goals": [
+        [
+          "GER",
+          "Leroy Sané",
+          "Florian Wirtz",
+          "2'"
+        ],
+        [
+          "ECU",
+          "Nilson Angulo",
+          "Pedro Vite",
+          "9'"
+        ]
+      ],
+      "cards": [
+        [
+          "ECU",
+          "Piero Hincapié",
+          "🟨",
+          "43'"
+        ],
+        [
+          "GER",
+          "Aleksandar Pavlovic",
+          "🟨",
+          "44'"
+        ],
+        [
+          "ECU",
+          "Alan Franco",
+          "🟨",
+          "50'"
+        ]
+      ]
+    }
   }
 }
