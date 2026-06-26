@@ -2345,5 +2345,39 @@
         ]
       ]
     }
+  },
+  "760471": {
+    "final": false,
+    "data": {
+      "goals": [],
+      "cards": [
+        [
+          "SWE",
+          "Isak Hien",
+          "🟨",
+          "32'"
+        ]
+      ]
+    }
+  },
+  "760472": {
+    "final": false,
+    "data": {
+      "goals": [
+        [
+          "NED",
+          "Ellyes Skhiri",
+          "",
+          "3'"
+        ],
+        [
+          "NED",
+          "Brian Brobbey",
+          "Virgil van Dijk",
+          "7'"
+        ]
+      ],
+      "cards": []
+    }
   }
 }
