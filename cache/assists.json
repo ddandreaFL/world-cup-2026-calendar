@@ -2347,21 +2347,46 @@
     }
   },
   "760471": {
-    "final": false,
+    "final": true,
     "data": {
-      "goals": [],
+      "goals": [
+        [
+          "JPN",
+          "Daizen Maeda",
+          "Ritsu Doan",
+          "56'"
+        ],
+        [
+          "SWE",
+          "Anthony Elanga",
+          "Viktor Gyökeres",
+          "62'"
+        ]
+      ],
       "cards": [
         [
           "SWE",
           "Isak Hien",
           "🟨",
           "32'"
+        ],
+        [
+          "JPN",
+          "Shogo Taniguchi",
+          "🟨",
+          "77'"
+        ],
+        [
+          "SWE",
+          "Viktor Gyökeres",
+          "🟨",
+          "85'"
         ]
       ]
     }
   },
   "760472": {
-    "final": false,
+    "final": true,
     "data": {
       "goals": [
         [
@@ -2375,9 +2400,86 @@
           "Brian Brobbey",
           "Virgil van Dijk",
           "7'"
+        ],
+        [
+          "TUN",
+          "Hazem Mastouri",
+          "Hannibal Mejbri",
+          "54'"
+        ],
+        [
+          "NED",
+          "Jan Paul van Hecke",
+          "Tijjani Reijnders",
+          "62'"
         ]
       ],
       "cards": []
+    }
+  },
+  "760469": {
+    "final": true,
+    "data": {
+      "goals": [],
+      "cards": [
+        [
+          "AUS",
+          "Jackson Irvine",
+          "🟨",
+          "46'"
+        ],
+        [
+          "PAR",
+          "Diego Gómez",
+          "🟨",
+          "77'"
+        ]
+      ]
+    }
+  },
+  "760470": {
+    "final": true,
+    "data": {
+      "goals": [
+        [
+          "USA",
+          "Auston Trusty",
+          "Sebastian Berhalter",
+          "3'"
+        ],
+        [
+          "TUR",
+          "Arda Güler",
+          "Baris Alper Yilmaz",
+          "10'"
+        ],
+        [
+          "TUR",
+          "Baris Alper Yilmaz",
+          "Orkun Kökçü",
+          "31'"
+        ],
+        [
+          "USA",
+          "Sebastian Berhalter",
+          "",
+          "49'"
+        ],
+        [
+          "TUR",
+          "Kaan Ayhan",
+          "",
+          "90'+8'"
+        ]
+      ],
+      "cards": [
+        [
+          "USA",
+          "Sebastian Berhalter",
+          "🟨",
+          "19'"
+        ]
+      ]
     }
   }
 }
