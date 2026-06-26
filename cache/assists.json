@@ -2483,7 +2483,7 @@
     }
   },
   "760475": {
-    "final": false,
+    "final": true,
     "data": {
       "goals": [
         [
@@ -2509,6 +2509,12 @@
           "Ousmane Dembélé",
           "Aurélien Tchouaméni",
           "32'"
+        ],
+        [
+          "FRA",
+          "Désiré Doué",
+          "Bradley Barcola",
+          "90'+4'"
         ]
       ],
       "cards": [
@@ -2528,7 +2534,7 @@
     }
   },
   "760474": {
-    "final": false,
+    "final": true,
     "data": {
       "goals": [
         [
@@ -2586,6 +2592,12 @@
           "Pape Gueye",
           "🟨",
           "81'"
+        ],
+        [
+          "IRQ",
+          "Merchas Doski",
+          "🟨",
+          "90'"
         ]
       ]
     }
