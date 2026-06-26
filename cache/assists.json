@@ -2481,5 +2481,47 @@
         ]
       ]
     }
+  },
+  "760475": {
+    "final": false,
+    "data": {
+      "goals": [
+        [
+          "FRA",
+          "Ousmane Dembélé",
+          "Kylian Mbappé",
+          "7'"
+        ]
+      ],
+      "cards": [
+        [
+          "NOR",
+          "Patrick Berg",
+          "🟨",
+          "10'"
+        ]
+      ]
+    }
+  },
+  "760474": {
+    "final": false,
+    "data": {
+      "goals": [
+        [
+          "SEN",
+          "Habib Diarra",
+          "Abdoulaye Seck",
+          "4'"
+        ]
+      ],
+      "cards": [
+        [
+          "IRQ",
+          "Rebin Sulaka",
+          "🟨",
+          "10'"
+        ]
+      ]
+    }
   }
 }
