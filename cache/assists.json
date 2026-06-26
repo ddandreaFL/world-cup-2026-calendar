@@ -2491,6 +2491,24 @@
           "Ousmane Dembélé",
           "Kylian Mbappé",
           "7'"
+        ],
+        [
+          "FRA",
+          "Ousmane Dembélé",
+          "Kylian Mbappé",
+          "20'"
+        ],
+        [
+          "NOR",
+          "Thelo Aasgaard",
+          "Andreas Schjelderup",
+          "21'"
+        ],
+        [
+          "FRA",
+          "Ousmane Dembélé",
+          "Aurélien Tchouaméni",
+          "32'"
         ]
       ],
       "cards": [
@@ -2499,6 +2517,12 @@
           "Patrick Berg",
           "🟨",
           "10'"
+        ],
+        [
+          "FRA",
+          "Aurélien Tchouaméni",
+          "🟨",
+          "74'"
         ]
       ]
     }
@@ -2512,14 +2536,56 @@
           "Habib Diarra",
           "Abdoulaye Seck",
           "4'"
+        ],
+        [
+          "SEN",
+          "Ismaïla Sarr",
+          "Lamine Camara",
+          "56'"
+        ],
+        [
+          "SEN",
+          "Pape Gueye",
+          "Ismaïla Sarr",
+          "59'"
+        ],
+        [
+          "SEN",
+          "Pape Gueye",
+          "Iliman Ndiaye",
+          "71'"
+        ],
+        [
+          "SEN",
+          "Iliman Ndiaye",
+          "Pape Gueye",
+          "82'"
         ]
       ],
       "cards": [
         [
           "IRQ",
           "Rebin Sulaka",
+          "🟥",
+          "13'"
+        ],
+        [
+          "SEN",
+          "Abdoulaye Seck",
           "🟨",
-          "10'"
+          "18'"
+        ],
+        [
+          "IRQ",
+          "Amir Al-Ammari",
+          "🟨",
+          "75'"
+        ],
+        [
+          "SEN",
+          "Pape Gueye",
+          "🟨",
+          "81'"
         ]
       ]
     }
