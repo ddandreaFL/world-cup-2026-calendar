@@ -2601,5 +2601,64 @@
         ]
       ]
     }
+  },
+  "760478": {
+    "final": false,
+    "data": {
+      "goals": [],
+      "cards": [
+        [
+          "KSA",
+          "Saud Abdulhamid",
+          "🟨",
+          "4'"
+        ],
+        [
+          "CPV",
+          "Wagner Pina",
+          "🟨",
+          "9'"
+        ],
+        [
+          "KSA",
+          "Nasser Al-Dawsari",
+          "🟨",
+          "67'"
+        ]
+      ]
+    }
+  },
+  "760479": {
+    "final": false,
+    "data": {
+      "goals": [
+        [
+          "ESP",
+          "Álex Baena",
+          "Marcos Llorente",
+          "42'"
+        ]
+      ],
+      "cards": [
+        [
+          "ESP",
+          "Álex Baena",
+          "🟨",
+          "46'"
+        ],
+        [
+          "URU",
+          "Juan Manuel Sanabria",
+          "🟨",
+          "54'"
+        ],
+        [
+          "URU",
+          "Guillermo Varela",
+          "🟨",
+          "58'"
+        ]
+      ]
+    }
   }
 }
