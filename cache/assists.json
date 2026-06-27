@@ -2603,7 +2603,7 @@
     }
   },
   "760478": {
-    "final": false,
+    "final": true,
     "data": {
       "goals": [],
       "cards": [
@@ -2617,19 +2617,25 @@
           "CPV",
           "Wagner Pina",
           "🟨",
-          "9'"
+          "8'"
         ],
         [
           "KSA",
           "Nasser Al-Dawsari",
           "🟨",
           "67'"
+        ],
+        [
+          "KSA",
+          "Feras Al-Brikan",
+          "🟨",
+          "90'+3'"
         ]
       ]
     }
   },
   "760479": {
-    "final": false,
+    "final": true,
     "data": {
       "goals": [
         [
@@ -2657,6 +2663,138 @@
           "Guillermo Varela",
           "🟨",
           "58'"
+        ],
+        [
+          "URU",
+          "Nicolás de la Cruz",
+          "🟨",
+          "90'+3'"
+        ],
+        [
+          "URU",
+          "Agustín Canobbio",
+          "🟥",
+          "90'+5'"
+        ]
+      ]
+    }
+  },
+  "760476": {
+    "final": true,
+    "data": {
+      "goals": [
+        [
+          "EGY",
+          "Mahmoud Saber",
+          "Trézéguet",
+          "5'"
+        ],
+        [
+          "IRN",
+          "Ramin Rezaeian",
+          "",
+          "14'"
+        ]
+      ],
+      "cards": [
+        [
+          "IRN",
+          "Hossein Kanani",
+          "🟨",
+          "19'"
+        ],
+        [
+          "EGY",
+          "Mahmoud Saber",
+          "🟨",
+          "20'"
+        ],
+        [
+          "EGY",
+          "Yasser Ibrahim",
+          "🟨",
+          "42'"
+        ],
+        [
+          "IRN",
+          "Ali Nemati",
+          "🟨",
+          "43'"
+        ],
+        [
+          "IRN",
+          "Saeid Ezatolahi",
+          "🟨",
+          "79'"
+        ],
+        [
+          "EGY",
+          "Mohanad Lashin",
+          "🟨",
+          "90'+2'"
+        ],
+        [
+          "IRN",
+          "Shoja Khalilzadeh",
+          "🟨",
+          "90'+4'"
+        ]
+      ]
+    }
+  },
+  "760477": {
+    "final": true,
+    "data": {
+      "goals": [
+        [
+          "BEL",
+          "Leandro Trossard",
+          "",
+          "28'"
+        ],
+        [
+          "BEL",
+          "Leandro Trossard",
+          "Hans Vanaken",
+          "50'"
+        ],
+        [
+          "BEL",
+          "Kevin De Bruyne",
+          "",
+          "66'"
+        ],
+        [
+          "NZL",
+          "Elijah Just",
+          "",
+          "84'"
+        ],
+        [
+          "BEL",
+          "Romelu Lukaku",
+          "Nicolas Raskin",
+          "86'"
+        ],
+        [
+          "BEL",
+          "Alexis Saelemaekers",
+          "Romelu Lukaku",
+          "90'+4'"
+        ]
+      ],
+      "cards": [
+        [
+          "NZL",
+          "Marko Stamenic",
+          "🟨",
+          "46'"
+        ],
+        [
+          "NZL",
+          "Elijah Just",
+          "🟨",
+          "56'"
         ]
       ]
     }
