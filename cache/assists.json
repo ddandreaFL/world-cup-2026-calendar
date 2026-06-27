@@ -2800,7 +2800,7 @@
     }
   },
   "760480": {
-    "final": false,
+    "final": true,
     "data": {
       "goals": [
         [
@@ -2808,21 +2808,71 @@
           "Petar Sucic",
           "Mateo Kovacic",
           "31'"
+        ],
+        [
+          "GHA",
+          "Derrick Luckassen",
+          "Ernest Nuamah",
+          "73'"
+        ],
+        [
+          "CRO",
+          "Nikola Vlasic",
+          "Luka Modric",
+          "83'"
         ]
       ],
-      "cards": []
+      "cards": [
+        [
+          "CRO",
+          "Ivan Perisic",
+          "🟨",
+          "68'"
+        ],
+        [
+          "GHA",
+          "Kojo Peprah Oppong",
+          "🟨",
+          "90'+4'"
+        ]
+      ]
     }
   },
   "760485": {
-    "final": false,
+    "final": true,
     "data": {
-      "goals": [],
+      "goals": [
+        [
+          "ENG",
+          "Jude Bellingham",
+          "Bukayo Saka",
+          "62'"
+        ],
+        [
+          "ENG",
+          "Harry Kane",
+          "Jude Bellingham",
+          "67'"
+        ]
+      ],
       "cards": [
         [
           "PAN",
           "José Fajardo",
           "🟨",
           "53'"
+        ],
+        [
+          "ENG",
+          "Jarell Quansah",
+          "🟨",
+          "60'"
+        ],
+        [
+          "PAN",
+          "Andrés Andrade",
+          "🟨",
+          "84'"
         ]
       ]
     }
