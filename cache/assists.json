@@ -2802,7 +2802,14 @@
   "760480": {
     "final": false,
     "data": {
-      "goals": [],
+      "goals": [
+        [
+          "CRO",
+          "Petar Sucic",
+          "Mateo Kovacic",
+          "31'"
+        ]
+      ],
       "cards": []
     }
   },
@@ -2810,7 +2817,14 @@
     "final": false,
     "data": {
       "goals": [],
-      "cards": []
+      "cards": [
+        [
+          "PAN",
+          "José Fajardo",
+          "🟨",
+          "53'"
+        ]
+      ]
     }
   }
 }
