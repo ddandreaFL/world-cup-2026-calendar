@@ -3057,9 +3057,16 @@
     }
   },
   "760486": {
-    "final": false,
+    "final": true,
     "data": {
-      "goals": [],
+      "goals": [
+        [
+          "CAN",
+          "Stephen Eustáquio",
+          "",
+          "90'+2'"
+        ]
+      ],
       "cards": [
         [
           "CAN",
