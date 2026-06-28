@@ -3060,7 +3060,20 @@
     "final": false,
     "data": {
       "goals": [],
-      "cards": []
+      "cards": [
+        [
+          "CAN",
+          "Nathan Saliba",
+          "🟨",
+          "54'"
+        ],
+        [
+          "CAN",
+          "Niko Sigur",
+          "🟨",
+          "67'"
+        ]
+      ]
     }
   }
 }
