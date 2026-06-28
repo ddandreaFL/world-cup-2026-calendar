@@ -2953,5 +2953,107 @@
         ]
       ]
     }
+  },
+  "760484": {
+    "final": true,
+    "data": {
+      "goals": [
+        [
+          "AUT",
+          "Marko Arnautovic",
+          "David Alaba",
+          "28'"
+        ],
+        [
+          "ALG",
+          "Rafik Belghali",
+          "",
+          "45'"
+        ],
+        [
+          "AUT",
+          "Marcel Sabitzer",
+          "Konrad Laimer",
+          "55'"
+        ],
+        [
+          "ALG",
+          "Riyad Mahrez",
+          "Houssem Aouar",
+          "60'"
+        ],
+        [
+          "ALG",
+          "Riyad Mahrez",
+          "Houssem Aouar",
+          "90'+3'"
+        ],
+        [
+          "AUT",
+          "Sasa Kalajdzic",
+          "Michael Gregoritsch",
+          "90'+6'"
+        ]
+      ],
+      "cards": [
+        [
+          "AUT",
+          "Marko Arnautovic",
+          "🟨",
+          "11'"
+        ]
+      ]
+    }
+  },
+  "760483": {
+    "final": true,
+    "data": {
+      "goals": [
+        [
+          "ARG",
+          "Giovani Lo Celso",
+          "",
+          "19'"
+        ],
+        [
+          "ARG",
+          "Lautaro Martínez",
+          "",
+          "31'"
+        ],
+        [
+          "JOR",
+          "Mousa Al-Tamari",
+          "Ehsan Haddad",
+          "55'"
+        ],
+        [
+          "ARG",
+          "Lionel Messi",
+          "",
+          "80'"
+        ]
+      ],
+      "cards": [
+        [
+          "JOR",
+          "Mohannad Abu Taha",
+          "🟨",
+          "17'"
+        ],
+        [
+          "JOR",
+          "Yazan Al-Arab",
+          "🟨",
+          "64'"
+        ],
+        [
+          "JOR",
+          "Mohammed Abu Zraiq",
+          "🟨",
+          "90'+4'"
+        ]
+      ]
+    }
   }
 }
