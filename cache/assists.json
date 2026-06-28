@@ -2876,5 +2876,82 @@
         ]
       ]
     }
+  },
+  "760481": {
+    "final": true,
+    "data": {
+      "goals": [],
+      "cards": [
+        [
+          "COL",
+          "Gustavo Puerta",
+          "🟨",
+          "86'"
+        ]
+      ]
+    }
+  },
+  "760482": {
+    "final": true,
+    "data": {
+      "goals": [
+        [
+          "UZB",
+          "Eldor Shomurodov",
+          "Akmal Mozgovoy",
+          "10'"
+        ],
+        [
+          "COD",
+          "Yoane Wissa",
+          "",
+          "68'"
+        ],
+        [
+          "COD",
+          "Fiston Mayele",
+          "",
+          "78'"
+        ],
+        [
+          "COD",
+          "Yoane Wissa",
+          "Meschack Elia",
+          "90'+1'"
+        ]
+      ],
+      "cards": [
+        [
+          "COD",
+          "Noah Sadiki",
+          "🟨",
+          "21'"
+        ],
+        [
+          "UZB",
+          "Abdukodir Khusanov",
+          "🟨",
+          "43'"
+        ],
+        [
+          "COD",
+          "Nathanaël Mbuku",
+          "🟨",
+          "45'+5'"
+        ],
+        [
+          "UZB",
+          "Sherzod Nasrullaev",
+          "🟨",
+          "48'"
+        ],
+        [
+          "COD",
+          "Samuel Moutoussamy",
+          "🟨",
+          "62'"
+        ]
+      ]
+    }
   }
 }
