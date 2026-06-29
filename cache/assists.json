@@ -3082,5 +3082,50 @@
         ]
       ]
     }
+  },
+  "760487": {
+    "final": false,
+    "data": {
+      "goals": [
+        [
+          "JPN",
+          "Kaishu Sano",
+          "",
+          "29'"
+        ],
+        [
+          "BRA",
+          "Casemiro",
+          "Gabriel Magalhães",
+          "56'"
+        ]
+      ],
+      "cards": [
+        [
+          "JPN",
+          "Kaishu Sano",
+          "🟨",
+          "12'"
+        ],
+        [
+          "BRA",
+          "Casemiro",
+          "🟨",
+          "14'"
+        ],
+        [
+          "JPN",
+          "Daichi Kamada",
+          "🟨",
+          "45'"
+        ],
+        [
+          "BRA",
+          "Danilo",
+          "🟨",
+          "48'"
+        ]
+      ]
+    }
   }
 }
