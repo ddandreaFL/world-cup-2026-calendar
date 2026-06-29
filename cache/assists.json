@@ -3139,5 +3139,25 @@
         ]
       ]
     }
+  },
+  "760489": {
+    "final": false,
+    "data": {
+      "goals": [
+        [
+          "PAR",
+          "Julio Enciso",
+          "Matías Galarza",
+          "42'"
+        ],
+        [
+          "GER",
+          "Kai Havertz",
+          "Florian Wirtz",
+          "54'"
+        ]
+      ],
+      "cards": []
+    }
   }
 }
