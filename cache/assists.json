@@ -3084,7 +3084,7 @@
     }
   },
   "760487": {
-    "final": false,
+    "final": true,
     "data": {
       "goals": [
         [
@@ -3098,6 +3098,12 @@
           "Casemiro",
           "Gabriel Magalhães",
           "56'"
+        ],
+        [
+          "BRA",
+          "Gabriel Martinelli",
+          "Bruno Guimarães",
+          "90'+5'"
         ]
       ],
       "cards": [
@@ -3124,6 +3130,12 @@
           "Danilo",
           "🟨",
           "48'"
+        ],
+        [
+          "JPN",
+          "Junnosuke Suzuki",
+          "🟨",
+          "84'"
         ]
       ]
     }
