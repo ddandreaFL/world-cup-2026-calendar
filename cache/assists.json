@@ -3141,7 +3141,7 @@
     }
   },
   "760489": {
-    "final": false,
+    "final": true,
     "data": {
       "goals": [
         [
@@ -3163,6 +3163,24 @@
           "Andrés Cubas",
           "🟨",
           "65'"
+        ],
+        [
+          "GER",
+          "Kai Havertz",
+          "🟨",
+          "106'"
+        ],
+        [
+          "GER",
+          "Jamal Musiala",
+          "🟨",
+          "115'"
+        ],
+        [
+          "PAR",
+          "Matías Galarza",
+          "🟨",
+          "117'"
         ]
       ]
     }
