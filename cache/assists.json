@@ -3211,5 +3211,38 @@
         ]
       ]
     }
+  },
+  "760490": {
+    "final": false,
+    "data": {
+      "goals": [
+        [
+          "NOR",
+          "Antonio Nusa",
+          "Martin Ødegaard",
+          "39'"
+        ],
+        [
+          "CIV",
+          "Amad Diallo",
+          "Nicolas Pépé",
+          "74'"
+        ],
+        [
+          "NOR",
+          "Erling Haaland",
+          "Patrick Berg",
+          "86'"
+        ]
+      ],
+      "cards": [
+        [
+          "NOR",
+          "Antonio Nusa",
+          "🟨",
+          "45'+1'"
+        ]
+      ]
+    }
   }
 }
