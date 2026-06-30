@@ -3244,5 +3244,25 @@
         ]
       ]
     }
+  },
+  "760492": {
+    "final": false,
+    "data": {
+      "goals": [
+        [
+          "FRA",
+          "Kylian Mbappé",
+          "Ousmane Dembélé",
+          "45'"
+        ],
+        [
+          "FRA",
+          "Bradley Barcola",
+          "Michael Olise",
+          "53'"
+        ]
+      ],
+      "cards": []
+    }
   }
 }
