@@ -3246,7 +3246,7 @@
     }
   },
   "760492": {
-    "final": false,
+    "final": true,
     "data": {
       "goals": [
         [
@@ -3260,6 +3260,12 @@
           "Bradley Barcola",
           "Michael Olise",
           "53'"
+        ],
+        [
+          "FRA",
+          "Kylian Mbappé",
+          "Michael Olise",
+          "74'"
         ]
       ],
       "cards": []
