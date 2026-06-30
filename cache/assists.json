@@ -3186,10 +3186,30 @@
     }
   },
   "760488": {
-    "final": false,
+    "final": true,
     "data": {
-      "goals": [],
-      "cards": []
+      "goals": [
+        [
+          "NED",
+          "Cody Gakpo",
+          "Crysencio Summerville",
+          "72'"
+        ],
+        [
+          "MAR",
+          "Issa Diop",
+          "Chemsdine Talbi",
+          "90'+1'"
+        ]
+      ],
+      "cards": [
+        [
+          "MAR",
+          "Issa Diop",
+          "🟨",
+          "47'"
+        ]
+      ]
     }
   }
 }
