@@ -3358,8 +3358,34 @@
   "760493": {
     "final": false,
     "data": {
-      "goals": [],
-      "cards": []
+      "goals": [
+        [
+          "SEN",
+          "Habib Diarra",
+          "",
+          "25'"
+        ],
+        [
+          "SEN",
+          "Ismaïla Sarr",
+          "Moussa Niakhaté",
+          "51'"
+        ]
+      ],
+      "cards": [
+        [
+          "BEL",
+          "Brandon Mechele",
+          "🟨",
+          "64'"
+        ],
+        [
+          "SEN",
+          "Lamine Camara",
+          "🟨",
+          "67'"
+        ]
+      ]
     }
   }
 }
