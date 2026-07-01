@@ -3356,7 +3356,7 @@
     }
   },
   "760493": {
-    "final": false,
+    "final": true,
     "data": {
       "goals": [
         [
@@ -3370,6 +3370,24 @@
           "Ismaïla Sarr",
           "Moussa Niakhaté",
           "51'"
+        ],
+        [
+          "BEL",
+          "Romelu Lukaku",
+          "Thomas Meunier",
+          "86'"
+        ],
+        [
+          "BEL",
+          "Youri Tielemans",
+          "Leandro Trossard",
+          "89'"
+        ],
+        [
+          "BEL",
+          "Youri Tielemans",
+          "",
+          "120'+5'"
         ]
       ],
       "cards": [
