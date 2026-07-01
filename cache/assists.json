@@ -3270,5 +3270,50 @@
       ],
       "cards": []
     }
+  },
+  "760491": {
+    "final": true,
+    "data": {
+      "goals": [
+        [
+          "MEX",
+          "Julián Quiñones",
+          "Roberto Alvarado",
+          "22'"
+        ],
+        [
+          "MEX",
+          "Raúl Jiménez",
+          "Julián Quiñones",
+          "31'"
+        ]
+      ],
+      "cards": [
+        [
+          "ECU",
+          "Alan Franco",
+          "🟨",
+          "45'+1'"
+        ],
+        [
+          "ECU",
+          "Kendry Páez",
+          "🟨",
+          "90'+3'"
+        ],
+        [
+          "ECU",
+          "Piero Hincapié",
+          "🟥",
+          "90'+5'"
+        ],
+        [
+          "ECU",
+          "Moisés Caicedo",
+          "🟨",
+          "90'+9'"
+        ]
+      ]
+    }
   }
 }
