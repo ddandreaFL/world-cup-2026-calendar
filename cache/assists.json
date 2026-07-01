@@ -3315,5 +3315,44 @@
         ]
       ]
     }
+  },
+  "760495": {
+    "final": true,
+    "data": {
+      "goals": [
+        [
+          "COD",
+          "Brian Cipenga",
+          "Chancel Mbemba",
+          "7'"
+        ],
+        [
+          "ENG",
+          "Harry Kane",
+          "Anthony Gordon",
+          "75'"
+        ],
+        [
+          "ENG",
+          "Harry Kane",
+          "Anthony Gordon",
+          "86'"
+        ]
+      ],
+      "cards": [
+        [
+          "ENG",
+          "Jude Bellingham",
+          "🟨",
+          "19'"
+        ],
+        [
+          "COD",
+          "Noah Sadiki",
+          "🟨",
+          "28'"
+        ]
+      ]
+    }
   }
 }
