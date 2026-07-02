@@ -3407,10 +3407,36 @@
     }
   },
   "760494": {
-    "final": false,
+    "final": true,
     "data": {
-      "goals": [],
-      "cards": []
+      "goals": [
+        [
+          "USA",
+          "Folarin Balogun",
+          "",
+          "45'"
+        ],
+        [
+          "USA",
+          "Malik Tillman",
+          "",
+          "82'"
+        ]
+      ],
+      "cards": [
+        [
+          "USA",
+          "Folarin Balogun",
+          "🟥",
+          "64'"
+        ],
+        [
+          "BIH",
+          "Stjepan Radeljic",
+          "🟨",
+          "80'"
+        ]
+      ]
     }
   }
 }
