@@ -3438,5 +3438,19 @@
         ]
       ]
     }
+  },
+  "760497": {
+    "final": false,
+    "data": {
+      "goals": [
+        [
+          "ESP",
+          "Mikel Oyarzabal",
+          "Marc Cucurella",
+          "36'"
+        ]
+      ],
+      "cards": []
+    }
   }
 }
