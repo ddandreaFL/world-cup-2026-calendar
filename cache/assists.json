@@ -3440,7 +3440,7 @@
     }
   },
   "760497": {
-    "final": false,
+    "final": true,
     "data": {
       "goals": [
         [
@@ -3448,9 +3448,28 @@
           "Mikel Oyarzabal",
           "Marc Cucurella",
           "36'"
+        ],
+        [
+          "ESP",
+          "Pedro Porro",
+          "Álex Baena",
+          "66'"
+        ],
+        [
+          "ESP",
+          "Mikel Oyarzabal",
+          "Marc Cucurella",
+          "89'"
         ]
       ],
-      "cards": []
+      "cards": [
+        [
+          "AUT",
+          "Stefan Posch",
+          "🟨",
+          "83'"
+        ]
+      ]
     }
   }
 }
