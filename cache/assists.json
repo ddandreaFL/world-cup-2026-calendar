@@ -3473,15 +3473,46 @@
     }
   },
   "760496": {
-    "final": false,
+    "final": true,
     "data": {
-      "goals": [],
+      "goals": [
+        [
+          "CRO",
+          "Ivan Perisic",
+          "",
+          "53'"
+        ],
+        [
+          "POR",
+          "Cristiano Ronaldo",
+          "",
+          "68'"
+        ],
+        [
+          "POR",
+          "Gonçalo Ramos",
+          "Rafael Leão",
+          "90'+4'"
+        ]
+      ],
       "cards": [
         [
           "POR",
           "Rúben Dias",
           "🟨",
           "17'"
+        ],
+        [
+          "CRO",
+          "Luka Modric",
+          "🟨",
+          "59'"
+        ],
+        [
+          "CRO",
+          "Ivan Perisic",
+          "🟨",
+          "90'+8'"
         ]
       ]
     }
