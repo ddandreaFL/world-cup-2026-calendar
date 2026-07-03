@@ -3516,5 +3516,38 @@
         ]
       ]
     }
+  },
+  "760498": {
+    "final": true,
+    "data": {
+      "goals": [
+        [
+          "SUI",
+          "Breel Embolo",
+          "Johan Manzambi",
+          "10'"
+        ],
+        [
+          "SUI",
+          "Dan Ndoye",
+          "",
+          "46'"
+        ]
+      ],
+      "cards": [
+        [
+          "ALG",
+          "Farès Chaïbi",
+          "🟨",
+          "36'"
+        ],
+        [
+          "ALG",
+          "Hicham Boudaoui",
+          "🟨",
+          "72'"
+        ]
+      ]
+    }
   }
 }
