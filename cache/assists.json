@@ -3553,7 +3553,20 @@
   "760499": {
     "final": false,
     "data": {
-      "goals": [],
+      "goals": [
+        [
+          "EGY",
+          "Emam Ashour",
+          "Karim Hafez",
+          "13'"
+        ],
+        [
+          "AUS",
+          "Mohamed Hany",
+          "",
+          "55'"
+        ]
+      ],
       "cards": []
     }
   }
