@@ -3551,7 +3551,7 @@
     }
   },
   "760499": {
-    "final": false,
+    "final": true,
     "data": {
       "goals": [
         [
