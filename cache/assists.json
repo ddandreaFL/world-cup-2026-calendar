@@ -3592,9 +3592,22 @@
           "Lionel Messi",
           "Lisandro Martínez",
           "29'"
+        ],
+        [
+          "CPV",
+          "Deroy Duarte",
+          "Ryan Mendes",
+          "59'"
         ]
       ],
-      "cards": []
+      "cards": [
+        [
+          "CPV",
+          "Kevin Pina",
+          "🟨",
+          "68'"
+        ]
+      ]
     }
   }
 }
