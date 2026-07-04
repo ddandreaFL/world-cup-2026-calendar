@@ -3755,15 +3755,34 @@
     }
   },
   "760503": {
-    "final": false,
+    "final": true,
     "data": {
-      "goals": [],
+      "goals": [
+        [
+          "FRA",
+          "Kylian Mbappé",
+          "",
+          "70'"
+        ]
+      ],
       "cards": [
         [
           "FRA",
           "Bradley Barcola",
           "🟨",
           "19'"
+        ],
+        [
+          "FRA",
+          "Manu Koné",
+          "🟨",
+          "81'"
+        ],
+        [
+          "FRA",
+          "Michael Olise",
+          "🟨",
+          "90'+7'"
         ]
       ]
     }
