@@ -3753,5 +3753,19 @@
         ]
       ]
     }
+  },
+  "760503": {
+    "final": false,
+    "data": {
+      "goals": [],
+      "cards": [
+        [
+          "FRA",
+          "Bradley Barcola",
+          "🟨",
+          "19'"
+        ]
+      ]
+    }
   }
 }
