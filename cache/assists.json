@@ -3584,7 +3584,7 @@
     }
   },
   "760500": {
-    "final": false,
+    "final": true,
     "data": {
       "goals": [
         [
@@ -3598,6 +3598,24 @@
           "Deroy Duarte",
           "Ryan Mendes",
           "59'"
+        ],
+        [
+          "ARG",
+          "Lisandro Martínez",
+          "Alexis Mac Allister",
+          "92'"
+        ],
+        [
+          "CPV",
+          "Sidny Lopes Cabral",
+          "Yannick Semedo",
+          "103'"
+        ],
+        [
+          "ARG",
+          "Diney Borges",
+          "",
+          "111'"
         ]
       ],
       "cards": [
@@ -3606,6 +3624,12 @@
           "Kevin Pina",
           "🟨",
           "68'"
+        ],
+        [
+          "ARG",
+          "Gonzalo Montiel",
+          "🟨",
+          "115'"
         ]
       ]
     }
