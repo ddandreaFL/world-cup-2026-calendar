@@ -3633,5 +3633,50 @@
         ]
       ]
     }
+  },
+  "760501": {
+    "final": true,
+    "data": {
+      "goals": [
+        [
+          "COL",
+          "Jhon Arias",
+          "Luis Suárez",
+          "14'"
+        ]
+      ],
+      "cards": [
+        [
+          "COL",
+          "Jhon Arias",
+          "🟨",
+          "12'"
+        ],
+        [
+          "GHA",
+          "Caleb Yirenkyi",
+          "🟨",
+          "49'"
+        ],
+        [
+          "GHA",
+          "Fatawu Issahaku",
+          "🟨",
+          "66'"
+        ],
+        [
+          "GHA",
+          "Alidu Seidu",
+          "🟨",
+          "76'"
+        ],
+        [
+          "COL",
+          "Richard Ríos",
+          "🟨",
+          "78'"
+        ]
+      ]
+    }
   }
 }
