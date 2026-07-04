@@ -3680,7 +3680,7 @@
     }
   },
   "760502": {
-    "final": false,
+    "final": true,
     "data": {
       "goals": [
         [
@@ -3688,6 +3688,18 @@
           "Azzedine Ounahi",
           "Achraf Hakimi",
           "50'"
+        ],
+        [
+          "MAR",
+          "Azzedine Ounahi",
+          "Brahim Díaz",
+          "82'"
+        ],
+        [
+          "MAR",
+          "Soufiane Rahimi",
+          "Brahim Díaz",
+          "90'+8'"
         ]
       ],
       "cards": [
