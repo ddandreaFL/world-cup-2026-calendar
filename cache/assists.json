@@ -3682,7 +3682,14 @@
   "760502": {
     "final": false,
     "data": {
-      "goals": [],
+      "goals": [
+        [
+          "MAR",
+          "Azzedine Ounahi",
+          "Achraf Hakimi",
+          "50'"
+        ]
+      ],
       "cards": [
         [
           "MAR",
@@ -3701,6 +3708,36 @@
           "Richie Laryea",
           "🟨",
           "40'"
+        ],
+        [
+          "CAN",
+          "Jonathan David",
+          "🟨",
+          "43'"
+        ],
+        [
+          "MAR",
+          "Azzedine Ounahi",
+          "🟨",
+          "45'"
+        ],
+        [
+          "MAR",
+          "Bilal El Khannouss",
+          "🟨",
+          "45'+6'"
+        ],
+        [
+          "CAN",
+          "Luc de Fougerolles",
+          "🟨",
+          "49'"
+        ],
+        [
+          "CAN",
+          "Cyle Larin",
+          "🟨",
+          "67'"
         ]
       ]
     }
