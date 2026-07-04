@@ -3678,5 +3678,31 @@
         ]
       ]
     }
+  },
+  "760502": {
+    "final": false,
+    "data": {
+      "goals": [],
+      "cards": [
+        [
+          "MAR",
+          "Redouane Halhal",
+          "🟨",
+          "20'"
+        ],
+        [
+          "MAR",
+          "Achraf Hakimi",
+          "🟨",
+          "40'"
+        ],
+        [
+          "CAN",
+          "Richie Laryea",
+          "🟨",
+          "40'"
+        ]
+      ]
+    }
   }
 }
