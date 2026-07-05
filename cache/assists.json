@@ -3788,10 +3788,36 @@
     }
   },
   "760504": {
-    "final": false,
+    "final": true,
     "data": {
-      "goals": [],
-      "cards": []
+      "goals": [
+        [
+          "NOR",
+          "Erling Haaland",
+          "Andreas Schjelderup",
+          "79'"
+        ],
+        [
+          "NOR",
+          "Erling Haaland",
+          "Andreas Schjelderup",
+          "90'"
+        ],
+        [
+          "BRA",
+          "Neymar",
+          "",
+          "90'+10'"
+        ]
+      ],
+      "cards": [
+        [
+          "BRA",
+          "Neymar",
+          "🟨",
+          "90'+6'"
+        ]
+      ]
     }
   }
 }
