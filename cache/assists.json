@@ -3902,10 +3902,36 @@
     }
   },
   "760506": {
-    "final": false,
+    "final": true,
     "data": {
-      "goals": [],
-      "cards": []
+      "goals": [
+        [
+          "ESP",
+          "Mikel Merino",
+          "Ferran Torres",
+          "90'+1'"
+        ]
+      ],
+      "cards": [
+        [
+          "POR",
+          "Bernardo Silva",
+          "🟨",
+          "89'"
+        ],
+        [
+          "POR",
+          "Renato Veiga",
+          "🟨",
+          "90'+4'"
+        ],
+        [
+          "ESP",
+          "Ferran Torres",
+          "🟨",
+          "90'+8'"
+        ]
+      ]
     }
   }
 }
