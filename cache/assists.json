@@ -3821,15 +3821,82 @@
     }
   },
   "760505": {
-    "final": false,
+    "final": true,
     "data": {
-      "goals": [],
+      "goals": [
+        [
+          "ENG",
+          "Jude Bellingham",
+          "Bukayo Saka",
+          "36'"
+        ],
+        [
+          "ENG",
+          "Jude Bellingham",
+          "Harry Kane",
+          "38'"
+        ],
+        [
+          "MEX",
+          "Julián Quiñones",
+          "",
+          "42'"
+        ],
+        [
+          "ENG",
+          "Harry Kane",
+          "",
+          "60'"
+        ],
+        [
+          "MEX",
+          "Raúl Jiménez",
+          "",
+          "69'"
+        ]
+      ],
       "cards": [
         [
           "ENG",
           "Declan Rice",
           "🟨",
           "1'"
+        ],
+        [
+          "ENG",
+          "Jarell Quansah",
+          "🟥",
+          "54'"
+        ],
+        [
+          "ENG",
+          "Marc Guéhi",
+          "🟨",
+          "68'"
+        ],
+        [
+          "MEX",
+          "Jorge Sánchez",
+          "🟨",
+          "71'"
+        ],
+        [
+          "ENG",
+          "Nico O'Reilly",
+          "🟨",
+          "72'"
+        ],
+        [
+          "MEX",
+          "Johan Vásquez",
+          "🟨",
+          "90'+8'"
+        ],
+        [
+          "ENG",
+          "Jordan Henderson",
+          "🟨",
+          "90'+8'"
         ]
       ]
     }
