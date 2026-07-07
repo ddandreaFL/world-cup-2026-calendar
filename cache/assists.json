@@ -3986,10 +3986,66 @@
     }
   },
   "760509": {
-    "final": false,
+    "final": true,
     "data": {
-      "goals": [],
-      "cards": []
+      "goals": [
+        [
+          "EGY",
+          "Yasser Ibrahim",
+          "Marawan Attia",
+          "15'"
+        ],
+        [
+          "EGY",
+          "Mostafa Zico",
+          "Haissem Hassan",
+          "67'"
+        ],
+        [
+          "ARG",
+          "Cristian Romero",
+          "Lionel Messi",
+          "79'"
+        ],
+        [
+          "ARG",
+          "Lionel Messi",
+          "Gonzalo Montiel",
+          "83'"
+        ],
+        [
+          "ARG",
+          "Enzo Fernández",
+          "Lautaro Martínez",
+          "90'+2'"
+        ]
+      ],
+      "cards": [
+        [
+          "EGY",
+          "Mostafa Shoubir",
+          "🟨",
+          "90'+3'"
+        ],
+        [
+          "EGY",
+          "Hamdy Fathy",
+          "🟨",
+          "90'+4'"
+        ],
+        [
+          "EGY",
+          "Marawan Attia",
+          "🟨",
+          "90'+8'"
+        ],
+        [
+          "EGY",
+          "Haissem Hassan",
+          "🟨",
+          "90'+12'"
+        ]
+      ]
     }
   }
 }
