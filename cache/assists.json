@@ -4052,7 +4052,26 @@
     "final": false,
     "data": {
       "goals": [],
-      "cards": []
+      "cards": [
+        [
+          "SUI",
+          "Granit Xhaka",
+          "🟨",
+          "51'"
+        ],
+        [
+          "SUI",
+          "Denis Zakaria",
+          "🟨",
+          "59'"
+        ],
+        [
+          "COL",
+          "Luis Suárez",
+          "🟨",
+          "60'"
+        ]
+      ]
     }
   }
 }
