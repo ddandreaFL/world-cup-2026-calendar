@@ -4049,7 +4049,7 @@
     }
   },
   "760508": {
-    "final": false,
+    "final": true,
     "data": {
       "goals": [],
       "cards": [
