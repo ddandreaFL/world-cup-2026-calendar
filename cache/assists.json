@@ -3933,5 +3933,38 @@
         ]
       ]
     }
+  },
+  "760507": {
+    "final": false,
+    "data": {
+      "goals": [
+        [
+          "BEL",
+          "Charles De Ketelaere",
+          "Nicolas Raskin",
+          "9'"
+        ],
+        [
+          "USA",
+          "Malik Tillman",
+          "",
+          "31'"
+        ],
+        [
+          "BEL",
+          "Charles De Ketelaere",
+          "Leandro Trossard",
+          "33'"
+        ]
+      ],
+      "cards": [
+        [
+          "USA",
+          "Weston McKennie",
+          "🟨",
+          "35'"
+        ]
+      ]
+    }
   }
 }
