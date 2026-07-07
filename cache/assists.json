@@ -3935,7 +3935,7 @@
     }
   },
   "760507": {
-    "final": false,
+    "final": true,
     "data": {
       "goals": [
         [
@@ -3955,6 +3955,18 @@
           "Charles De Ketelaere",
           "Leandro Trossard",
           "33'"
+        ],
+        [
+          "BEL",
+          "Hans Vanaken",
+          "Charles De Ketelaere",
+          "57'"
+        ],
+        [
+          "BEL",
+          "Romelu Lukaku",
+          "Hans Vanaken",
+          "90'+3'"
         ]
       ],
       "cards": [
@@ -3963,6 +3975,12 @@
           "Weston McKennie",
           "🟨",
           "35'"
+        ],
+        [
+          "USA",
+          "Malik Tillman",
+          "🟨",
+          "69'"
         ]
       ]
     }
