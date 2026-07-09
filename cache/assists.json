@@ -4089,8 +4089,28 @@
   "760510": {
     "final": false,
     "data": {
-      "goals": [],
-      "cards": []
+      "goals": [
+        [
+          "FRA",
+          "Kylian Mbappé",
+          "Désiré Doué",
+          "60'"
+        ],
+        [
+          "FRA",
+          "Ousmane Dembélé",
+          "Kylian Mbappé",
+          "66'"
+        ]
+      ],
+      "cards": [
+        [
+          "MAR",
+          "Issa Diop",
+          "🟨",
+          "63'"
+        ]
+      ]
     }
   }
 }
