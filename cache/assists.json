@@ -4116,8 +4116,28 @@
   "760511": {
     "final": false,
     "data": {
-      "goals": [],
-      "cards": []
+      "goals": [
+        [
+          "ESP",
+          "Fabián Ruiz",
+          "",
+          "30'"
+        ],
+        [
+          "BEL",
+          "Charles De Ketelaere",
+          "Timothy Castagne",
+          "41'"
+        ]
+      ],
+      "cards": [
+        [
+          "ESP",
+          "Pau Cubarsí",
+          "🟨",
+          "43'"
+        ]
+      ]
     }
   }
 }
