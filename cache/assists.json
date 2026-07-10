@@ -4114,7 +4114,7 @@
     }
   },
   "760511": {
-    "final": false,
+    "final": true,
     "data": {
       "goals": [
         [
@@ -4128,6 +4128,12 @@
           "Charles De Ketelaere",
           "Timothy Castagne",
           "41'"
+        ],
+        [
+          "ESP",
+          "Mikel Merino",
+          "",
+          "88'"
         ]
       ],
       "cards": [
@@ -4136,6 +4142,24 @@
           "Pau Cubarsí",
           "🟨",
           "43'"
+        ],
+        [
+          "BEL",
+          "Kevin De Bruyne",
+          "🟨",
+          "85'"
+        ],
+        [
+          "ESP",
+          "Aymeric Laporte",
+          "🟨",
+          "90'+3'"
+        ],
+        [
+          "BEL",
+          "Axel Witsel",
+          "🟨",
+          "90'+5'"
         ]
       ]
     }
