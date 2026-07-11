@@ -4167,7 +4167,20 @@
   "760512": {
     "final": false,
     "data": {
-      "goals": [],
+      "goals": [
+        [
+          "NOR",
+          "Andreas Schjelderup",
+          "Martin Ødegaard",
+          "36'"
+        ],
+        [
+          "ENG",
+          "Jude Bellingham",
+          "Anthony Gordon",
+          "45'+2'"
+        ]
+      ],
       "cards": []
     }
   }
