@@ -4165,7 +4165,7 @@
     }
   },
   "760512": {
-    "final": false,
+    "final": true,
     "data": {
       "goals": [
         [
@@ -4187,6 +4187,20 @@
           "93'"
         ]
       ],
+      "cards": [
+        [
+          "NOR",
+          "Kristoffer Ajer",
+          "🟨",
+          "117'"
+        ]
+      ]
+    }
+  },
+  "760513": {
+    "final": false,
+    "data": {
+      "goals": [],
       "cards": []
     }
   }
