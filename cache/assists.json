@@ -4198,10 +4198,66 @@
     }
   },
   "760513": {
-    "final": false,
+    "final": true,
     "data": {
-      "goals": [],
-      "cards": []
+      "goals": [
+        [
+          "ARG",
+          "Alexis Mac Allister",
+          "Lionel Messi",
+          "10'"
+        ],
+        [
+          "SUI",
+          "Dan Ndoye",
+          "Ricardo Rodríguez",
+          "67'"
+        ],
+        [
+          "ARG",
+          "Julián Álvarez",
+          "José Manuel López",
+          "112'"
+        ],
+        [
+          "ARG",
+          "Lautaro Martínez",
+          "",
+          "120'+1'"
+        ]
+      ],
+      "cards": [
+        [
+          "SUI",
+          "Breel Embolo",
+          "🟨",
+          "44'"
+        ],
+        [
+          "SUI",
+          "Breel Embolo",
+          "🟥",
+          "72'"
+        ],
+        [
+          "ARG",
+          "Thiago Almada",
+          "🟨",
+          "97'"
+        ],
+        [
+          "ARG",
+          "Lautaro Martínez",
+          "🟨",
+          "98'"
+        ],
+        [
+          "ARG",
+          "José Manuel López",
+          "🟨",
+          "114'"
+        ]
+      ]
     }
   }
 }
