@@ -4261,7 +4261,7 @@
     }
   },
   "760514": {
-    "final": false,
+    "final": true,
     "data": {
       "goals": [
         [
@@ -4269,6 +4269,12 @@
           "Mikel Oyarzabal",
           "",
           "22'"
+        ],
+        [
+          "ESP",
+          "Pedro Porro",
+          "Dani Olmo",
+          "58'"
         ]
       ],
       "cards": [
@@ -4283,6 +4289,12 @@
           "Marc Cucurella",
           "🟨",
           "31'"
+        ],
+        [
+          "FRA",
+          "Kylian Mbappé",
+          "🟨",
+          "86'"
         ]
       ]
     }
