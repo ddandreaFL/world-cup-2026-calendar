@@ -4259,5 +4259,32 @@
         ]
       ]
     }
+  },
+  "760514": {
+    "final": false,
+    "data": {
+      "goals": [
+        [
+          "ESP",
+          "Mikel Oyarzabal",
+          "",
+          "22'"
+        ]
+      ],
+      "cards": [
+        [
+          "FRA",
+          "Adrien Rabiot",
+          "🟨",
+          "9'"
+        ],
+        [
+          "ESP",
+          "Marc Cucurella",
+          "🟨",
+          "31'"
+        ]
+      ]
+    }
   }
 }
