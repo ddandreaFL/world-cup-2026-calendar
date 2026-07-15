@@ -4300,9 +4300,28 @@
     }
   },
   "760515": {
-    "final": false,
+    "final": true,
     "data": {
-      "goals": [],
+      "goals": [
+        [
+          "ENG",
+          "Anthony Gordon",
+          "Morgan Rogers",
+          "55'"
+        ],
+        [
+          "ARG",
+          "Enzo Fernández",
+          "Lionel Messi",
+          "85'"
+        ],
+        [
+          "ARG",
+          "Lautaro Martínez",
+          "Lionel Messi",
+          "90'+2'"
+        ]
+      ],
       "cards": [
         [
           "ENG",
@@ -4315,6 +4334,18 @@
           "Lisandro Martínez",
           "🟨",
           "42'"
+        ],
+        [
+          "ARG",
+          "Cristian Romero",
+          "🟨",
+          "51'"
+        ],
+        [
+          "ARG",
+          "Rodrigo De Paul",
+          "🟨",
+          "90'+4'"
         ]
       ]
     }
