@@ -4298,5 +4298,25 @@
         ]
       ]
     }
+  },
+  "760515": {
+    "final": false,
+    "data": {
+      "goals": [],
+      "cards": [
+        [
+          "ENG",
+          "Elliot Anderson",
+          "🟨",
+          "37'"
+        ],
+        [
+          "ARG",
+          "Lisandro Martínez",
+          "🟨",
+          "42'"
+        ]
+      ]
+    }
   }
 }
