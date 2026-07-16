@@ -79502,5 +79502,845 @@
         ]
       }
     ]
+  },
+  "20260715": {
+    "complete": true,
+    "events": [
+      {
+        "id": "760515",
+        "uid": "s:600~l:606~e:760515",
+        "date": "2026-07-15T19:00Z",
+        "name": "Argentina at England",
+        "shortName": "ARG @ ENG",
+        "season": {
+          "year": 2026,
+          "type": 13798,
+          "slug": "semifinals"
+        },
+        "competitions": [
+          {
+            "id": "760515",
+            "uid": "s:600~l:606~e:760515~c:760515",
+            "date": "2026-07-15T19:00Z",
+            "startDate": "2026-07-15T19:00Z",
+            "attendance": 68239,
+            "timeValid": true,
+            "recent": true,
+            "status": {
+              "clock": 5400.0,
+              "displayClock": "90'+12'",
+              "period": 2,
+              "type": {
+                "id": "28",
+                "name": "STATUS_FULL_TIME",
+                "state": "post",
+                "completed": true,
+                "description": "Full Time",
+                "detail": "FT",
+                "shortDetail": "FT"
+              }
+            },
+            "venue": {
+              "id": "7485",
+              "fullName": "Mercedes-Benz Stadium",
+              "address": {
+                "city": "Atlanta, Georgia",
+                "country": "USA"
+              }
+            },
+            "format": {
+              "regulation": {
+                "periods": 2
+              }
+            },
+            "altGameNote": "FIFA World Cup, Semifinals",
+            "notes": [],
+            "geoBroadcasts": [
+              {
+                "type": {
+                  "id": "1",
+                  "shortName": "TV"
+                },
+                "market": {
+                  "id": "1",
+                  "type": "National"
+                },
+                "media": {
+                  "shortName": "FOX"
+                },
+                "lang": "en",
+                "region": "us"
+              },
+              {
+                "type": {
+                  "id": "1",
+                  "shortName": "TV"
+                },
+                "market": {
+                  "id": "1",
+                  "type": "National"
+                },
+                "media": {
+                  "shortName": "Tele"
+                },
+                "lang": "en",
+                "region": "us"
+              },
+              {
+                "type": {
+                  "id": "4",
+                  "shortName": "STREAMING"
+                },
+                "market": {
+                  "id": "1",
+                  "type": "National"
+                },
+                "media": {
+                  "shortName": "FOX One"
+                },
+                "lang": "en",
+                "region": "us"
+              }
+            ],
+            "broadcasts": [
+              {
+                "market": "national",
+                "names": [
+                  "FOX",
+                  "Tele",
+                  "FOX One"
+                ]
+              }
+            ],
+            "broadcast": "",
+            "competitors": [
+              {
+                "id": "448",
+                "uid": "s:600~t:448",
+                "type": "team",
+                "order": 0,
+                "homeAway": "home",
+                "winner": false,
+                "advance": false,
+                "form": "LWWWW",
+                "score": "1",
+                "team": {
+                  "id": "448",
+                  "uid": "s:600~t:448",
+                  "abbreviation": "ENG",
+                  "displayName": "England",
+                  "shortDisplayName": "England",
+                  "name": "England",
+                  "location": "England",
+                  "color": "FFFFFF",
+                  "alternateColor": "EA1F29",
+                  "isActive": true,
+                  "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
+                  "links": [
+                    {
+                      "rel": [
+                        "clubhouse",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/_/id/448/england",
+                      "text": "Clubhouse",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "stats",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/stats/_/id/448/england",
+                      "text": "Stats",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "stats",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:448&section=stats",
+                      "text": "Stats",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "schedule",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/fixtures/_/id/448/england",
+                      "text": "Fixtures",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "schedule",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:448&section=scores",
+                      "text": "Fixtures",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "squad",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/squad/_/id/448/england",
+                      "text": "Squad",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "squad",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:448&section=squad",
+                      "text": "Squad",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    }
+                  ],
+                  "venue": {
+                    "id": "6971"
+                  }
+                },
+                "statistics": [
+                  {
+                    "name": "appearances",
+                    "abbreviation": "APP",
+                    "displayValue": "0"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "abbreviation": "FC",
+                    "displayValue": "11"
+                  },
+                  {
+                    "name": "wonCorners",
+                    "abbreviation": "CW",
+                    "displayValue": "2"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "abbreviation": "A",
+                    "displayValue": "1"
+                  },
+                  {
+                    "name": "possessionPct",
+                    "abbreviation": "PP",
+                    "displayValue": "35.7"
+                  },
+                  {
+                    "name": "shotAssists",
+                    "abbreviation": "SHAST",
+                    "displayValue": "4"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "abbreviation": "SOG",
+                    "displayValue": "2"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "abbreviation": "G",
+                    "displayValue": "1"
+                  },
+                  {
+                    "name": "totalShots",
+                    "abbreviation": "SHOT",
+                    "displayValue": "5"
+                  }
+                ]
+              },
+              {
+                "id": "202",
+                "uid": "s:600~t:202",
+                "type": "team",
+                "order": 1,
+                "homeAway": "away",
+                "winner": true,
+                "advance": true,
+                "form": "WWWWW",
+                "score": "2",
+                "team": {
+                  "id": "202",
+                  "uid": "s:600~t:202",
+                  "abbreviation": "ARG",
+                  "displayName": "Argentina",
+                  "shortDisplayName": "Argentina",
+                  "name": "Argentina",
+                  "location": "Argentina",
+                  "color": "74acdf",
+                  "alternateColor": "173E69",
+                  "isActive": true,
+                  "logo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
+                  "links": [
+                    {
+                      "rel": [
+                        "clubhouse",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/_/id/202/argentina",
+                      "text": "Clubhouse",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "stats",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/stats/_/id/202/argentina",
+                      "text": "Stats",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "stats",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:202&section=stats",
+                      "text": "Stats",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "schedule",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/fixtures/_/id/202/argentina",
+                      "text": "Fixtures",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "schedule",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:202&section=scores",
+                      "text": "Fixtures",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "squad",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/squad/_/id/202/argentina",
+                      "text": "Squad",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "squad",
+                        "sportscenter",
+                        "app",
+                        "team"
+                      ],
+                      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:202&section=squad",
+                      "text": "Squad",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    }
+                  ],
+                  "venue": {
+                    "id": "11114"
+                  }
+                },
+                "statistics": [
+                  {
+                    "name": "appearances",
+                    "abbreviation": "APP",
+                    "displayValue": "0"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "abbreviation": "FC",
+                    "displayValue": "15"
+                  },
+                  {
+                    "name": "wonCorners",
+                    "abbreviation": "CW",
+                    "displayValue": "6"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "abbreviation": "A",
+                    "displayValue": "2"
+                  },
+                  {
+                    "name": "possessionPct",
+                    "abbreviation": "PP",
+                    "displayValue": "64.3"
+                  },
+                  {
+                    "name": "shotAssists",
+                    "abbreviation": "SHAST",
+                    "displayValue": "13"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "abbreviation": "SOG",
+                    "displayValue": "5"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "abbreviation": "G",
+                    "displayValue": "2"
+                  },
+                  {
+                    "name": "totalShots",
+                    "abbreviation": "SHOT",
+                    "displayValue": "15"
+                  }
+                ]
+              }
+            ],
+            "details": [
+              {
+                "type": {
+                  "id": "94",
+                  "text": "Yellow Card"
+                },
+                "clock": {
+                  "value": 2209.0,
+                  "displayValue": "37'"
+                },
+                "team": {
+                  "id": "448"
+                },
+                "scoreValue": 0,
+                "scoringPlay": false,
+                "redCard": false,
+                "yellowCard": true,
+                "penaltyKick": false,
+                "ownGoal": false,
+                "shootout": false,
+                "athletesInvolved": [
+                  {
+                    "id": "238472",
+                    "displayName": "Elliot Anderson",
+                    "shortName": "E. Anderson",
+                    "fullName": "Elliot Anderson",
+                    "jersey": "8",
+                    "team": {
+                      "id": "448"
+                    },
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/soccer/player/_/id/238472/elliot-anderson",
+                        "isHidden": false
+                      }
+                    ],
+                    "position": "LM"
+                  }
+                ]
+              },
+              {
+                "type": {
+                  "id": "94",
+                  "text": "Yellow Card"
+                },
+                "clock": {
+                  "value": 2473.0,
+                  "displayValue": "42'"
+                },
+                "team": {
+                  "id": "202"
+                },
+                "scoreValue": 0,
+                "scoringPlay": false,
+                "redCard": false,
+                "yellowCard": true,
+                "penaltyKick": false,
+                "ownGoal": false,
+                "shootout": false,
+                "athletesInvolved": [
+                  {
+                    "id": "233937",
+                    "displayName": "Lisandro Martínez",
+                    "shortName": "L. Martínez",
+                    "fullName": "Lisandro Martínez",
+                    "jersey": "6",
+                    "team": {
+                      "id": "202"
+                    },
+                    "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/233937.png",
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/soccer/player/_/id/233937/lisandro-martinez",
+                        "isHidden": false
+                      }
+                    ],
+                    "position": "CD-L"
+                  }
+                ]
+              },
+              {
+                "type": {
+                  "id": "94",
+                  "text": "Yellow Card"
+                },
+                "clock": {
+                  "value": 3046.0,
+                  "displayValue": "51'"
+                },
+                "team": {
+                  "id": "202"
+                },
+                "scoreValue": 0,
+                "scoringPlay": false,
+                "redCard": false,
+                "yellowCard": true,
+                "penaltyKick": false,
+                "ownGoal": false,
+                "shootout": false,
+                "athletesInvolved": [
+                  {
+                    "id": "96970",
+                    "displayName": "Cristian Romero",
+                    "shortName": "C. Romero",
+                    "fullName": "Cristian Romero",
+                    "jersey": "13",
+                    "team": {
+                      "id": "202"
+                    },
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/soccer/player/_/id/96970/cristian-romero",
+                        "isHidden": false
+                      }
+                    ],
+                    "position": "CD-R"
+                  }
+                ]
+              },
+              {
+                "type": {
+                  "id": "173",
+                  "text": "Goal - Volley"
+                },
+                "clock": {
+                  "value": 3264.0,
+                  "displayValue": "55'"
+                },
+                "team": {
+                  "id": "448"
+                },
+                "scoreValue": 1,
+                "scoringPlay": true,
+                "redCard": false,
+                "yellowCard": false,
+                "penaltyKick": false,
+                "ownGoal": false,
+                "shootout": false,
+                "athletesInvolved": [
+                  {
+                    "id": "268782",
+                    "displayName": "Anthony Gordon",
+                    "shortName": "A. Gordon",
+                    "fullName": "Anthony Gordon",
+                    "jersey": "18",
+                    "team": {
+                      "id": "448"
+                    },
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/soccer/player/_/id/268782/anthony-gordon",
+                        "isHidden": false
+                      }
+                    ],
+                    "position": "AM-L"
+                  }
+                ]
+              },
+              {
+                "type": {
+                  "id": "70",
+                  "text": "Goal"
+                },
+                "clock": {
+                  "value": 5094.0,
+                  "displayValue": "85'"
+                },
+                "team": {
+                  "id": "202"
+                },
+                "scoreValue": 1,
+                "scoringPlay": true,
+                "redCard": false,
+                "yellowCard": false,
+                "penaltyKick": false,
+                "ownGoal": false,
+                "shootout": false,
+                "athletesInvolved": [
+                  {
+                    "id": "285450",
+                    "displayName": "Enzo Fernández",
+                    "shortName": "E. Fernández",
+                    "fullName": "Enzo Fernández",
+                    "jersey": "24",
+                    "team": {
+                      "id": "202"
+                    },
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/soccer/player/_/id/285450/enzo-fernandez",
+                        "isHidden": false
+                      }
+                    ],
+                    "position": "CM-R"
+                  }
+                ]
+              },
+              {
+                "type": {
+                  "id": "137",
+                  "text": "Goal - Header"
+                },
+                "clock": {
+                  "value": 5400.0,
+                  "displayValue": "90'+2'"
+                },
+                "team": {
+                  "id": "202"
+                },
+                "scoreValue": 1,
+                "scoringPlay": true,
+                "redCard": false,
+                "yellowCard": false,
+                "penaltyKick": false,
+                "ownGoal": false,
+                "shootout": false,
+                "athletesInvolved": [
+                  {
+                    "id": "219713",
+                    "displayName": "Lautaro Martínez",
+                    "shortName": "L. Martínez",
+                    "fullName": "Lautaro Martínez",
+                    "jersey": "22",
+                    "team": {
+                      "id": "202"
+                    },
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/soccer/player/_/id/219713/lautaro-martinez",
+                        "isHidden": false
+                      }
+                    ],
+                    "position": "SUB"
+                  }
+                ]
+              },
+              {
+                "type": {
+                  "id": "94",
+                  "text": "Yellow Card"
+                },
+                "clock": {
+                  "value": 5400.0,
+                  "displayValue": "90'+4'"
+                },
+                "team": {
+                  "id": "202"
+                },
+                "scoreValue": 0,
+                "scoringPlay": false,
+                "redCard": false,
+                "yellowCard": true,
+                "penaltyKick": false,
+                "ownGoal": false,
+                "shootout": false,
+                "athletesInvolved": [
+                  {
+                    "id": "174466",
+                    "displayName": "Rodrigo De Paul",
+                    "shortName": "R. De Paul",
+                    "fullName": "Rodrigo De Paul",
+                    "jersey": "7",
+                    "team": {
+                      "id": "202"
+                    },
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/soccer/player/_/id/174466/rodrigo-de-paul",
+                        "isHidden": false
+                      }
+                    ],
+                    "position": "SUB"
+                  }
+                ]
+              }
+            ],
+            "headlines": [
+              {
+                "description": "Defending champion Argentina rallied to beat England 2-1 on Wednesday and reach the World Cup final.",
+                "type": "Recap",
+                "shortLinkText": "Argentina come from behind vs. England, reach WC final"
+              }
+            ],
+            "odds": [
+              null
+            ],
+            "wasSuspended": false,
+            "playByPlayAvailable": true,
+            "playByPlayAthletes": true
+          }
+        ],
+        "status": {
+          "clock": 5400.0,
+          "displayClock": "90'+12'",
+          "period": 2,
+          "type": {
+            "id": "28",
+            "name": "STATUS_FULL_TIME",
+            "state": "post",
+            "completed": true,
+            "description": "Full Time",
+            "detail": "FT",
+            "shortDetail": "FT"
+          }
+        },
+        "venue": {
+          "displayName": "Mercedes-Benz Stadium"
+        },
+        "links": [
+          {
+            "language": "en-US",
+            "rel": [
+              "summary",
+              "desktop",
+              "event"
+            ],
+            "href": "https://www.espn.com/soccer/match/_/gameId/760515/argentina-england",
+            "text": "Summary",
+            "shortText": "Summary",
+            "isExternal": false,
+            "isPremium": false,
+            "isHidden": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "highlights",
+              "desktop"
+            ],
+            "href": "https://www.espn.com/soccer/video/_/gameId/760515",
+            "text": "Highlights",
+            "shortText": "Highlights",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "recap",
+              "desktop",
+              "event"
+            ],
+            "href": "https://www.espn.com/soccer/report/_/gameId/760515",
+            "text": "Report",
+            "shortText": "Report",
+            "isExternal": false,
+            "isPremium": false,
+            "isHidden": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "stats",
+              "desktop",
+              "event"
+            ],
+            "href": "https://www.espn.com/soccer/matchstats/_/gameId/760515",
+            "text": "Statistics",
+            "shortText": "Statistics",
+            "isExternal": false,
+            "isPremium": false,
+            "isHidden": false
+          }
+        ]
+      }
+    ]
   }
 }
