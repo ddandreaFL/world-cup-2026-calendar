@@ -4351,7 +4351,7 @@
     }
   },
   "760516": {
-    "final": false,
+    "final": true,
     "data": {
       "goals": [
         [
@@ -4377,6 +4377,42 @@
           "Bukayo Saka",
           "Eberechi Eze",
           "45'+1'"
+        ],
+        [
+          "FRA",
+          "Kylian Mbappé",
+          "Michael Olise",
+          "48'"
+        ],
+        [
+          "FRA",
+          "Bradley Barcola",
+          "Kylian Mbappé",
+          "54'"
+        ],
+        [
+          "FRA",
+          "Kylian Mbappé",
+          "Michael Olise",
+          "66'"
+        ],
+        [
+          "ENG",
+          "Bukayo Saka",
+          "",
+          "87'"
+        ],
+        [
+          "FRA",
+          "Ousmane Dembélé",
+          "Dayot Upamecano",
+          "90'+6'"
+        ],
+        [
+          "ENG",
+          "Jude Bellingham",
+          "",
+          "90'+8'"
         ]
       ],
       "cards": []
