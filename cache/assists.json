@@ -4419,9 +4419,16 @@
     }
   },
   "760517": {
-    "final": false,
+    "final": true,
     "data": {
-      "goals": [],
+      "goals": [
+        [
+          "ESP",
+          "Ferran Torres",
+          "Nico Williams",
+          "106'"
+        ]
+      ],
       "cards": [
         [
           "ARG",
@@ -4452,6 +4459,12 @@
           "Enzo Fernández",
           "🟥",
           "90'+3'"
+        ],
+        [
+          "ARG",
+          "Alexis Mac Allister",
+          "🟨",
+          "111'"
         ]
       ]
     }
