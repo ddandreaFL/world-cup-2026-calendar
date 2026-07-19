@@ -4422,7 +4422,14 @@
     "final": false,
     "data": {
       "goals": [],
-      "cards": []
+      "cards": [
+        [
+          "ARG",
+          "Lisandro Martínez",
+          "🟨",
+          "41'"
+        ]
+      ]
     }
   }
 }
